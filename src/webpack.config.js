@@ -31,7 +31,7 @@ module.exports = {
             '@magda/typescript-common/dist': path.resolve(__dirname, '../node_modules/@magda/typescript-common/src')
         }
     },
-    plugins: [
-        new webpack.IgnorePlugin(/fs/, /jsonpath/)
-    ]
+    node: {
+        fs: 'empty'
+    }
 };
