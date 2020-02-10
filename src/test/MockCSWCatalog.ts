@@ -1,4 +1,4 @@
-import { MockExpressServer } from "magda-typescript-common/src/test/connectors/MockExpressServer";
+import { MockExpressServer } from "@magda/connector-test-utils";
 
 export class MockCSWCatalog extends MockExpressServer {
     spec: string;

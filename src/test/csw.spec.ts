@@ -1,7 +1,10 @@
 import nock from "nock";
 
-import JsonConnector from "magda-typescript-common/src/JsonConnector";
-import Registry from "magda-typescript-common/src/registry/AuthorizedRegistryClient";
+import {
+    JsonConnector,
+    AuthorizedRegistryClient as Registry,
+    TenantConsts
+} from "@magda/connector-sdk";
 import sinon from "sinon";
 import { expect } from "chai";
 
@@ -10,7 +13,8 @@ import createTransformer from "../createTransformer";
 import datasetAspectBuilders from "../datasetAspectBuilders";
 import distributionAspectBuilders from "../distributionAspectBuilders";
 import organizationAspectBuilders from "../organizationAspectBuilders";
-import { MAGDA_ADMIN_PORTAL_ID } from "magda-typescript-common/src/registry/TenantConsts";
+
+const { MAGDA_ADMIN_PORTAL_ID } = TenantConsts;
 
 const ID = "CSW";
 const BASE_CSW_URL = "https://csw.example.com";

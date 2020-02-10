@@ -1,5 +1,4 @@
-import AspectBuilder from "magda-typescript-common/src/AspectBuilder";
-import cleanOrgTitle from "magda-typescript-common/src/util/cleanOrgTitle";
+import { AspectBuilder, cleanOrgTitle } from "@magda/connector-sdk";
 import CswTransformer from "./CswTransformer";
 import CswUrlBuilder from "./CswUrlBuilder";
 import moment from "moment";

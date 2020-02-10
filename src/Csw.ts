@@ -1,10 +1,7 @@
-import { ConnectorSource } from "magda-typescript-common/src/JsonConnector";
+import { AsyncPage, formatServiceError, retry, request } from "@magda/utils";
+import { ConnectorSource } from "@magda/connector-sdk";
 import URI from "urijs";
-import request from "magda-typescript-common/src/request";
-import AsyncPage from "magda-typescript-common/src/AsyncPage";
 import CswUrlBuilder from "./CswUrlBuilder";
-import retry from "magda-typescript-common/src/retry";
-import formatServiceError from "magda-typescript-common/src/formatServiceError";
 import xmldom from "xmldom";
 import xml2js from "xml2js";
 import jsonpath from "jsonpath";
