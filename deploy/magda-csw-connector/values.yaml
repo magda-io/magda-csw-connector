@@ -27,7 +27,7 @@ defaultTenantId: 0
 
 config:
   ## Unique id to identify this connector and records that are harvested from it
-  ## id: aims
+  id: default-csw-connector
 
   ## Friendly readable name
   ## name: Australian Institute of Marine Science
