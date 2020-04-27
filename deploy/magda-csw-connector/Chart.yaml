@@ -1,6 +1,7 @@
-apiVersion: v1
+apiVersion: v2
 name: magda-csw-connector
 description: A Helm chart for Magda csw Connector
 version: "0.0.57-0"
+kubeVersion: ">= 1.14.0-0"
 home: "https://github.com/magda-io/magda-csw-connector"
 sources: ["https://github.com/magda-io/magda-csw-connector"]
