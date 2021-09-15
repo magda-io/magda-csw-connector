@@ -4,7 +4,7 @@
 
 [Magda](https://github.com/magda-io/magda) connectors go out to external datasources and copy their metadata into the Registry, so that they can be searched and have other aspects attached to them. A connector is simply a docker-based microservice that is invoked as a job. It scans the target datasource (usually an open-data portal), then completes and shuts down.
 
-Magda CSW Connector is created for crawling data from CSW data source.
+Magda CSW Connector is created for crawling data from [CSW(Catalog Service for the Web)](https://en.wikipedia.org/wiki/Catalogue_Service_for_the_Web) data source.
 
 ### Helm Chart
 
