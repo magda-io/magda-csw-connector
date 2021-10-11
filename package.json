@@ -11,11 +11,16 @@
     "watch": "tsc -b --watch",
     "start": "node dist/index.js",
     "dev": "run-typescript-in-nodemon src/index.ts",
+    "test": "mocha --require ts-node/register --require tsconfig-paths/register \"src/test/**/*.spec.ts\"",
     "docker-build-local": "create-docker-context-for-node-component --build --push --tag auto --local",
     "docker-build-prod": "create-docker-context-for-node-component --build --push --tag auto",
     "retag-and-push": "retag-and-push",
     "helm-lint": "helm lint deploy/magda-csw-connector -f deploy/test-deploy.yaml",
-    "test": "mocha --require ts-node/register --require tsconfig-paths/register \"src/test/**/*.spec.ts\""
+    "helm-docs": "helm-docs -t ./README.md.gotmpl -o ../../README.md",
+    "update-all-charts": "helm dep up ./deploy/magda-csw-connector",
+    "add-all-chart-version-changes": "git ls-files -m | grep Chart.yaml | xargs git add && git ls-files -m | grep Chart.lock | xargs git add",
+    "add-all-helm-docs-changes": "yarn helm-docs && git ls-files -m | grep -i readme.md | xargs git add",
+    "version": "yarn update-helm-chart-version && yarn update-all-charts && yarn add-all-chart-version-changes && yarn add-all-helm-docs-changes"
   },
   "license": "Apache-2.0",
   "devDependencies": {
