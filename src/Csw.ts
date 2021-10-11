@@ -15,7 +15,7 @@ type NamespaceMapType = {
 };
 
 export default class Csw implements ConnectorSource {
-    public readonly baseUrl: uri.URI;
+    public readonly baseUrl: URI;
     public readonly id: string;
     public readonly name: string;
     public readonly pageSize: number;
@@ -310,7 +310,7 @@ export default class Csw implements ConnectorSource {
     }
 
     private requestRecordsPage(
-        url: uri.URI,
+        url: URI,
         startIndex: number,
         maxResults: number
     ): Promise<any> {

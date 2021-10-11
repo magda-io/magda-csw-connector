@@ -12,7 +12,7 @@ export interface CswUrlBuilderOptions {
 export default class CswUrlBuilder {
     public readonly id: string;
     public readonly name: string;
-    public readonly baseUrl: uri.URI;
+    public readonly baseUrl: URI;
 
     public GetRecordsParameters = {
         service: "CSW",
