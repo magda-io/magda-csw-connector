@@ -28,28 +28,10 @@ https://hub.docker.com/r/data61/magda-csw-connector/
 
 Development releases (per commit) are also available from [GitHub Registry](https://github.com/magda-io/magda-csw-connector/packages) and accessible with access token.
 
-## Requirements
+{{ template "chart.maintainersSection" . }}
 
-Kubernetes: `>= 1.14.0-0`
+{{ template "chart.requirementsSection" . }}
 
-| Repository              | Name         | Version       |
-| ----------------------- | ------------ | ------------- |
-| https://charts.magda.io | magda-common | 1.0.0-alpha.4 |
+{{ template "chart.valuesHeader" . }}
 
-## Values
-
-| Key                                | Type   | Default                   | Description |
-| ---------------------------------- | ------ | ------------------------- | ----------- |
-| config.id                          | string | `"default-csw-connector"` |             |
-| defaultImage.imagePullSecret       | bool   | `false`                   |             |
-| defaultImage.pullPolicy            | string | `"IfNotPresent"`          |             |
-| defaultImage.repository            | string | `"docker.io/data61"`      |             |
-| defaultSettings.includeCronJobs    | bool   | `true`                    |             |
-| defaultSettings.includeInitialJobs | bool   | `false`                   |             |
-| defaultTenantId                    | int    | `0`                       |             |
-| global.connectors.image            | object | `{}`                      |             |
-| global.image                       | object | `{}`                      |             |
-| image.name                         | string | `"magda-csw-connector"`   |             |
-| resources.limits.cpu               | string | `"100m"`                  |             |
-| resources.requests.cpu             | string | `"50m"`                   |             |
-| resources.requests.memory          | string | `"30Mi"`                  |             |
+{{ template "chart.valuesTable" . }}
