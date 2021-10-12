@@ -13,7 +13,6 @@ global:
 image: 
   name: "magda-csw-connector"
   # repository: 
-  # tag: 
   # pullPolicy: 
   # imagePullSecret: 
 
