@@ -83,17 +83,22 @@ export default class CswUrlBuilder {
         constraint?: string,
         logRequest: boolean = false
     ) {
+        const {
+            basicAuth,
+            usePostRequest,
+            ...otherParameters
+        } = this.GetRecordsParameters;
         const options: CoreOptions = {};
         const url = this.baseUrl.clone();
 
-        if (this.GetRecordsParameters.basicAuth) {
+        if (basicAuth) {
             options.auth = {
-                ...this.GetRecordsParameters.basicAuth,
+                ...basicAuth,
                 sendImmediately: true
             };
         }
 
-        if (this.GetRecordsParameters.usePostRequest) {
+        if (usePostRequest) {
             options.method = "POST";
             options.headers = {
                 "Content-Type": "application/xml"
@@ -122,7 +127,7 @@ export default class CswUrlBuilder {
 </csw:GetRecords>
             `;
         } else {
-            url.addSearch(this.GetRecordsParameters);
+            url.addSearch(otherParameters);
             if (constraint) {
                 url.addSearch("constraint", constraint);
             }
