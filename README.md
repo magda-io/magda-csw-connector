@@ -38,18 +38,22 @@ Kubernetes: `>= 1.14.0-0`
 
 ## Values
 
-| Key                                | Type   | Default                   | Description |
-| ---------------------------------- | ------ | ------------------------- | ----------- |
-| config.id                          | string | `"default-csw-connector"` |             |
-| defaultImage.imagePullSecret       | bool   | `false`                   |             |
-| defaultImage.pullPolicy            | string | `"IfNotPresent"`          |             |
-| defaultImage.repository            | string | `"docker.io/data61"`      |             |
-| defaultSettings.includeCronJobs    | bool   | `true`                    |             |
-| defaultSettings.includeInitialJobs | bool   | `false`                   |             |
-| defaultTenantId                    | int    | `0`                       |             |
-| global.connectors.image            | object | `{}`                      |             |
-| global.image                       | object | `{}`                      |             |
-| image.name                         | string | `"magda-csw-connector"`   |             |
-| resources.limits.cpu               | string | `"100m"`                  |             |
-| resources.requests.cpu             | string | `"50m"`                   |             |
-| resources.requests.memory          | string | `"30Mi"`                  |             |
+| Key                                | Type   | Default                   | Description                              |
+| ---------------------------------- | ------ | ------------------------- | ---------------------------------------- |
+| config.basicAuthEnabled            | bool   | `false`                   | Whether or not to send basic auth header |
+| config.basicAuthPassword           | string | `""`                      | basic auth passwor                       |
+| config.basicAuthUsername           | string | `""`                      | basic auth username                      |
+| config.id                          | string | `"default-csw-connector"` |                                          |
+| config.usePostRequest              | bool   | `false`                   |                                          |
+| defaultImage.imagePullSecret       | bool   | `false`                   |                                          |
+| defaultImage.pullPolicy            | string | `"IfNotPresent"`          |                                          |
+| defaultImage.repository            | string | `"docker.io/data61"`      |                                          |
+| defaultSettings.includeCronJobs    | bool   | `true`                    |                                          |
+| defaultSettings.includeInitialJobs | bool   | `false`                   |                                          |
+| defaultTenantId                    | int    | `0`                       |                                          |
+| global.connectors.image            | object | `{}`                      |                                          |
+| global.image                       | object | `{}`                      |                                          |
+| image.name                         | string | `"magda-csw-connector"`   |                                          |
+| resources.limits.cpu               | string | `"100m"`                  |                                          |
+| resources.requests.cpu             | string | `"50m"`                   |                                          |
+| resources.requests.memory          | string | `"30Mi"`                  |                                          |

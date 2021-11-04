@@ -1,4 +1,11 @@
 import URI from "urijs";
+import { request } from "@magda/utils";
+import { RequestCallback, CoreOptions } from "request";
+
+export type BasicAuthConfig = {
+    username: string;
+    password: string;
+};
 
 export interface CswUrlBuilderOptions {
     id: string;
@@ -7,6 +14,8 @@ export interface CswUrlBuilderOptions {
     apiBaseUrl?: string;
     outputSchema?: string;
     typeNames?: string;
+    usePostRequest?: boolean;
+    basicAuth?: BasicAuthConfig;
 }
 
 export default class CswUrlBuilder {
@@ -23,7 +32,9 @@ export default class CswUrlBuilder {
         resultType: "results",
         elementsetname: "full",
         outputschema: "http://www.isotc211.org/2005/gmd",
-        typeNames: "gmd:MD_Metadata"
+        typeNames: "gmd:MD_Metadata",
+        usePostRequest: false,
+        basicAuth: undefined as BasicAuthConfig
     };
 
     public GetRecordByIdParameters = {
@@ -47,6 +58,14 @@ export default class CswUrlBuilder {
             options.typeNames || "gmd:MD_Metadata";
         this.GetRecordsParameters.typeNames =
             options.typeNames || "gmd:MD_Metadata";
+
+        if (options.basicAuth) {
+            this.GetRecordsParameters.basicAuth = options.basicAuth;
+        }
+
+        if (typeof options.usePostRequest === "boolean") {
+            this.GetRecordsParameters.usePostRequest = options.usePostRequest;
+        }
     }
 
     public getRecordsUrl(constraint?: string): string {
@@ -55,6 +74,70 @@ export default class CswUrlBuilder {
             url.addSearch("constraint", constraint);
         }
         return url.toString();
+    }
+
+    public createGetRecordsRequest(
+        startPosition: number,
+        maxRecords: number,
+        callback: RequestCallback,
+        constraint?: string,
+        logRequest: boolean = false
+    ) {
+        const options: CoreOptions = {};
+        const url = this.baseUrl.clone();
+
+        if (this.GetRecordsParameters.basicAuth) {
+            options.auth = {
+                ...this.GetRecordsParameters.basicAuth,
+                sendImmediately: true
+            };
+        }
+
+        if (this.GetRecordsParameters.usePostRequest) {
+            options.method = "POST";
+            options.headers = {
+                "Content-Type": "application/xml"
+            };
+            options.body = `<?xml version="1.0"?>
+<csw:GetRecords xmlns:csw="http://www.opengis.net/cat/csw/2.0.2"
+                xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                service="${this.GetRecordsParameters.service}" version="${
+                this.GetRecordsParameters.version
+            }"
+                outputSchema="${this.GetRecordsParameters.outputschema}"
+                resultType="${this.GetRecordsParameters.resultType}"
+                startPosition="${startPosition}"
+                maxRecords="${maxRecords}">
+  <csw:Query typeNames="${this.GetRecordsParameters.typeNames}">
+    <csw:Constraint version="${
+        this.GetRecordsParameters.constraint_language_version
+    }">
+      ${
+          constraint
+              ? constraint
+              : '<Filter xmlns="http://www.opengis.net/ogc"/>'
+      }
+    </csw:Constraint>
+  </csw:Query>
+</csw:GetRecords>
+            `;
+        } else {
+            url.addSearch(this.GetRecordsParameters);
+            if (constraint) {
+                url.addSearch("constraint", constraint);
+            }
+            url.addSearch("startPosition", startPosition);
+            url.addSearch("maxRecords", maxRecords);
+        }
+
+        if (logRequest) {
+            console.log(
+                `Request ${url.toString()}${
+                    options.body ? ` with request data: ${options.body}` : ""
+                }`
+            );
+        }
+        request(url.toString(), options, callback);
     }
 
     public getRecordByIdUrl(id: string): string {

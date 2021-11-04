@@ -1,5 +1,5 @@
 import { addJwtSecretFromEnvVar } from "@magda/utils";
-import Csw from "./Csw";
+import Csw, { CswOptions } from "./Csw";
 import {
     JsonConnector,
     AuthorizedRegistryClient as Registry
@@ -81,6 +81,26 @@ const argv = addJwtSecretFromEnvVar(
                 "Record type expected to be returned from CSW service as XML tag name",
             type: "string"
         })
+        .option("usePostRequest", {
+            describe: "Whether or not use POST request to call getRecords API",
+            type: "boolean",
+            default: false
+        })
+        .option("basicAuthEnabled", {
+            describe: "Whether or not to send basic auth header",
+            type: "boolean",
+            default: false
+        })
+        .option("basicAuthUsername", {
+            describe: "basic auth username",
+            type: "string",
+            default: process.env.BASIC_AUTH_USERNAME
+        })
+        .option("basicAuthPassword", {
+            describe: "basic auth password",
+            type: "string",
+            default: process.env.BASIC_AUTH_PASSWORD
+        })
         .option("userId", {
             describe:
                 "The user id to use when making authenticated requests to the registry",
@@ -97,15 +117,25 @@ const argv = addJwtSecretFromEnvVar(
         }).argv
 );
 
-const csw = new Csw({
+const cswOptions: CswOptions = {
     id: argv.id,
     baseUrl: argv.sourceUrl,
     name: argv.name,
     pageSize: argv.pageSize,
     saveXMLFolder: argv.saveXMLFolder,
     outputSchema: argv.outputSchema,
-    typeNames: argv.typeNames
-});
+    typeNames: argv.typeNames,
+    usePostRequest: argv.usePostRequest
+};
+
+if (argv.basicAuthEnabled) {
+    cswOptions.basicAuth = {
+        username: argv.basicAuthUsername,
+        password: argv.basicAuthPassword
+    };
+}
+
+const csw = new Csw(cswOptions);
 
 const registry = new Registry({
     baseUrl: argv.registryUrl,
