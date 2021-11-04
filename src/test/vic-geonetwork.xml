@@ -1,0 +1,2597 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<csw:GetRecordsResponse xmlns:csw="http://www.opengis.net/cat/csw/2.0.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengis.net/cat/csw/2.0.2 http://schemas.opengis.net/csw/2.0.2/CSW-discovery.xsd">
+    <csw:SearchStatus timestamp="2021-11-04T21:51:45" />
+    <csw:SearchResults numberOfRecordsMatched="6952" numberOfRecordsReturned="10" elementSet="summary" nextRecord="11">
+        <mdb:MD_Metadata xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/2.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/2.0" xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:mrl="http://standards.iso.org/iso/19115/-3/mrl/2.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:mmi="http://standards.iso.org/iso/19115/-3/mmi/1.0" xmlns:msr="http://standards.iso.org/iso/19115/-3/msr/2.0" xmlns:mrc="http://standards.iso.org/iso/19115/-3/mrc/2.0" xmlns:mrd="http://standards.iso.org/iso/19115/-3/mrd/1.0" xmlns:mrs="http://standards.iso.org/iso/19115/-3/mrs/1.0" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:mac="http://standards.iso.org/iso/19115/-3/mac/2.0" xmlns:mdq="http://standards.iso.org/iso/19157/-2/mdq/1.0" xmlns:delwp="https://github.com/geonetwork-delwp/iso19115-3.2018" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:geonet="http://www.fao.org/geonetwork">
+            <mdb:metadataIdentifier>
+                <mcc:MD_Identifier>
+                    <mcc:code>
+                        <gco:CharacterString>fa0e47c9-8bf8-5c0e-a670-460cc3d0478c</gco:CharacterString>
+                    </mcc:code>
+                </mcc:MD_Identifier>
+            </mdb:metadataIdentifier>
+            <mdb:metadataScope>
+                <mdb:MD_MetadataScope>
+                    <mdb:resourceScope>
+                        <mcc:MD_ScopeCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#MD_ScopeCode" codeListValue="dataset" />
+                    </mdb:resourceScope>
+                </mdb:MD_MetadataScope>
+            </mdb:metadataScope>
+            <mdb:dateInfo>
+                <cit:CI_Date>
+                    <cit:date>
+                        <gco:DateTime>2021-11-03T21:45:15</gco:DateTime>
+                    </cit:date>
+                    <cit:dateType>
+                        <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision" />
+                    </cit:dateType>
+                </cit:CI_Date>
+            </mdb:dateInfo>
+            <mdb:metadataStandard>
+                <cit:CI_Citation>
+                    <cit:title>
+                        <gco:CharacterString>ISO 19115-3:2018</gco:CharacterString>
+                    </cit:title>
+                </cit:CI_Citation>
+            </mdb:metadataStandard>
+            <mdb:metadataProfile>
+                <cit:CI_Citation>
+                    <cit:title>
+                        <gco:CharacterString>DELWP Profile</gco:CharacterString>
+                    </cit:title>
+                </cit:CI_Citation>
+            </mdb:metadataProfile>
+            <mdb:referenceSystemInfo>
+                <mrs:MD_ReferenceSystem>
+                    <mrs:referenceSystemIdentifier>
+                        <mcc:MD_Identifier>
+                            <mcc:code>
+                                <gco:CharacterString>MGA Zone 55 GDA94</gco:CharacterString>
+                            </mcc:code>
+                            <mcc:description>
+                                <gco:CharacterString>EPSG Geodetic Parameter</gco:CharacterString>
+                            </mcc:description>
+                        </mcc:MD_Identifier>
+                    </mrs:referenceSystemIdentifier>
+                </mrs:MD_ReferenceSystem>
+            </mdb:referenceSystemInfo>
+            <mdb:identificationInfo>
+                <mri:MD_DataIdentification>
+                    <mri:citation>
+                        <cit:CI_Citation>
+                            <cit:title>
+                                <gco:CharacterString>rushworth1_2006jan14_air_vis_15cm_mga55</gco:CharacterString>
+                            </cit:title>
+                            <cit:identifier>
+                                <mcc:MD_Identifier>
+                                    <mcc:authority>
+                                        <cit:CI_Citation>
+                                            <cit:title>
+                                                <gco:CharacterString>ANZLIC Dataset Identifier</gco:CharacterString>
+                                            </cit:title>
+                                            <cit:date>
+                                                <cit:CI_Date>
+                                                    <cit:date>
+                                                        <gco:Date>2001-02</gco:Date>
+                                                    </cit:date>
+                                                    <cit:dateType>
+                                                        <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision" />
+                                                    </cit:dateType>
+                                                </cit:CI_Date>
+                                            </cit:date>
+                                        </cit:CI_Citation>
+                                    </mcc:authority>
+                                    <mcc:code>
+                                        <gco:CharacterString>ANZVI0008105620</gco:CharacterString>
+                                    </mcc:code>
+                                </mcc:MD_Identifier>
+                            </cit:identifier>
+                        </cit:CI_Citation>
+                    </mri:citation>
+                    <mri:abstract>
+                        <gco:CharacterString>Dataset: rushworth1_2006jan14_air_vis_15cm_mga55
+Assembly: Single</gco:CharacterString>
+                    </mri:abstract>
+                    <mri:pointOfContact>
+                        <cit:CI_Responsibility>
+                            <cit:role>
+                                <cit:CI_RoleCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#CI_RoleCode" codeListValue="pointOfContact" />
+                            </cit:role>
+                            <cit:party>
+                                <cit:CI_Organisation uuid="urn:delwp:rastermeta:person:-1_person_organisation" title=" null null @ Department of Environment, Land, Water and Planning (DELWP)">
+                                    <cit:name>
+                                        <gco:CharacterString>Department of Environment, Land, Water and Planning (DELWP)</gco:CharacterString>
+                                    </cit:name>
+                                    <cit:contactInfo>
+                                        <cit:CI_Contact>
+                                            <cit:address>
+                                                <cit:CI_Address>
+                                                    <cit:deliveryPoint>
+                                                        <gco:CharacterString>PO Box 500</gco:CharacterString>
+                                                    </cit:deliveryPoint>
+                                                    <cit:city>
+                                                        <gco:CharacterString>East Melbourne</gco:CharacterString>
+                                                    </cit:city>
+                                                    <cit:administrativeArea>
+                                                        <gco:CharacterString>Victoria</gco:CharacterString>
+                                                    </cit:administrativeArea>
+                                                    <cit:postalCode>
+                                                        <gco:CharacterString>3002</gco:CharacterString>
+                                                    </cit:postalCode>
+                                                    <cit:country>
+                                                        <gco:CharacterString>Australia</gco:CharacterString>
+                                                    </cit:country>
+                                                </cit:CI_Address>
+                                            </cit:address>
+                                        </cit:CI_Contact>
+                                    </cit:contactInfo>
+                                    <cit:individual>
+                                        <cit:CI_Individual>
+                                            <cit:contactInfo>
+                                                <cit:CI_Contact>
+                                                    <cit:phone>
+                                                        <cit:CI_Telephone>
+                                                            <cit:number>
+                                                                <gco:CharacterString>+61 3 136186</gco:CharacterString>
+                                                            </cit:number>
+                                                            <cit:numberType>
+                                                                <cit:CI_TelephoneTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#CI_RoleCode" codeListValue="voice" />
+                                                            </cit:numberType>
+                                                        </cit:CI_Telephone>
+                                                    </cit:phone>
+                                                    <cit:address>
+                                                        <cit:CI_Address>
+                                                            <cit:electronicMailAddress>
+                                                                <gco:CharacterString>vicmap.help@delwp.vic.gov.au</gco:CharacterString>
+                                                            </cit:electronicMailAddress>
+                                                        </cit:CI_Address>
+                                                    </cit:address>
+                                                </cit:CI_Contact>
+                                            </cit:contactInfo>
+                                        </cit:CI_Individual>
+                                    </cit:individual>
+                                </cit:CI_Organisation>
+                            </cit:party>
+                        </cit:CI_Responsibility>
+                    </mri:pointOfContact>
+                    <mri:resourceConstraints>
+                        <mco:MD_SecurityConstraints>
+                            <mco:useLimitation>
+                                <gco:CharacterString>General</gco:CharacterString>
+                            </mco:useLimitation>
+                            <mco:classification>
+                                <mco:MD_ClassificationCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#MD_ClassificationCode" codeListValue="unclassified" />
+                            </mco:classification>
+                        </mco:MD_SecurityConstraints>
+                    </mri:resourceConstraints>
+                    <mri:spatialRepresentationType>
+                        <mcc:MD_SpatialRepresentationTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#MD_SpatialRepresentationTypeCode" codeListValue="grid" />
+                    </mri:spatialRepresentationType>
+                    <mri:spatialResolution>
+                        <mri:MD_Resolution>
+                            <mri:distance>
+                                <gco:Distance uom="m">0.6</gco:Distance>
+                            </mri:distance>
+                        </mri:MD_Resolution>
+                    </mri:spatialResolution>
+                    <mri:defaultLocale>
+                        <lan:PT_Locale>
+                            <lan:language>
+                                <lan:LanguageCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#LanguageCode" codeListValue="eng" />
+                            </lan:language>
+                            <lan:characterEncoding>
+                                <lan:MD_CharacterSetCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#MD_CharacterSetCode" codeListValue="utf8" />
+                            </lan:characterEncoding>
+                        </lan:PT_Locale>
+                    </mri:defaultLocale>
+                    <mri:topicCategory>
+                        <mri:MD_TopicCategoryCode>imageryBaseMapsEarthCover</mri:MD_TopicCategoryCode>
+                    </mri:topicCategory>
+                </mri:MD_DataIdentification>
+            </mdb:identificationInfo>
+            <mdb:dataQualityInfo>
+                <mdq:DQ_DataQuality>
+                    <mdq:scope>
+                        <mcc:MD_Scope>
+                            <mcc:level>
+                                <mcc:MD_ScopeCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#MD_ScopeCode" codeListValue="dataset" />
+                            </mcc:level>
+                            <mcc:levelDescription>
+                                <mcc:MD_ScopeDescription>
+                                    <mcc:other>
+                                        <gco:CharacterString>rushworth1_2006jan14_air_vis_15cm_mga55</gco:CharacterString>
+                                    </mcc:other>
+                                </mcc:MD_ScopeDescription>
+                            </mcc:levelDescription>
+                        </mcc:MD_Scope>
+                    </mdq:scope>
+                    <mdq:report>
+                        <mdq:DQ_ConceptualConsistency>
+                            <mdq:result>
+                                <mdq:DQ_ConformanceResult>
+                                    <mdq:specification>
+                                        <cit:CI_Citation>
+                                            <cit:title gco:nilReason="unknown" />
+                                        </cit:CI_Citation>
+                                    </mdq:specification>
+                                    <mdq:explanation>
+                                        <gco:CharacterString>Images consist of true colour visible bands (red, green, blue).</gco:CharacterString>
+                                    </mdq:explanation>
+                                    <mdq:pass>
+                                        <gco:Boolean>1</gco:Boolean>
+                                    </mdq:pass>
+                                </mdq:DQ_ConformanceResult>
+                            </mdq:result>
+                        </mdq:DQ_ConceptualConsistency>
+                    </mdq:report>
+                    <mdq:report>
+                        <mdq:DQ_CompletenessOmission>
+                            <mdq:result>
+                                <mdq:DQ_ConformanceResult>
+                                    <mdq:specification>
+                                        <cit:CI_Citation>
+                                            <cit:title gco:nilReason="unknown" />
+                                        </cit:CI_Citation>
+                                    </mdq:specification>
+                                    <mdq:explanation>
+                                        <gco:CharacterString>Complete for the urban and outlying areas of the Town of Rushworth, parts of the Murchison Rushworth Rail Line Conservation Reserve and the Waranga Bushland Reserve. Edges of tiles are not completely covered by imagery. Null image areas are set to white.</gco:CharacterString>
+                                    </mdq:explanation>
+                                    <mdq:pass>
+                                        <gco:Boolean>1</gco:Boolean>
+                                    </mdq:pass>
+                                </mdq:DQ_ConformanceResult>
+                            </mdq:result>
+                        </mdq:DQ_CompletenessOmission>
+                    </mdq:report>
+                </mdq:DQ_DataQuality>
+            </mdb:dataQualityInfo>
+        </mdb:MD_Metadata>
+        <mdb:MD_Metadata xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/2.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/2.0" xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:mrl="http://standards.iso.org/iso/19115/-3/mrl/2.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:mmi="http://standards.iso.org/iso/19115/-3/mmi/1.0" xmlns:msr="http://standards.iso.org/iso/19115/-3/msr/2.0" xmlns:mrc="http://standards.iso.org/iso/19115/-3/mrc/2.0" xmlns:mrd="http://standards.iso.org/iso/19115/-3/mrd/1.0" xmlns:mrs="http://standards.iso.org/iso/19115/-3/mrs/1.0" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:mac="http://standards.iso.org/iso/19115/-3/mac/2.0" xmlns:mdq="http://standards.iso.org/iso/19157/-2/mdq/1.0" xmlns:delwp="https://github.com/geonetwork-delwp/iso19115-3.2018" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:geonet="http://www.fao.org/geonetwork">
+            <mdb:metadataIdentifier>
+                <mcc:MD_Identifier>
+                    <mcc:code>
+                        <gco:CharacterString>1dbf0d48-c9c0-5e01-bf1d-0952e3221208</gco:CharacterString>
+                    </mcc:code>
+                </mcc:MD_Identifier>
+            </mdb:metadataIdentifier>
+            <mdb:metadataScope>
+                <mdb:MD_MetadataScope>
+                    <mdb:resourceScope>
+                        <mcc:MD_ScopeCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#MD_ScopeCode" codeListValue="dataset" />
+                    </mdb:resourceScope>
+                </mdb:MD_MetadataScope>
+            </mdb:metadataScope>
+            <mdb:dateInfo>
+                <cit:CI_Date>
+                    <cit:date>
+                        <gco:DateTime>2021-11-03T21:45:15</gco:DateTime>
+                    </cit:date>
+                    <cit:dateType>
+                        <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision" />
+                    </cit:dateType>
+                </cit:CI_Date>
+            </mdb:dateInfo>
+            <mdb:metadataStandard>
+                <cit:CI_Citation>
+                    <cit:title>
+                        <gco:CharacterString>ISO 19115-3:2018</gco:CharacterString>
+                    </cit:title>
+                </cit:CI_Citation>
+            </mdb:metadataStandard>
+            <mdb:metadataProfile>
+                <cit:CI_Citation>
+                    <cit:title>
+                        <gco:CharacterString>DELWP Profile</gco:CharacterString>
+                    </cit:title>
+                </cit:CI_Citation>
+            </mdb:metadataProfile>
+            <mdb:referenceSystemInfo>
+                <mrs:MD_ReferenceSystem>
+                    <mrs:referenceSystemIdentifier>
+                        <mcc:MD_Identifier>
+                            <mcc:code>
+                                <gco:CharacterString>MGA Zone 55 GDA94</gco:CharacterString>
+                            </mcc:code>
+                            <mcc:description>
+                                <gco:CharacterString>EPSG Geodetic Parameter</gco:CharacterString>
+                            </mcc:description>
+                        </mcc:MD_Identifier>
+                    </mrs:referenceSystemIdentifier>
+                </mrs:MD_ReferenceSystem>
+            </mdb:referenceSystemInfo>
+            <mdb:identificationInfo>
+                <mri:MD_DataIdentification>
+                    <mri:citation>
+                        <cit:CI_Citation>
+                            <cit:title>
+                                <gco:CharacterString>strathbogie_2009sep11_air_vis_10cm_mga55.ecw</gco:CharacterString>
+                            </cit:title>
+                            <cit:identifier>
+                                <mcc:MD_Identifier>
+                                    <mcc:authority>
+                                        <cit:CI_Citation>
+                                            <cit:title>
+                                                <gco:CharacterString>ANZLIC Dataset Identifier</gco:CharacterString>
+                                            </cit:title>
+                                            <cit:date>
+                                                <cit:CI_Date>
+                                                    <cit:date>
+                                                        <gco:Date>2001-02</gco:Date>
+                                                    </cit:date>
+                                                    <cit:dateType>
+                                                        <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision" />
+                                                    </cit:dateType>
+                                                </cit:CI_Date>
+                                            </cit:date>
+                                        </cit:CI_Citation>
+                                    </mcc:authority>
+                                    <mcc:code>
+                                        <gco:CharacterString>ANZVI0008100151</gco:CharacterString>
+                                    </mcc:code>
+                                </mcc:MD_Identifier>
+                            </cit:identifier>
+                        </cit:CI_Citation>
+                    </mri:citation>
+                    <mri:abstract>
+                        <gco:CharacterString>Dataset: strathbogie_2009sep11_air_vis_10cm_mga55.ecw
+Assembly: Single</gco:CharacterString>
+                    </mri:abstract>
+                    <mri:pointOfContact>
+                        <cit:CI_Responsibility>
+                            <cit:role>
+                                <cit:CI_RoleCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#CI_RoleCode" codeListValue="pointOfContact" />
+                            </cit:role>
+                            <cit:party>
+                                <cit:CI_Organisation uuid="urn:delwp:rastermeta:person:-1_person_organisation" title=" null null @ Department of Environment, Land, Water and Planning (DELWP)">
+                                    <cit:name>
+                                        <gco:CharacterString>Department of Environment, Land, Water and Planning (DELWP)</gco:CharacterString>
+                                    </cit:name>
+                                    <cit:contactInfo>
+                                        <cit:CI_Contact>
+                                            <cit:address>
+                                                <cit:CI_Address>
+                                                    <cit:deliveryPoint>
+                                                        <gco:CharacterString>PO Box 500</gco:CharacterString>
+                                                    </cit:deliveryPoint>
+                                                    <cit:city>
+                                                        <gco:CharacterString>East Melbourne</gco:CharacterString>
+                                                    </cit:city>
+                                                    <cit:administrativeArea>
+                                                        <gco:CharacterString>Victoria</gco:CharacterString>
+                                                    </cit:administrativeArea>
+                                                    <cit:postalCode>
+                                                        <gco:CharacterString>3002</gco:CharacterString>
+                                                    </cit:postalCode>
+                                                    <cit:country>
+                                                        <gco:CharacterString>Australia</gco:CharacterString>
+                                                    </cit:country>
+                                                </cit:CI_Address>
+                                            </cit:address>
+                                        </cit:CI_Contact>
+                                    </cit:contactInfo>
+                                    <cit:individual>
+                                        <cit:CI_Individual>
+                                            <cit:contactInfo>
+                                                <cit:CI_Contact>
+                                                    <cit:phone>
+                                                        <cit:CI_Telephone>
+                                                            <cit:number>
+                                                                <gco:CharacterString>+61 3 136186</gco:CharacterString>
+                                                            </cit:number>
+                                                            <cit:numberType>
+                                                                <cit:CI_TelephoneTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#CI_RoleCode" codeListValue="voice" />
+                                                            </cit:numberType>
+                                                        </cit:CI_Telephone>
+                                                    </cit:phone>
+                                                    <cit:address>
+                                                        <cit:CI_Address>
+                                                            <cit:electronicMailAddress>
+                                                                <gco:CharacterString>vicmap.help@delwp.vic.gov.au</gco:CharacterString>
+                                                            </cit:electronicMailAddress>
+                                                        </cit:CI_Address>
+                                                    </cit:address>
+                                                </cit:CI_Contact>
+                                            </cit:contactInfo>
+                                        </cit:CI_Individual>
+                                    </cit:individual>
+                                </cit:CI_Organisation>
+                            </cit:party>
+                        </cit:CI_Responsibility>
+                    </mri:pointOfContact>
+                    <mri:resourceConstraints>
+                        <mco:MD_SecurityConstraints>
+                            <mco:useLimitation>
+                                <gco:CharacterString>General</gco:CharacterString>
+                            </mco:useLimitation>
+                            <mco:classification>
+                                <mco:MD_ClassificationCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#MD_ClassificationCode" codeListValue="unclassified" />
+                            </mco:classification>
+                        </mco:MD_SecurityConstraints>
+                    </mri:resourceConstraints>
+                    <mri:spatialRepresentationType>
+                        <mcc:MD_SpatialRepresentationTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#MD_SpatialRepresentationTypeCode" codeListValue="grid" />
+                    </mri:spatialRepresentationType>
+                    <mri:spatialResolution>
+                        <mri:MD_Resolution>
+                            <mri:distance>
+                                <gco:Distance uom="m">0.2</gco:Distance>
+                            </mri:distance>
+                        </mri:MD_Resolution>
+                    </mri:spatialResolution>
+                    <mri:defaultLocale>
+                        <lan:PT_Locale>
+                            <lan:language>
+                                <lan:LanguageCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#LanguageCode" codeListValue="eng" />
+                            </lan:language>
+                            <lan:characterEncoding>
+                                <lan:MD_CharacterSetCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#MD_CharacterSetCode" codeListValue="utf8" />
+                            </lan:characterEncoding>
+                        </lan:PT_Locale>
+                    </mri:defaultLocale>
+                    <mri:topicCategory>
+                        <mri:MD_TopicCategoryCode>imageryBaseMapsEarthCover</mri:MD_TopicCategoryCode>
+                    </mri:topicCategory>
+                    <mri:extent>
+                        <gex:EX_Extent />
+                    </mri:extent>
+                </mri:MD_DataIdentification>
+            </mdb:identificationInfo>
+            <mdb:dataQualityInfo>
+                <mdq:DQ_DataQuality>
+                    <mdq:scope>
+                        <mcc:MD_Scope>
+                            <mcc:level>
+                                <mcc:MD_ScopeCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#MD_ScopeCode" codeListValue="dataset" />
+                            </mcc:level>
+                        </mcc:MD_Scope>
+                    </mdq:scope>
+                </mdq:DQ_DataQuality>
+            </mdb:dataQualityInfo>
+        </mdb:MD_Metadata>
+        <mdb:MD_Metadata xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/2.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/2.0" xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:mrl="http://standards.iso.org/iso/19115/-3/mrl/2.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:mmi="http://standards.iso.org/iso/19115/-3/mmi/1.0" xmlns:msr="http://standards.iso.org/iso/19115/-3/msr/2.0" xmlns:mrc="http://standards.iso.org/iso/19115/-3/mrc/2.0" xmlns:mrd="http://standards.iso.org/iso/19115/-3/mrd/1.0" xmlns:mrs="http://standards.iso.org/iso/19115/-3/mrs/1.0" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:mac="http://standards.iso.org/iso/19115/-3/mac/2.0" xmlns:mdq="http://standards.iso.org/iso/19157/-2/mdq/1.0" xmlns:delwp="https://github.com/geonetwork-delwp/iso19115-3.2018" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:geonet="http://www.fao.org/geonetwork">
+            <mdb:metadataIdentifier>
+                <mcc:MD_Identifier>
+                    <mcc:code>
+                        <gco:CharacterString>34c0e0eb-fa2e-51f8-b0af-3724f96fcc43</gco:CharacterString>
+                    </mcc:code>
+                </mcc:MD_Identifier>
+            </mdb:metadataIdentifier>
+            <mdb:metadataScope>
+                <mdb:MD_MetadataScope>
+                    <mdb:resourceScope>
+                        <mcc:MD_ScopeCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#MD_ScopeCode" codeListValue="dataset" />
+                    </mdb:resourceScope>
+                </mdb:MD_MetadataScope>
+            </mdb:metadataScope>
+            <mdb:dateInfo>
+                <cit:CI_Date>
+                    <cit:date>
+                        <gco:DateTime>2021-11-03T21:45:15</gco:DateTime>
+                    </cit:date>
+                    <cit:dateType>
+                        <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision" />
+                    </cit:dateType>
+                </cit:CI_Date>
+            </mdb:dateInfo>
+            <mdb:metadataStandard>
+                <cit:CI_Citation>
+                    <cit:title>
+                        <gco:CharacterString>ISO 19115-3:2018</gco:CharacterString>
+                    </cit:title>
+                </cit:CI_Citation>
+            </mdb:metadataStandard>
+            <mdb:metadataProfile>
+                <cit:CI_Citation>
+                    <cit:title>
+                        <gco:CharacterString>DELWP Profile</gco:CharacterString>
+                    </cit:title>
+                </cit:CI_Citation>
+            </mdb:metadataProfile>
+            <mdb:referenceSystemInfo>
+                <mrs:MD_ReferenceSystem>
+                    <mrs:referenceSystemIdentifier>
+                        <mcc:MD_Identifier>
+                            <mcc:code>
+                                <gco:CharacterString>MGA Zone 54 GDA94</gco:CharacterString>
+                            </mcc:code>
+                            <mcc:description>
+                                <gco:CharacterString>EPSG Geodetic Parameter</gco:CharacterString>
+                            </mcc:description>
+                        </mcc:MD_Identifier>
+                    </mrs:referenceSystemIdentifier>
+                </mrs:MD_ReferenceSystem>
+            </mdb:referenceSystemInfo>
+            <mdb:identificationInfo>
+                <mri:MD_DataIdentification>
+                    <mri:citation>
+                        <cit:CI_Citation>
+                            <cit:title>
+                                <gco:CharacterString>2018 Wimmera Spring FRB Photography</gco:CharacterString>
+                            </cit:title>
+                            <cit:identifier>
+                                <mcc:MD_Identifier>
+                                    <mcc:authority>
+                                        <cit:CI_Citation>
+                                            <cit:title>
+                                                <gco:CharacterString>ANZLIC Dataset Identifier</gco:CharacterString>
+                                            </cit:title>
+                                            <cit:date>
+                                                <cit:CI_Date>
+                                                    <cit:date>
+                                                        <gco:Date>2001-02</gco:Date>
+                                                    </cit:date>
+                                                    <cit:dateType>
+                                                        <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision" />
+                                                    </cit:dateType>
+                                                </cit:CI_Date>
+                                            </cit:date>
+                                        </cit:CI_Citation>
+                                    </mcc:authority>
+                                    <mcc:code>
+                                        <gco:CharacterString>ANZVI0008103163</gco:CharacterString>
+                                    </mcc:code>
+                                </mcc:MD_Identifier>
+                            </cit:identifier>
+                        </cit:CI_Citation>
+                    </mri:citation>
+                    <mri:abstract>
+                        <gco:CharacterString>Dataset: 2018 Wimmera Spring FRB Photography
+Assembly: Mosaic</gco:CharacterString>
+                    </mri:abstract>
+                    <mri:pointOfContact>
+                        <cit:CI_Responsibility>
+                            <cit:role>
+                                <cit:CI_RoleCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#CI_RoleCode" codeListValue="pointOfContact" />
+                            </cit:role>
+                            <cit:party>
+                                <cit:CI_Organisation uuid="urn:delwp:rastermeta:person:-1_person_organisation" title=" null null @ Department of Environment, Land, Water and Planning (DELWP)">
+                                    <cit:name>
+                                        <gco:CharacterString>Department of Environment, Land, Water and Planning (DELWP)</gco:CharacterString>
+                                    </cit:name>
+                                    <cit:contactInfo>
+                                        <cit:CI_Contact>
+                                            <cit:address>
+                                                <cit:CI_Address>
+                                                    <cit:deliveryPoint>
+                                                        <gco:CharacterString>PO Box 500</gco:CharacterString>
+                                                    </cit:deliveryPoint>
+                                                    <cit:city>
+                                                        <gco:CharacterString>East Melbourne</gco:CharacterString>
+                                                    </cit:city>
+                                                    <cit:administrativeArea>
+                                                        <gco:CharacterString>Victoria</gco:CharacterString>
+                                                    </cit:administrativeArea>
+                                                    <cit:postalCode>
+                                                        <gco:CharacterString>3002</gco:CharacterString>
+                                                    </cit:postalCode>
+                                                    <cit:country>
+                                                        <gco:CharacterString>Australia</gco:CharacterString>
+                                                    </cit:country>
+                                                </cit:CI_Address>
+                                            </cit:address>
+                                        </cit:CI_Contact>
+                                    </cit:contactInfo>
+                                    <cit:individual>
+                                        <cit:CI_Individual>
+                                            <cit:contactInfo>
+                                                <cit:CI_Contact>
+                                                    <cit:phone>
+                                                        <cit:CI_Telephone>
+                                                            <cit:number>
+                                                                <gco:CharacterString>+61 3 136186</gco:CharacterString>
+                                                            </cit:number>
+                                                            <cit:numberType>
+                                                                <cit:CI_TelephoneTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#CI_RoleCode" codeListValue="voice" />
+                                                            </cit:numberType>
+                                                        </cit:CI_Telephone>
+                                                    </cit:phone>
+                                                    <cit:address>
+                                                        <cit:CI_Address>
+                                                            <cit:electronicMailAddress>
+                                                                <gco:CharacterString>vicmap.help@delwp.vic.gov.au</gco:CharacterString>
+                                                            </cit:electronicMailAddress>
+                                                        </cit:CI_Address>
+                                                    </cit:address>
+                                                </cit:CI_Contact>
+                                            </cit:contactInfo>
+                                        </cit:CI_Individual>
+                                    </cit:individual>
+                                </cit:CI_Organisation>
+                            </cit:party>
+                        </cit:CI_Responsibility>
+                    </mri:pointOfContact>
+                    <mri:resourceConstraints>
+                        <mco:MD_SecurityConstraints>
+                            <mco:useLimitation>
+                                <gco:CharacterString>Departmental</gco:CharacterString>
+                            </mco:useLimitation>
+                            <mco:classification>
+                                <mco:MD_ClassificationCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#MD_ClassificationCode" codeListValue="limitedDistribution" />
+                            </mco:classification>
+                        </mco:MD_SecurityConstraints>
+                    </mri:resourceConstraints>
+                    <mri:spatialRepresentationType>
+                        <mcc:MD_SpatialRepresentationTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#MD_SpatialRepresentationTypeCode" codeListValue="grid" />
+                    </mri:spatialRepresentationType>
+                    <mri:spatialResolution>
+                        <mri:MD_Resolution>
+                            <mri:distance>
+                                <gco:Distance uom="m">0.8</gco:Distance>
+                            </mri:distance>
+                        </mri:MD_Resolution>
+                    </mri:spatialResolution>
+                    <mri:defaultLocale>
+                        <lan:PT_Locale>
+                            <lan:language>
+                                <lan:LanguageCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#LanguageCode" codeListValue="eng" />
+                            </lan:language>
+                            <lan:characterEncoding>
+                                <lan:MD_CharacterSetCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#MD_CharacterSetCode" codeListValue="utf8" />
+                            </lan:characterEncoding>
+                        </lan:PT_Locale>
+                    </mri:defaultLocale>
+                    <mri:topicCategory>
+                        <mri:MD_TopicCategoryCode>imageryBaseMapsEarthCover</mri:MD_TopicCategoryCode>
+                    </mri:topicCategory>
+                    <mri:extent>
+                        <gex:EX_Extent />
+                    </mri:extent>
+                </mri:MD_DataIdentification>
+            </mdb:identificationInfo>
+            <mdb:dataQualityInfo>
+                <mdq:DQ_DataQuality>
+                    <mdq:scope>
+                        <mcc:MD_Scope>
+                            <mcc:level>
+                                <mcc:MD_ScopeCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#MD_ScopeCode" codeListValue="dataset" />
+                            </mcc:level>
+                            <mcc:levelDescription>
+                                <mcc:MD_ScopeDescription>
+                                    <mcc:other>
+                                        <gco:CharacterString>2018 Wimmera Spring FRB Photography</gco:CharacterString>
+                                    </mcc:other>
+                                </mcc:MD_ScopeDescription>
+                            </mcc:levelDescription>
+                        </mcc:MD_Scope>
+                    </mdq:scope>
+                    <mdq:report>
+                        <mdq:DQ_CompletenessOmission>
+                            <mdq:result>
+                                <mdq:DQ_ConformanceResult>
+                                    <mdq:specification>
+                                        <cit:CI_Citation>
+                                            <cit:title gco:nilReason="unknown" />
+                                        </cit:CI_Citation>
+                                    </mdq:specification>
+                                    <mdq:explanation>
+                                        <gco:CharacterString>The dataset is complete for the purpose of analysing the extent of burn.</gco:CharacterString>
+                                    </mdq:explanation>
+                                    <mdq:pass>
+                                        <gco:Boolean>1</gco:Boolean>
+                                    </mdq:pass>
+                                </mdq:DQ_ConformanceResult>
+                            </mdq:result>
+                        </mdq:DQ_CompletenessOmission>
+                    </mdq:report>
+                </mdq:DQ_DataQuality>
+            </mdb:dataQualityInfo>
+        </mdb:MD_Metadata>
+        <mdb:MD_Metadata xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/2.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/2.0" xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:mrl="http://standards.iso.org/iso/19115/-3/mrl/2.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:mmi="http://standards.iso.org/iso/19115/-3/mmi/1.0" xmlns:msr="http://standards.iso.org/iso/19115/-3/msr/2.0" xmlns:mrc="http://standards.iso.org/iso/19115/-3/mrc/2.0" xmlns:mrd="http://standards.iso.org/iso/19115/-3/mrd/1.0" xmlns:mrs="http://standards.iso.org/iso/19115/-3/mrs/1.0" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:mdq="http://standards.iso.org/iso/19157/-2/mdq/1.0" xmlns:delwp="https://github.com/geonetwork-delwp/iso19115-3.2018" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:geonet="http://www.fao.org/geonetwork">
+            <mdb:metadataIdentifier>
+                <mcc:MD_Identifier>
+                    <mcc:code>
+                        <gco:CharacterString>234dd944-2eef-5b7f-9a59-73eb1187fd52</gco:CharacterString>
+                    </mcc:code>
+                </mcc:MD_Identifier>
+            </mdb:metadataIdentifier>
+            <mdb:metadataScope>
+                <mdb:MD_MetadataScope>
+                    <mdb:resourceScope>
+                        <mcc:MD_ScopeCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#MD_ScopeCode" codeListValue="dataset" />
+                    </mdb:resourceScope>
+                </mdb:MD_MetadataScope>
+            </mdb:metadataScope>
+            <mdb:dateInfo>
+                <cit:CI_Date>
+                    <cit:date>
+                        <gco:Date>2021-03-17</gco:Date>
+                    </cit:date>
+                    <cit:dateType>
+                        <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision" />
+                    </cit:dateType>
+                </cit:CI_Date>
+            </mdb:dateInfo>
+            <mdb:metadataStandard>
+                <cit:CI_Citation>
+                    <cit:title>
+                        <gco:CharacterString>ISO 19115-3:2018</gco:CharacterString>
+                    </cit:title>
+                </cit:CI_Citation>
+            </mdb:metadataStandard>
+            <mdb:metadataProfile>
+                <cit:CI_Citation>
+                    <cit:title>
+                        <gco:CharacterString>DELWP Profile</gco:CharacterString>
+                    </cit:title>
+                </cit:CI_Citation>
+            </mdb:metadataProfile>
+            <mdb:referenceSystemInfo>
+                <mrs:MD_ReferenceSystem>
+                    <mrs:referenceSystemIdentifier>
+                        <mcc:MD_Identifier>
+                            <mcc:code>
+                                <gco:CharacterString>28354</gco:CharacterString>
+                            </mcc:code>
+                            <mcc:description>
+                                <gco:CharacterString>EPSG Geodetic Parameter</gco:CharacterString>
+                            </mcc:description>
+                        </mcc:MD_Identifier>
+                    </mrs:referenceSystemIdentifier>
+                </mrs:MD_ReferenceSystem>
+            </mdb:referenceSystemInfo>
+            <mdb:identificationInfo>
+                <mri:MD_DataIdentification>
+                    <mri:citation>
+                        <cit:CI_Citation>
+                            <cit:title>
+                                <gco:CharacterString>Vicmap Elevation - Multi-Resolution Contours</gco:CharacterString>
+                            </cit:title>
+                            <cit:date>
+                                <cit:CI_Date>
+                                    <cit:date>
+                                        <gco:Date>2021-03-17</gco:Date>
+                                    </cit:date>
+                                    <cit:dateType>
+                                        <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision" />
+                                    </cit:dateType>
+                                </cit:CI_Date>
+                            </cit:date>
+                            <cit:identifier>
+                                <mcc:MD_Identifier>
+                                    <mcc:code>
+                                        <gco:CharacterString>Victoria</gco:CharacterString>
+                                    </mcc:code>
+                                    <mcc:description>
+                                        <gco:CharacterString>Jurisdiction ID</gco:CharacterString>
+                                    </mcc:description>
+                                </mcc:MD_Identifier>
+                            </cit:identifier>
+                            <cit:identifier>
+                                <mcc:MD_Identifier>
+                                    <mcc:authority>
+                                        <cit:CI_Citation>
+                                            <cit:title>
+                                                <gco:CharacterString>ANZLIC Dataset Identifier</gco:CharacterString>
+                                            </cit:title>
+                                            <cit:date>
+                                                <cit:CI_Date>
+                                                    <cit:date>
+                                                        <gco:Date>2001-02</gco:Date>
+                                                    </cit:date>
+                                                    <cit:dateType>
+                                                        <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision" />
+                                                    </cit:dateType>
+                                                </cit:CI_Date>
+                                            </cit:date>
+                                        </cit:CI_Citation>
+                                    </mcc:authority>
+                                    <mcc:code>
+                                        <gco:CharacterString>ANZVI0803004768</gco:CharacterString>
+                                    </mcc:code>
+                                </mcc:MD_Identifier>
+                            </cit:identifier>
+                        </cit:CI_Citation>
+                    </mri:citation>
+                    <mri:abstract>
+                        <gco:CharacterString>SPATIAL DATAMART DELIVERY METHOD  -  'not available'.
+
+Vicmap Elevation - Multi-Resolution Contours consists of project based  contours of varying intervals. The extent covers the major flood plains and Greater Melbourne. It does not include products available in Vicmap Elevation - Coastal 1m DEM &amp; 0.5m Contours.
+
+This data has been acquired between September 2007 and April 2012 through the Coordinated Imagery Program (CIP).</gco:CharacterString>
+                    </mri:abstract>
+                    <mri:graphicOverview>
+                        <mcc:MD_BrowseGraphic>
+                            <mcc:fileName gco:nilReason="inapplicable" />
+                        </mcc:MD_BrowseGraphic>
+                    </mri:graphicOverview>
+                    <mri:pointOfContact>
+                        <cit:CI_Responsibility>
+                            <cit:role>
+                                <cit:CI_RoleCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#CI_RoleCode" codeListValue="pointOfContact" />
+                            </cit:role>
+                            <cit:party>
+                                <cit:CI_Organisation uuid="urn:delwp:metashare:person:253_person_organisation" title="Vicmap Help @ Department of Environment, Land, Water &amp; Planning">
+                                    <cit:name>
+                                        <gco:CharacterString>Department of Environment, Land, Water &amp; Planning</gco:CharacterString>
+                                    </cit:name>
+                                    <cit:contactInfo>
+                                        <cit:CI_Contact>
+                                            <cit:address>
+                                                <cit:CI_Address>
+                                                    <cit:deliveryPoint>
+                                                        <gco:CharacterString>11/2 Lonsdale St</gco:CharacterString>
+                                                    </cit:deliveryPoint>
+                                                    <cit:city>
+                                                        <gco:CharacterString>Melbourne</gco:CharacterString>
+                                                    </cit:city>
+                                                    <cit:administrativeArea>
+                                                        <gco:CharacterString>Vic</gco:CharacterString>
+                                                    </cit:administrativeArea>
+                                                    <cit:postalCode>
+                                                        <gco:CharacterString>3000</gco:CharacterString>
+                                                    </cit:postalCode>
+                                                    <cit:country>
+                                                        <gco:CharacterString>Australia</gco:CharacterString>
+                                                    </cit:country>
+                                                </cit:CI_Address>
+                                            </cit:address>
+                                        </cit:CI_Contact>
+                                    </cit:contactInfo>
+                                    <cit:individual>
+                                        <cit:CI_Individual>
+                                            <cit:name>
+                                                <gco:CharacterString>Vicmap Help</gco:CharacterString>
+                                            </cit:name>
+                                            <cit:contactInfo>
+                                                <cit:CI_Contact>
+                                                    <cit:address>
+                                                        <cit:CI_Address>
+                                                            <cit:electronicMailAddress>
+                                                                <gco:CharacterString>vicmap.help@delwp.vic.gov.au</gco:CharacterString>
+                                                            </cit:electronicMailAddress>
+                                                        </cit:CI_Address>
+                                                    </cit:address>
+                                                </cit:CI_Contact>
+                                            </cit:contactInfo>
+                                            <cit:positionName>
+                                                <gco:CharacterString>Vicmap Product Manager</gco:CharacterString>
+                                            </cit:positionName>
+                                        </cit:CI_Individual>
+                                    </cit:individual>
+                                </cit:CI_Organisation>
+                            </cit:party>
+                        </cit:CI_Responsibility>
+                    </mri:pointOfContact>
+                    <mri:resourceConstraints>
+                        <mco:MD_SecurityConstraints>
+                            <mco:useLimitation>
+                                <gco:CharacterString>Vicmap data is available directly from DELWP network of official data service providers listed at www.delwp.vic.gov.au/vicmapdsp 
+
+For enquires relating to this product: vicmap.help@delwp.vic.gov.au</gco:CharacterString>
+                            </mco:useLimitation>
+                            <mco:classification>
+                                <mco:MD_ClassificationCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#MD_ClassificationCode" codeListValue="unclassified" />
+                            </mco:classification>
+                        </mco:MD_SecurityConstraints>
+                    </mri:resourceConstraints>
+                    <mri:resourceConstraints xlink:href="local://srv/api/registries/entries/urn:delwp:metashare:license:delwpdatalicense" />
+                    <mri:spatialRepresentationType>
+                        <mcc:MD_SpatialRepresentationTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#MD_SpatialRepresentationTypeCode" codeListValue="vector" />
+                    </mri:spatialRepresentationType>
+                    <mri:defaultLocale>
+                        <lan:PT_Locale>
+                            <lan:language>
+                                <lan:LanguageCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#LanguageCode" codeListValue="eng" />
+                            </lan:language>
+                            <lan:characterEncoding>
+                                <lan:MD_CharacterSetCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#MD_CharacterSetCode" codeListValue="utf8" />
+                            </lan:characterEncoding>
+                        </lan:PT_Locale>
+                    </mri:defaultLocale>
+                    <mri:topicCategory>
+                        <mri:MD_TopicCategoryCode>elevation</mri:MD_TopicCategoryCode>
+                    </mri:topicCategory>
+                    <mri:topicCategory>
+                        <mri:MD_TopicCategoryCode>environment</mri:MD_TopicCategoryCode>
+                    </mri:topicCategory>
+                    <mri:topicCategory>
+                        <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
+                    </mri:topicCategory>
+                    <mri:extent>
+                        <gex:EX_Extent>
+                            <gex:geographicElement>
+                                <gex:EX_GeographicBoundingBox>
+                                    <gex:westBoundLongitude>
+                                        <gco:Decimal>141</gco:Decimal>
+                                    </gex:westBoundLongitude>
+                                    <gex:southBoundLatitude>
+                                        <gco:Decimal>-39</gco:Decimal>
+                                    </gex:southBoundLatitude>
+                                    <gex:eastBoundLongitude>
+                                        <gco:Decimal>150</gco:Decimal>
+                                    </gex:eastBoundLongitude>
+                                    <gex:northBoundLatitude>
+                                        <gco:Decimal>-34</gco:Decimal>
+                                    </gex:northBoundLatitude>
+                                </gex:EX_GeographicBoundingBox>
+                            </gex:geographicElement>
+                        </gex:EX_Extent>
+                    </mri:extent>
+                </mri:MD_DataIdentification>
+            </mdb:identificationInfo>
+            <mdb:distributionInfo>
+                <mrd:MD_Distribution>
+                    <mrd:distributionFormat>
+                        <mrd:MD_Format />
+                    </mrd:distributionFormat>
+                    <mrd:transferOptions>
+                        <mrd:MD_DigitalTransferOptions>
+                            <mrd:onLine>
+                                <cit:CI_OnlineResource>
+                                    <cit:linkage>
+                                        <gco:CharacterString>https://www.delwp.vic.gov.au/maps</gco:CharacterString>
+                                    </cit:linkage>
+                                </cit:CI_OnlineResource>
+                            </mrd:onLine>
+                        </mrd:MD_DigitalTransferOptions>
+                    </mrd:transferOptions>
+                </mrd:MD_Distribution>
+            </mdb:distributionInfo>
+            <mdb:dataQualityInfo>
+                <mdq:DQ_DataQuality>
+                    <mdq:scope>
+                        <mcc:MD_Scope>
+                            <mcc:level>
+                                <mcc:MD_ScopeCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#MD_ScopeCode" codeListValue="dataset" />
+                            </mcc:level>
+                            <mcc:levelDescription>
+                                <mcc:MD_ScopeDescription>
+                                    <mcc:other>
+                                        <gco:CharacterString>Vicmap Elevation - Multi-Resolution Contours</gco:CharacterString>
+                                    </mcc:other>
+                                </mcc:MD_ScopeDescription>
+                            </mcc:levelDescription>
+                        </mcc:MD_Scope>
+                    </mdq:scope>
+                    <mdq:report>
+                        <mdq:DQ_NonQuantitativeAttributeCorrectness>
+                            <mdq:result>
+                                <mdq:DQ_ConformanceResult>
+                                    <mdq:specification>
+                                        <cit:CI_Citation>
+                                            <cit:title gco:nilReason="unknown" />
+                                        </cit:CI_Citation>
+                                    </mdq:specification>
+                                    <mdq:explanation>
+                                        <gco:CharacterString>The vertical accuracy associated with the contours is such that 95% of "well defined" points along the contour line have a value that must not differ to the "true" ground surface by any more then half of the contour interval.</gco:CharacterString>
+                                    </mdq:explanation>
+                                    <mdq:pass>
+                                        <gco:Boolean>1</gco:Boolean>
+                                    </mdq:pass>
+                                </mdq:DQ_ConformanceResult>
+                            </mdq:result>
+                        </mdq:DQ_NonQuantitativeAttributeCorrectness>
+                    </mdq:report>
+                    <mdq:report>
+                        <mdq:DQ_AbsoluteExternalPositionalAccuracy>
+                            <mdq:result>
+                                <mdq:DQ_ConformanceResult>
+                                    <mdq:specification>
+                                        <cit:CI_Citation>
+                                            <cit:title gco:nilReason="unknown" />
+                                        </cit:CI_Citation>
+                                    </mdq:specification>
+                                    <mdq:explanation>
+                                        <gco:CharacterString>The horizontal accuracy for both the DEM and contour datasets is +/-35cm  or better.</gco:CharacterString>
+                                    </mdq:explanation>
+                                    <mdq:pass>
+                                        <gco:Boolean>1</gco:Boolean>
+                                    </mdq:pass>
+                                </mdq:DQ_ConformanceResult>
+                            </mdq:result>
+                        </mdq:DQ_AbsoluteExternalPositionalAccuracy>
+                    </mdq:report>
+                    <mdq:report>
+                        <mdq:DQ_ConceptualConsistency>
+                            <mdq:result>
+                                <mdq:DQ_ConformanceResult>
+                                    <mdq:specification>
+                                        <cit:CI_Citation>
+                                            <cit:title gco:nilReason="unknown" />
+                                        </cit:CI_Citation>
+                                    </mdq:specification>
+                                    <mdq:explanation>
+                                        <gco:CharacterString>The contours are consistent  for contour interval, smoothness, cartographic display and elevation attribution.
+
+Logical consistency is a measure of the degree to which data complies with the technical specification. The test procedures include a mixture of scripts and on-screen visual checks.</gco:CharacterString>
+                                    </mdq:explanation>
+                                    <mdq:pass>
+                                        <gco:Boolean>1</gco:Boolean>
+                                    </mdq:pass>
+                                </mdq:DQ_ConformanceResult>
+                            </mdq:result>
+                        </mdq:DQ_ConceptualConsistency>
+                    </mdq:report>
+                    <mdq:report>
+                        <mdq:DQ_CompletenessOmission>
+                            <mdq:result>
+                                <mdq:DQ_ConformanceResult>
+                                    <mdq:specification>
+                                        <cit:CI_Citation>
+                                            <cit:title gco:nilReason="unknown" />
+                                        </cit:CI_Citation>
+                                    </mdq:specification>
+                                    <mdq:explanation>
+                                        <gco:CharacterString>The extent covers the major flood plains and Greater Melbourne. It does not include products available in Vicmap Elevation - Coastal 1m DEM &amp; 0.5m Contours.</gco:CharacterString>
+                                    </mdq:explanation>
+                                    <mdq:pass>
+                                        <gco:Boolean>1</gco:Boolean>
+                                    </mdq:pass>
+                                </mdq:DQ_ConformanceResult>
+                            </mdq:result>
+                        </mdq:DQ_CompletenessOmission>
+                    </mdq:report>
+                </mdq:DQ_DataQuality>
+            </mdb:dataQualityInfo>
+        </mdb:MD_Metadata>
+        <mdb:MD_Metadata xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/2.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/2.0" xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:mrl="http://standards.iso.org/iso/19115/-3/mrl/2.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:mmi="http://standards.iso.org/iso/19115/-3/mmi/1.0" xmlns:msr="http://standards.iso.org/iso/19115/-3/msr/2.0" xmlns:mrc="http://standards.iso.org/iso/19115/-3/mrc/2.0" xmlns:mrd="http://standards.iso.org/iso/19115/-3/mrd/1.0" xmlns:mrs="http://standards.iso.org/iso/19115/-3/mrs/1.0" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:mdq="http://standards.iso.org/iso/19157/-2/mdq/1.0" xmlns:delwp="https://github.com/geonetwork-delwp/iso19115-3.2018" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:geonet="http://www.fao.org/geonetwork">
+            <mdb:metadataIdentifier>
+                <mcc:MD_Identifier>
+                    <mcc:code>
+                        <gco:CharacterString>6d89dfc8-4090-5853-8d9e-15eb4499484a</gco:CharacterString>
+                    </mcc:code>
+                </mcc:MD_Identifier>
+            </mdb:metadataIdentifier>
+            <mdb:metadataScope>
+                <mdb:MD_MetadataScope>
+                    <mdb:resourceScope>
+                        <mcc:MD_ScopeCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#MD_ScopeCode" codeListValue="dataset" />
+                    </mdb:resourceScope>
+                </mdb:MD_MetadataScope>
+            </mdb:metadataScope>
+            <mdb:dateInfo>
+                <cit:CI_Date>
+                    <cit:date>
+                        <gco:Date>2021-03-17</gco:Date>
+                    </cit:date>
+                    <cit:dateType>
+                        <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision" />
+                    </cit:dateType>
+                </cit:CI_Date>
+            </mdb:dateInfo>
+            <mdb:metadataStandard>
+                <cit:CI_Citation>
+                    <cit:title>
+                        <gco:CharacterString>ISO 19115-3:2018</gco:CharacterString>
+                    </cit:title>
+                </cit:CI_Citation>
+            </mdb:metadataStandard>
+            <mdb:metadataProfile>
+                <cit:CI_Citation>
+                    <cit:title>
+                        <gco:CharacterString>DELWP Profile</gco:CharacterString>
+                    </cit:title>
+                </cit:CI_Citation>
+            </mdb:metadataProfile>
+            <mdb:referenceSystemInfo>
+                <mrs:MD_ReferenceSystem>
+                    <mrs:referenceSystemIdentifier>
+                        <mcc:MD_Identifier>
+                            <mcc:code>
+                                <gco:CharacterString>28354</gco:CharacterString>
+                            </mcc:code>
+                            <mcc:description>
+                                <gco:CharacterString>EPSG Geodetic Parameter</gco:CharacterString>
+                            </mcc:description>
+                        </mcc:MD_Identifier>
+                    </mrs:referenceSystemIdentifier>
+                </mrs:MD_ReferenceSystem>
+            </mdb:referenceSystemInfo>
+            <mdb:identificationInfo>
+                <mri:MD_DataIdentification>
+                    <mri:citation>
+                        <cit:CI_Citation>
+                            <cit:title>
+                                <gco:CharacterString>Vicmap Elevation - Multi-Resolution DEM</gco:CharacterString>
+                            </cit:title>
+                            <cit:date>
+                                <cit:CI_Date>
+                                    <cit:date>
+                                        <gco:Date>2021-03-17</gco:Date>
+                                    </cit:date>
+                                    <cit:dateType>
+                                        <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision" />
+                                    </cit:dateType>
+                                </cit:CI_Date>
+                            </cit:date>
+                            <cit:identifier>
+                                <mcc:MD_Identifier>
+                                    <mcc:code>
+                                        <gco:CharacterString>Victoria</gco:CharacterString>
+                                    </mcc:code>
+                                    <mcc:description>
+                                        <gco:CharacterString>Jurisdiction ID</gco:CharacterString>
+                                    </mcc:description>
+                                </mcc:MD_Identifier>
+                            </cit:identifier>
+                            <cit:identifier>
+                                <mcc:MD_Identifier>
+                                    <mcc:authority>
+                                        <cit:CI_Citation>
+                                            <cit:title>
+                                                <gco:CharacterString>ANZLIC Dataset Identifier</gco:CharacterString>
+                                            </cit:title>
+                                            <cit:date>
+                                                <cit:CI_Date>
+                                                    <cit:date>
+                                                        <gco:Date>2001-02</gco:Date>
+                                                    </cit:date>
+                                                    <cit:dateType>
+                                                        <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision" />
+                                                    </cit:dateType>
+                                                </cit:CI_Date>
+                                            </cit:date>
+                                        </cit:CI_Citation>
+                                    </mcc:authority>
+                                    <mcc:code>
+                                        <gco:CharacterString>ANZVI0803004767</gco:CharacterString>
+                                    </mcc:code>
+                                </mcc:MD_Identifier>
+                            </cit:identifier>
+                        </cit:CI_Citation>
+                    </mri:citation>
+                    <mri:abstract>
+                        <gco:CharacterString>SPATIAL DATAMART DELIVERY METHOD  -  'not available'.
+
+Vicmap Elevation - Multi-Resolution DEM consists of project based  DEMs of varying resolution and where available contours. The extent covers the major flood plains and Greater Melbourne. It does not include products available in Vicmap Elevation - Coastal 1m DEM &amp; 0.5m Contours.
+
+This data has been acquired between September 2007 and April 2012 through the Coordinated Imagery Program (CIP).</gco:CharacterString>
+                    </mri:abstract>
+                    <mri:graphicOverview>
+                        <mcc:MD_BrowseGraphic>
+                            <mcc:fileName gco:nilReason="inapplicable" />
+                        </mcc:MD_BrowseGraphic>
+                    </mri:graphicOverview>
+                    <mri:pointOfContact>
+                        <cit:CI_Responsibility>
+                            <cit:role>
+                                <cit:CI_RoleCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#CI_RoleCode" codeListValue="pointOfContact" />
+                            </cit:role>
+                            <cit:party>
+                                <cit:CI_Organisation uuid="urn:delwp:metashare:person:253_person_organisation" title="Vicmap Help @ Department of Environment, Land, Water &amp; Planning">
+                                    <cit:name>
+                                        <gco:CharacterString>Department of Environment, Land, Water &amp; Planning</gco:CharacterString>
+                                    </cit:name>
+                                    <cit:contactInfo>
+                                        <cit:CI_Contact>
+                                            <cit:address>
+                                                <cit:CI_Address>
+                                                    <cit:deliveryPoint>
+                                                        <gco:CharacterString>11/2 Lonsdale St</gco:CharacterString>
+                                                    </cit:deliveryPoint>
+                                                    <cit:city>
+                                                        <gco:CharacterString>Melbourne</gco:CharacterString>
+                                                    </cit:city>
+                                                    <cit:administrativeArea>
+                                                        <gco:CharacterString>Vic</gco:CharacterString>
+                                                    </cit:administrativeArea>
+                                                    <cit:postalCode>
+                                                        <gco:CharacterString>3000</gco:CharacterString>
+                                                    </cit:postalCode>
+                                                    <cit:country>
+                                                        <gco:CharacterString>Australia</gco:CharacterString>
+                                                    </cit:country>
+                                                </cit:CI_Address>
+                                            </cit:address>
+                                        </cit:CI_Contact>
+                                    </cit:contactInfo>
+                                    <cit:individual>
+                                        <cit:CI_Individual>
+                                            <cit:name>
+                                                <gco:CharacterString>Vicmap Help</gco:CharacterString>
+                                            </cit:name>
+                                            <cit:contactInfo>
+                                                <cit:CI_Contact>
+                                                    <cit:address>
+                                                        <cit:CI_Address>
+                                                            <cit:electronicMailAddress>
+                                                                <gco:CharacterString>vicmap.help@delwp.vic.gov.au</gco:CharacterString>
+                                                            </cit:electronicMailAddress>
+                                                        </cit:CI_Address>
+                                                    </cit:address>
+                                                </cit:CI_Contact>
+                                            </cit:contactInfo>
+                                            <cit:positionName>
+                                                <gco:CharacterString>Vicmap Product Manager</gco:CharacterString>
+                                            </cit:positionName>
+                                        </cit:CI_Individual>
+                                    </cit:individual>
+                                </cit:CI_Organisation>
+                            </cit:party>
+                        </cit:CI_Responsibility>
+                    </mri:pointOfContact>
+                    <mri:resourceConstraints>
+                        <mco:MD_SecurityConstraints>
+                            <mco:useLimitation>
+                                <gco:CharacterString>Vicmap data is available directly from DELWP network of official data service providers listed at www.delwp.vic.gov.au/vicmapdsp 
+
+For enquires relating to this product: vicmap.help@delwp.vic.gov.au</gco:CharacterString>
+                            </mco:useLimitation>
+                            <mco:classification>
+                                <mco:MD_ClassificationCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#MD_ClassificationCode" codeListValue="unclassified" />
+                            </mco:classification>
+                        </mco:MD_SecurityConstraints>
+                    </mri:resourceConstraints>
+                    <mri:resourceConstraints xlink:href="local://srv/api/registries/entries/urn:delwp:metashare:license:delwpdatalicense" />
+                    <mri:spatialRepresentationType>
+                        <mcc:MD_SpatialRepresentationTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#MD_SpatialRepresentationTypeCode" codeListValue="grid" />
+                    </mri:spatialRepresentationType>
+                    <mri:defaultLocale>
+                        <lan:PT_Locale>
+                            <lan:language>
+                                <lan:LanguageCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#LanguageCode" codeListValue="eng" />
+                            </lan:language>
+                            <lan:characterEncoding>
+                                <lan:MD_CharacterSetCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#MD_CharacterSetCode" codeListValue="utf8" />
+                            </lan:characterEncoding>
+                        </lan:PT_Locale>
+                    </mri:defaultLocale>
+                    <mri:topicCategory>
+                        <mri:MD_TopicCategoryCode>elevation</mri:MD_TopicCategoryCode>
+                    </mri:topicCategory>
+                    <mri:topicCategory>
+                        <mri:MD_TopicCategoryCode>environment</mri:MD_TopicCategoryCode>
+                    </mri:topicCategory>
+                    <mri:topicCategory>
+                        <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
+                    </mri:topicCategory>
+                    <mri:extent>
+                        <gex:EX_Extent>
+                            <gex:geographicElement>
+                                <gex:EX_GeographicBoundingBox>
+                                    <gex:westBoundLongitude>
+                                        <gco:Decimal>141</gco:Decimal>
+                                    </gex:westBoundLongitude>
+                                    <gex:southBoundLatitude>
+                                        <gco:Decimal>-39</gco:Decimal>
+                                    </gex:southBoundLatitude>
+                                    <gex:eastBoundLongitude>
+                                        <gco:Decimal>150</gco:Decimal>
+                                    </gex:eastBoundLongitude>
+                                    <gex:northBoundLatitude>
+                                        <gco:Decimal>-34</gco:Decimal>
+                                    </gex:northBoundLatitude>
+                                </gex:EX_GeographicBoundingBox>
+                            </gex:geographicElement>
+                        </gex:EX_Extent>
+                    </mri:extent>
+                </mri:MD_DataIdentification>
+            </mdb:identificationInfo>
+            <mdb:distributionInfo>
+                <mrd:MD_Distribution>
+                    <mrd:distributionFormat>
+                        <mrd:MD_Format />
+                    </mrd:distributionFormat>
+                    <mrd:transferOptions>
+                        <mrd:MD_DigitalTransferOptions>
+                            <mrd:onLine>
+                                <cit:CI_OnlineResource>
+                                    <cit:linkage>
+                                        <gco:CharacterString>https://www.delwp.vic.gov.au/maps</gco:CharacterString>
+                                    </cit:linkage>
+                                </cit:CI_OnlineResource>
+                            </mrd:onLine>
+                        </mrd:MD_DigitalTransferOptions>
+                    </mrd:transferOptions>
+                </mrd:MD_Distribution>
+            </mdb:distributionInfo>
+            <mdb:dataQualityInfo>
+                <mdq:DQ_DataQuality>
+                    <mdq:scope>
+                        <mcc:MD_Scope>
+                            <mcc:level>
+                                <mcc:MD_ScopeCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#MD_ScopeCode" codeListValue="dataset" />
+                            </mcc:level>
+                            <mcc:levelDescription>
+                                <mcc:MD_ScopeDescription>
+                                    <mcc:other>
+                                        <gco:CharacterString>Vicmap Elevation - Multi-Resolution DEM</gco:CharacterString>
+                                    </mcc:other>
+                                </mcc:MD_ScopeDescription>
+                            </mcc:levelDescription>
+                        </mcc:MD_Scope>
+                    </mdq:scope>
+                    <mdq:report>
+                        <mdq:DQ_NonQuantitativeAttributeCorrectness>
+                            <mdq:result>
+                                <mdq:DQ_ConformanceResult>
+                                    <mdq:specification>
+                                        <cit:CI_Citation>
+                                            <cit:title gco:nilReason="unknown" />
+                                        </cit:CI_Citation>
+                                    </mdq:specification>
+                                    <mdq:explanation>
+                                        <gco:CharacterString>The vertical accuracy associated with the DEMs is +/-20cm @ 68% confidence in areas of bare ground or better. Reprojecting, changing format or resampling causes changes to the height values in the DEM.</gco:CharacterString>
+                                    </mdq:explanation>
+                                    <mdq:pass>
+                                        <gco:Boolean>1</gco:Boolean>
+                                    </mdq:pass>
+                                </mdq:DQ_ConformanceResult>
+                            </mdq:result>
+                        </mdq:DQ_NonQuantitativeAttributeCorrectness>
+                    </mdq:report>
+                    <mdq:report>
+                        <mdq:DQ_AbsoluteExternalPositionalAccuracy>
+                            <mdq:result>
+                                <mdq:DQ_ConformanceResult>
+                                    <mdq:specification>
+                                        <cit:CI_Citation>
+                                            <cit:title gco:nilReason="unknown" />
+                                        </cit:CI_Citation>
+                                    </mdq:specification>
+                                    <mdq:explanation>
+                                        <gco:CharacterString>The horizontal accuracy for both the DEM and contour datasets is +/-35cm  or better.</gco:CharacterString>
+                                    </mdq:explanation>
+                                    <mdq:pass>
+                                        <gco:Boolean>1</gco:Boolean>
+                                    </mdq:pass>
+                                </mdq:DQ_ConformanceResult>
+                            </mdq:result>
+                        </mdq:DQ_AbsoluteExternalPositionalAccuracy>
+                    </mdq:report>
+                    <mdq:report>
+                        <mdq:DQ_ConceptualConsistency>
+                            <mdq:result>
+                                <mdq:DQ_ConformanceResult>
+                                    <mdq:specification>
+                                        <cit:CI_Citation>
+                                            <cit:title gco:nilReason="unknown" />
+                                        </cit:CI_Citation>
+                                    </mdq:specification>
+                                    <mdq:explanation>
+                                        <gco:CharacterString>The DEM values across initial basin tiles have been constructed to ensure smooth consistent elevation values is achieved.
+
+Logical consistency is a measure of the degree to which data complies with the technical specification. The test procedures include a mixture of scripts and on-screen visual checks.</gco:CharacterString>
+                                    </mdq:explanation>
+                                    <mdq:pass>
+                                        <gco:Boolean>1</gco:Boolean>
+                                    </mdq:pass>
+                                </mdq:DQ_ConformanceResult>
+                            </mdq:result>
+                        </mdq:DQ_ConceptualConsistency>
+                    </mdq:report>
+                    <mdq:report>
+                        <mdq:DQ_CompletenessOmission>
+                            <mdq:result>
+                                <mdq:DQ_ConformanceResult>
+                                    <mdq:specification>
+                                        <cit:CI_Citation>
+                                            <cit:title gco:nilReason="unknown" />
+                                        </cit:CI_Citation>
+                                    </mdq:specification>
+                                    <mdq:explanation>
+                                        <gco:CharacterString>The extent covers the major flood plains and Greater Melbourne. It does not include products available in Vicmap Elevation - Coastal 1m DEM &amp; 0.5m Contours.</gco:CharacterString>
+                                    </mdq:explanation>
+                                    <mdq:pass>
+                                        <gco:Boolean>1</gco:Boolean>
+                                    </mdq:pass>
+                                </mdq:DQ_ConformanceResult>
+                            </mdq:result>
+                        </mdq:DQ_CompletenessOmission>
+                    </mdq:report>
+                </mdq:DQ_DataQuality>
+            </mdb:dataQualityInfo>
+        </mdb:MD_Metadata>
+        <mdb:MD_Metadata xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/2.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/2.0" xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:mrl="http://standards.iso.org/iso/19115/-3/mrl/2.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:mmi="http://standards.iso.org/iso/19115/-3/mmi/1.0" xmlns:msr="http://standards.iso.org/iso/19115/-3/msr/2.0" xmlns:mrc="http://standards.iso.org/iso/19115/-3/mrc/2.0" xmlns:mrd="http://standards.iso.org/iso/19115/-3/mrd/1.0" xmlns:mrs="http://standards.iso.org/iso/19115/-3/mrs/1.0" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:mdq="http://standards.iso.org/iso/19157/-2/mdq/1.0" xmlns:delwp="https://github.com/geonetwork-delwp/iso19115-3.2018" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:geonet="http://www.fao.org/geonetwork">
+            <mdb:metadataIdentifier>
+                <mcc:MD_Identifier>
+                    <mcc:code>
+                        <gco:CharacterString>cd085e22-7563-568c-97c1-ccbb569f17c0</gco:CharacterString>
+                    </mcc:code>
+                </mcc:MD_Identifier>
+            </mdb:metadataIdentifier>
+            <mdb:metadataScope>
+                <mdb:MD_MetadataScope>
+                    <mdb:resourceScope>
+                        <mcc:MD_ScopeCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#MD_ScopeCode" codeListValue="dataset" />
+                    </mdb:resourceScope>
+                </mdb:MD_MetadataScope>
+            </mdb:metadataScope>
+            <mdb:dateInfo>
+                <cit:CI_Date>
+                    <cit:date>
+                        <gco:Date>2020-10-27</gco:Date>
+                    </cit:date>
+                    <cit:dateType>
+                        <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision" />
+                    </cit:dateType>
+                </cit:CI_Date>
+            </mdb:dateInfo>
+            <mdb:metadataStandard>
+                <cit:CI_Citation>
+                    <cit:title>
+                        <gco:CharacterString>ISO 19115-3:2018</gco:CharacterString>
+                    </cit:title>
+                </cit:CI_Citation>
+            </mdb:metadataStandard>
+            <mdb:metadataProfile>
+                <cit:CI_Citation>
+                    <cit:title>
+                        <gco:CharacterString>DELWP Profile</gco:CharacterString>
+                    </cit:title>
+                </cit:CI_Citation>
+            </mdb:metadataProfile>
+            <mdb:referenceSystemInfo>
+                <mrs:MD_ReferenceSystem>
+                    <mrs:referenceSystemIdentifier>
+                        <mcc:MD_Identifier>
+                            <mcc:code>
+                                <gco:CharacterString>4283</gco:CharacterString>
+                            </mcc:code>
+                            <mcc:description>
+                                <gco:CharacterString>EPSG Geodetic Parameter</gco:CharacterString>
+                            </mcc:description>
+                        </mcc:MD_Identifier>
+                    </mrs:referenceSystemIdentifier>
+                </mrs:MD_ReferenceSystem>
+            </mdb:referenceSystemInfo>
+            <mdb:identificationInfo>
+                <mri:MD_DataIdentification>
+                    <mri:citation>
+                        <cit:CI_Citation>
+                            <cit:title>
+                                <gco:CharacterString>Vicmap Elevation DTM 10m 2008</gco:CharacterString>
+                            </cit:title>
+                            <cit:date>
+                                <cit:CI_Date>
+                                    <cit:date>
+                                        <gco:Date>2020-10-27</gco:Date>
+                                    </cit:date>
+                                    <cit:dateType>
+                                        <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision" />
+                                    </cit:dateType>
+                                </cit:CI_Date>
+                            </cit:date>
+                            <cit:identifier>
+                                <mcc:MD_Identifier>
+                                    <mcc:code>
+                                        <gco:CharacterString>Victoria</gco:CharacterString>
+                                    </mcc:code>
+                                    <mcc:description>
+                                        <gco:CharacterString>Jurisdiction ID</gco:CharacterString>
+                                    </mcc:description>
+                                </mcc:MD_Identifier>
+                            </cit:identifier>
+                            <cit:identifier>
+                                <mcc:MD_Identifier>
+                                    <mcc:authority>
+                                        <cit:CI_Citation>
+                                            <cit:title>
+                                                <gco:CharacterString>ANZLIC Dataset Identifier</gco:CharacterString>
+                                            </cit:title>
+                                            <cit:date>
+                                                <cit:CI_Date>
+                                                    <cit:date>
+                                                        <gco:Date>2001-02</gco:Date>
+                                                    </cit:date>
+                                                    <cit:dateType>
+                                                        <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision" />
+                                                    </cit:dateType>
+                                                </cit:CI_Date>
+                                            </cit:date>
+                                        </cit:CI_Citation>
+                                    </mcc:authority>
+                                    <mcc:code>
+                                        <gco:CharacterString>ANZVI0803008698</gco:CharacterString>
+                                    </mcc:code>
+                                </mcc:MD_Identifier>
+                            </cit:identifier>
+                        </cit:CI_Citation>
+                    </mri:citation>
+                    <mri:abstract>
+                        <gco:CharacterString>Obsolete, the Vicmap DTM 10M product has been significantly updated with new and revised content. and renamed to VICMAP_ELEV_DEM_10.
+
+Vicmap Elevation DTM 10m is a product which is a raster representation of Victoria's elevation. DTM 10m has a spatial resolution of 10m. The DTM is constructed from source data of various resolutions, accuracies and ages to produce an improved DTM containing increased detail in localised areas. The DTMs are hydrologically enforced and correctly defines the natural surface drainage and hydrological flow.</gco:CharacterString>
+                    </mri:abstract>
+                    <mri:pointOfContact>
+                        <cit:CI_Responsibility>
+                            <cit:role>
+                                <cit:CI_RoleCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#CI_RoleCode" codeListValue="pointOfContact" />
+                            </cit:role>
+                            <cit:party>
+                                <cit:CI_Organisation uuid="urn:delwp:metashare:person:253_person_organisation" title="Vicmap Help @ Department of Environment, Land, Water &amp; Planning">
+                                    <cit:name>
+                                        <gco:CharacterString>Department of Environment, Land, Water &amp; Planning</gco:CharacterString>
+                                    </cit:name>
+                                    <cit:contactInfo>
+                                        <cit:CI_Contact>
+                                            <cit:address>
+                                                <cit:CI_Address>
+                                                    <cit:deliveryPoint>
+                                                        <gco:CharacterString>11/2 Lonsdale St</gco:CharacterString>
+                                                    </cit:deliveryPoint>
+                                                    <cit:city>
+                                                        <gco:CharacterString>Melbourne</gco:CharacterString>
+                                                    </cit:city>
+                                                    <cit:administrativeArea>
+                                                        <gco:CharacterString>Vic</gco:CharacterString>
+                                                    </cit:administrativeArea>
+                                                    <cit:postalCode>
+                                                        <gco:CharacterString>3000</gco:CharacterString>
+                                                    </cit:postalCode>
+                                                    <cit:country>
+                                                        <gco:CharacterString>Australia</gco:CharacterString>
+                                                    </cit:country>
+                                                </cit:CI_Address>
+                                            </cit:address>
+                                        </cit:CI_Contact>
+                                    </cit:contactInfo>
+                                    <cit:individual>
+                                        <cit:CI_Individual>
+                                            <cit:name>
+                                                <gco:CharacterString>Vicmap Help</gco:CharacterString>
+                                            </cit:name>
+                                            <cit:contactInfo>
+                                                <cit:CI_Contact>
+                                                    <cit:address>
+                                                        <cit:CI_Address>
+                                                            <cit:electronicMailAddress>
+                                                                <gco:CharacterString>vicmap.help@delwp.vic.gov.au</gco:CharacterString>
+                                                            </cit:electronicMailAddress>
+                                                        </cit:CI_Address>
+                                                    </cit:address>
+                                                </cit:CI_Contact>
+                                            </cit:contactInfo>
+                                            <cit:positionName>
+                                                <gco:CharacterString>Vicmap Product Manager</gco:CharacterString>
+                                            </cit:positionName>
+                                        </cit:CI_Individual>
+                                    </cit:individual>
+                                </cit:CI_Organisation>
+                            </cit:party>
+                        </cit:CI_Responsibility>
+                    </mri:pointOfContact>
+                    <mri:resourceConstraints>
+                        <mco:MD_SecurityConstraints>
+                            <mco:useLimitation>
+                                <gco:CharacterString>Available directly from Vicmap Data Service Providers listed at www.delwp.vic.gov.au/vicmapdsp or DataVic www.data.vic.gov.au</gco:CharacterString>
+                            </mco:useLimitation>
+                            <mco:classification>
+                                <mco:MD_ClassificationCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#MD_ClassificationCode" codeListValue="limitedDistribution" />
+                            </mco:classification>
+                        </mco:MD_SecurityConstraints>
+                    </mri:resourceConstraints>
+                    <mri:spatialRepresentationType>
+                        <mcc:MD_SpatialRepresentationTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#MD_SpatialRepresentationTypeCode" codeListValue="grid" />
+                    </mri:spatialRepresentationType>
+                    <mri:defaultLocale>
+                        <lan:PT_Locale>
+                            <lan:language>
+                                <lan:LanguageCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#LanguageCode" codeListValue="eng" />
+                            </lan:language>
+                            <lan:characterEncoding>
+                                <lan:MD_CharacterSetCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#MD_CharacterSetCode" codeListValue="utf8" />
+                            </lan:characterEncoding>
+                        </lan:PT_Locale>
+                    </mri:defaultLocale>
+                    <mri:topicCategory>
+                        <mri:MD_TopicCategoryCode>elevation</mri:MD_TopicCategoryCode>
+                    </mri:topicCategory>
+                    <mri:topicCategory>
+                        <mri:MD_TopicCategoryCode>environment</mri:MD_TopicCategoryCode>
+                    </mri:topicCategory>
+                    <mri:topicCategory>
+                        <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
+                    </mri:topicCategory>
+                    <mri:extent>
+                        <gex:EX_Extent>
+                            <gex:geographicElement>
+                                <gex:EX_GeographicBoundingBox>
+                                    <gex:westBoundLongitude>
+                                        <gco:Decimal>141</gco:Decimal>
+                                    </gex:westBoundLongitude>
+                                    <gex:southBoundLatitude>
+                                        <gco:Decimal>-39</gco:Decimal>
+                                    </gex:southBoundLatitude>
+                                    <gex:eastBoundLongitude>
+                                        <gco:Decimal>150</gco:Decimal>
+                                    </gex:eastBoundLongitude>
+                                    <gex:northBoundLatitude>
+                                        <gco:Decimal>-34</gco:Decimal>
+                                    </gex:northBoundLatitude>
+                                </gex:EX_GeographicBoundingBox>
+                            </gex:geographicElement>
+                        </gex:EX_Extent>
+                    </mri:extent>
+                </mri:MD_DataIdentification>
+            </mdb:identificationInfo>
+            <mdb:distributionInfo>
+                <mrd:MD_Distribution>
+                    <mrd:distributionFormat>
+                        <mrd:MD_Format />
+                    </mrd:distributionFormat>
+                    <mrd:transferOptions>
+                        <mrd:MD_DigitalTransferOptions>
+                            <mrd:onLine>
+                                <cit:CI_OnlineResource>
+                                    <cit:linkage>
+                                        <gco:CharacterString>https://www.delwp.vic.gov.au/maps</gco:CharacterString>
+                                    </cit:linkage>
+                                </cit:CI_OnlineResource>
+                            </mrd:onLine>
+                        </mrd:MD_DigitalTransferOptions>
+                    </mrd:transferOptions>
+                </mrd:MD_Distribution>
+            </mdb:distributionInfo>
+            <mdb:dataQualityInfo>
+                <mdq:DQ_DataQuality>
+                    <mdq:scope>
+                        <mcc:MD_Scope>
+                            <mcc:level>
+                                <mcc:MD_ScopeCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#MD_ScopeCode" codeListValue="dataset" />
+                            </mcc:level>
+                            <mcc:levelDescription>
+                                <mcc:MD_ScopeDescription>
+                                    <mcc:other>
+                                        <gco:CharacterString>Vicmap Elevation DTM 10m 2008</gco:CharacterString>
+                                    </mcc:other>
+                                </mcc:MD_ScopeDescription>
+                            </mcc:levelDescription>
+                        </mcc:MD_Scope>
+                    </mdq:scope>
+                    <mdq:report>
+                        <mdq:DQ_NonQuantitativeAttributeCorrectness>
+                            <mdq:result>
+                                <mdq:DQ_ConformanceResult>
+                                    <mdq:specification>
+                                        <cit:CI_Citation>
+                                            <cit:title gco:nilReason="unknown" />
+                                        </cit:CI_Citation>
+                                    </mdq:specification>
+                                    <mdq:explanation>
+                                        <gco:CharacterString>The vertical accuracy associated with the DTMs is +/-5m or better. Reprojecting, changing format or resampling causes changes to the height values in the DTM.</gco:CharacterString>
+                                    </mdq:explanation>
+                                    <mdq:pass>
+                                        <gco:Boolean>1</gco:Boolean>
+                                    </mdq:pass>
+                                </mdq:DQ_ConformanceResult>
+                            </mdq:result>
+                        </mdq:DQ_NonQuantitativeAttributeCorrectness>
+                    </mdq:report>
+                    <mdq:report>
+                        <mdq:DQ_AbsoluteExternalPositionalAccuracy>
+                            <mdq:result>
+                                <mdq:DQ_ConformanceResult>
+                                    <mdq:specification>
+                                        <cit:CI_Citation>
+                                            <cit:title gco:nilReason="unknown" />
+                                        </cit:CI_Citation>
+                                    </mdq:specification>
+                                    <mdq:explanation>
+                                        <gco:CharacterString>The spatial accuracy for Vicmap Elevation DTM 10m is inherited from the spatial accuracies of its many source datasets. The most consistently used and therefore the base for positional accuracy is the Vicmap Elevation 10-20 Contours &amp; Relief, therefore the positional accuracy for Vicmap Elevation DTM 10m is 12.5m horizontally and 5m vertically or better.</gco:CharacterString>
+                                    </mdq:explanation>
+                                    <mdq:pass>
+                                        <gco:Boolean>1</gco:Boolean>
+                                    </mdq:pass>
+                                </mdq:DQ_ConformanceResult>
+                            </mdq:result>
+                        </mdq:DQ_AbsoluteExternalPositionalAccuracy>
+                    </mdq:report>
+                    <mdq:report>
+                        <mdq:DQ_ConceptualConsistency>
+                            <mdq:result>
+                                <mdq:DQ_ConformanceResult>
+                                    <mdq:specification>
+                                        <cit:CI_Citation>
+                                            <cit:title gco:nilReason="unknown" />
+                                        </cit:CI_Citation>
+                                    </mdq:specification>
+                                    <mdq:explanation>
+                                        <gco:CharacterString>The DTM values across initial basin tiles have been constructed to ensure smooth consistent elevation values is achieved.</gco:CharacterString>
+                                    </mdq:explanation>
+                                    <mdq:pass>
+                                        <gco:Boolean>1</gco:Boolean>
+                                    </mdq:pass>
+                                </mdq:DQ_ConformanceResult>
+                            </mdq:result>
+                        </mdq:DQ_ConceptualConsistency>
+                    </mdq:report>
+                    <mdq:report>
+                        <mdq:DQ_CompletenessOmission>
+                            <mdq:result>
+                                <mdq:DQ_ConformanceResult>
+                                    <mdq:specification>
+                                        <cit:CI_Citation>
+                                            <cit:title gco:nilReason="unknown" />
+                                        </cit:CI_Citation>
+                                    </mdq:specification>
+                                    <mdq:explanation>
+                                        <gco:CharacterString>Vicmap Elevation DTM 10m has partial coverage over Victoria's main landmass . Please see the product description for a map showing the extent. DTMs have only been generated for islands with sufficient elevation data available to support the DTM 10m product.</gco:CharacterString>
+                                    </mdq:explanation>
+                                    <mdq:pass>
+                                        <gco:Boolean>1</gco:Boolean>
+                                    </mdq:pass>
+                                </mdq:DQ_ConformanceResult>
+                            </mdq:result>
+                        </mdq:DQ_CompletenessOmission>
+                    </mdq:report>
+                </mdq:DQ_DataQuality>
+            </mdb:dataQualityInfo>
+        </mdb:MD_Metadata>
+        <mdb:MD_Metadata xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/2.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/2.0" xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:mrl="http://standards.iso.org/iso/19115/-3/mrl/2.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:mmi="http://standards.iso.org/iso/19115/-3/mmi/1.0" xmlns:msr="http://standards.iso.org/iso/19115/-3/msr/2.0" xmlns:mrc="http://standards.iso.org/iso/19115/-3/mrc/2.0" xmlns:mrd="http://standards.iso.org/iso/19115/-3/mrd/1.0" xmlns:mrs="http://standards.iso.org/iso/19115/-3/mrs/1.0" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:mac="http://standards.iso.org/iso/19115/-3/mac/2.0" xmlns:mdq="http://standards.iso.org/iso/19157/-2/mdq/1.0" xmlns:delwp="https://github.com/geonetwork-delwp/iso19115-3.2018" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:geonet="http://www.fao.org/geonetwork">
+            <mdb:metadataIdentifier>
+                <mcc:MD_Identifier>
+                    <mcc:code>
+                        <gco:CharacterString>bac94b8c-9c52-5ef6-9438-974262867db8</gco:CharacterString>
+                    </mcc:code>
+                </mcc:MD_Identifier>
+            </mdb:metadataIdentifier>
+            <mdb:metadataScope>
+                <mdb:MD_MetadataScope>
+                    <mdb:resourceScope>
+                        <mcc:MD_ScopeCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#MD_ScopeCode" codeListValue="dataset" />
+                    </mdb:resourceScope>
+                </mdb:MD_MetadataScope>
+            </mdb:metadataScope>
+            <mdb:dateInfo>
+                <cit:CI_Date>
+                    <cit:date>
+                        <gco:DateTime>2021-11-03T21:45:15</gco:DateTime>
+                    </cit:date>
+                    <cit:dateType>
+                        <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision" />
+                    </cit:dateType>
+                </cit:CI_Date>
+            </mdb:dateInfo>
+            <mdb:metadataStandard>
+                <cit:CI_Citation>
+                    <cit:title>
+                        <gco:CharacterString>ISO 19115-3:2018</gco:CharacterString>
+                    </cit:title>
+                </cit:CI_Citation>
+            </mdb:metadataStandard>
+            <mdb:metadataProfile>
+                <cit:CI_Citation>
+                    <cit:title>
+                        <gco:CharacterString>DELWP Profile</gco:CharacterString>
+                    </cit:title>
+                </cit:CI_Citation>
+            </mdb:metadataProfile>
+            <mdb:referenceSystemInfo>
+                <mrs:MD_ReferenceSystem>
+                    <mrs:referenceSystemIdentifier>
+                        <mcc:MD_Identifier>
+                            <mcc:code>
+                                <gco:CharacterString>MGA Zone 55 GDA94</gco:CharacterString>
+                            </mcc:code>
+                            <mcc:description>
+                                <gco:CharacterString>EPSG Geodetic Parameter</gco:CharacterString>
+                            </mcc:description>
+                        </mcc:MD_Identifier>
+                    </mrs:referenceSystemIdentifier>
+                </mrs:MD_ReferenceSystem>
+            </mdb:referenceSystemInfo>
+            <mdb:identificationInfo>
+                <mri:MD_DataIdentification>
+                    <mri:citation>
+                        <cit:CI_Citation>
+                            <cit:title>
+                                <gco:CharacterString>howqua-hills_2019oct23_air_vis_10cm_mga55</gco:CharacterString>
+                            </cit:title>
+                            <cit:identifier>
+                                <mcc:MD_Identifier>
+                                    <mcc:authority>
+                                        <cit:CI_Citation>
+                                            <cit:title>
+                                                <gco:CharacterString>ANZLIC Dataset Identifier</gco:CharacterString>
+                                            </cit:title>
+                                            <cit:date>
+                                                <cit:CI_Date>
+                                                    <cit:date>
+                                                        <gco:Date>2001-02</gco:Date>
+                                                    </cit:date>
+                                                    <cit:dateType>
+                                                        <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision" />
+                                                    </cit:dateType>
+                                                </cit:CI_Date>
+                                            </cit:date>
+                                        </cit:CI_Citation>
+                                    </mcc:authority>
+                                    <mcc:code>
+                                        <gco:CharacterString>ANZVI0008103871</gco:CharacterString>
+                                    </mcc:code>
+                                </mcc:MD_Identifier>
+                            </cit:identifier>
+                        </cit:CI_Citation>
+                    </mri:citation>
+                    <mri:abstract>
+                        <gco:CharacterString>Dataset: howqua-hills_2019oct23_air_vis_10cm_mga55
+Assembly: Mosaic</gco:CharacterString>
+                    </mri:abstract>
+                    <mri:pointOfContact>
+                        <cit:CI_Responsibility>
+                            <cit:role>
+                                <cit:CI_RoleCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#CI_RoleCode" codeListValue="pointOfContact" />
+                            </cit:role>
+                            <cit:party>
+                                <cit:CI_Organisation uuid="urn:delwp:rastermeta:person:-1_person_organisation" title=" null null @ Department of Environment, Land, Water and Planning (DELWP)">
+                                    <cit:name>
+                                        <gco:CharacterString>Department of Environment, Land, Water and Planning (DELWP)</gco:CharacterString>
+                                    </cit:name>
+                                    <cit:contactInfo>
+                                        <cit:CI_Contact>
+                                            <cit:address>
+                                                <cit:CI_Address>
+                                                    <cit:deliveryPoint>
+                                                        <gco:CharacterString>PO Box 500</gco:CharacterString>
+                                                    </cit:deliveryPoint>
+                                                    <cit:city>
+                                                        <gco:CharacterString>East Melbourne</gco:CharacterString>
+                                                    </cit:city>
+                                                    <cit:administrativeArea>
+                                                        <gco:CharacterString>Victoria</gco:CharacterString>
+                                                    </cit:administrativeArea>
+                                                    <cit:postalCode>
+                                                        <gco:CharacterString>3002</gco:CharacterString>
+                                                    </cit:postalCode>
+                                                    <cit:country>
+                                                        <gco:CharacterString>Australia</gco:CharacterString>
+                                                    </cit:country>
+                                                </cit:CI_Address>
+                                            </cit:address>
+                                        </cit:CI_Contact>
+                                    </cit:contactInfo>
+                                    <cit:individual>
+                                        <cit:CI_Individual>
+                                            <cit:contactInfo>
+                                                <cit:CI_Contact>
+                                                    <cit:phone>
+                                                        <cit:CI_Telephone>
+                                                            <cit:number>
+                                                                <gco:CharacterString>+61 3 136186</gco:CharacterString>
+                                                            </cit:number>
+                                                            <cit:numberType>
+                                                                <cit:CI_TelephoneTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#CI_RoleCode" codeListValue="voice" />
+                                                            </cit:numberType>
+                                                        </cit:CI_Telephone>
+                                                    </cit:phone>
+                                                    <cit:address>
+                                                        <cit:CI_Address>
+                                                            <cit:electronicMailAddress>
+                                                                <gco:CharacterString>vicmap.help@delwp.vic.gov.au</gco:CharacterString>
+                                                            </cit:electronicMailAddress>
+                                                        </cit:CI_Address>
+                                                    </cit:address>
+                                                </cit:CI_Contact>
+                                            </cit:contactInfo>
+                                        </cit:CI_Individual>
+                                    </cit:individual>
+                                </cit:CI_Organisation>
+                            </cit:party>
+                        </cit:CI_Responsibility>
+                    </mri:pointOfContact>
+                    <mri:resourceConstraints>
+                        <mco:MD_SecurityConstraints>
+                            <mco:useLimitation>
+                                <gco:CharacterString>General</gco:CharacterString>
+                            </mco:useLimitation>
+                            <mco:classification>
+                                <mco:MD_ClassificationCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#MD_ClassificationCode" codeListValue="unclassified" />
+                            </mco:classification>
+                        </mco:MD_SecurityConstraints>
+                    </mri:resourceConstraints>
+                    <mri:spatialRepresentationType>
+                        <mcc:MD_SpatialRepresentationTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#MD_SpatialRepresentationTypeCode" codeListValue="grid" />
+                    </mri:spatialRepresentationType>
+                    <mri:spatialResolution>
+                        <mri:MD_Resolution>
+                            <mri:distance>
+                                <gco:Distance uom="m">0.2</gco:Distance>
+                            </mri:distance>
+                        </mri:MD_Resolution>
+                    </mri:spatialResolution>
+                    <mri:defaultLocale>
+                        <lan:PT_Locale>
+                            <lan:language>
+                                <lan:LanguageCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#LanguageCode" codeListValue="eng" />
+                            </lan:language>
+                            <lan:characterEncoding>
+                                <lan:MD_CharacterSetCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#MD_CharacterSetCode" codeListValue="utf8" />
+                            </lan:characterEncoding>
+                        </lan:PT_Locale>
+                    </mri:defaultLocale>
+                    <mri:topicCategory>
+                        <mri:MD_TopicCategoryCode>imageryBaseMapsEarthCover</mri:MD_TopicCategoryCode>
+                    </mri:topicCategory>
+                    <mri:extent>
+                        <gex:EX_Extent />
+                    </mri:extent>
+                </mri:MD_DataIdentification>
+            </mdb:identificationInfo>
+            <mdb:dataQualityInfo>
+                <mdq:DQ_DataQuality>
+                    <mdq:scope>
+                        <mcc:MD_Scope>
+                            <mcc:level>
+                                <mcc:MD_ScopeCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#MD_ScopeCode" codeListValue="dataset" />
+                            </mcc:level>
+                            <mcc:levelDescription>
+                                <mcc:MD_ScopeDescription>
+                                    <mcc:other>
+                                        <gco:CharacterString>howqua-hills_2019oct23_air_vis_10cm_mga55</gco:CharacterString>
+                                    </mcc:other>
+                                </mcc:MD_ScopeDescription>
+                            </mcc:levelDescription>
+                        </mcc:MD_Scope>
+                    </mdq:scope>
+                    <mdq:report>
+                        <mdq:DQ_ConceptualConsistency>
+                            <mdq:result>
+                                <mdq:DQ_ConformanceResult>
+                                    <mdq:specification>
+                                        <cit:CI_Citation>
+                                            <cit:title gco:nilReason="unknown" />
+                                        </cit:CI_Citation>
+                                    </mdq:specification>
+                                    <mdq:explanation>
+                                        <gco:CharacterString>3 band photography meets expected band naming and combination specifications</gco:CharacterString>
+                                    </mdq:explanation>
+                                    <mdq:pass>
+                                        <gco:Boolean>1</gco:Boolean>
+                                    </mdq:pass>
+                                </mdq:DQ_ConformanceResult>
+                            </mdq:result>
+                        </mdq:DQ_ConceptualConsistency>
+                    </mdq:report>
+                    <mdq:report>
+                        <mdq:DQ_CompletenessOmission>
+                            <mdq:result>
+                                <mdq:DQ_ConformanceResult>
+                                    <mdq:specification>
+                                        <cit:CI_Citation>
+                                            <cit:title gco:nilReason="unknown" />
+                                        </cit:CI_Citation>
+                                    </mdq:specification>
+                                    <mdq:explanation>
+                                        <gco:CharacterString>Imagery is complete for selected township and area of interest</gco:CharacterString>
+                                    </mdq:explanation>
+                                    <mdq:pass>
+                                        <gco:Boolean>1</gco:Boolean>
+                                    </mdq:pass>
+                                </mdq:DQ_ConformanceResult>
+                            </mdq:result>
+                        </mdq:DQ_CompletenessOmission>
+                    </mdq:report>
+                </mdq:DQ_DataQuality>
+            </mdb:dataQualityInfo>
+        </mdb:MD_Metadata>
+        <mdb:MD_Metadata xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/2.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/2.0" xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:mrl="http://standards.iso.org/iso/19115/-3/mrl/2.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:mmi="http://standards.iso.org/iso/19115/-3/mmi/1.0" xmlns:msr="http://standards.iso.org/iso/19115/-3/msr/2.0" xmlns:mrc="http://standards.iso.org/iso/19115/-3/mrc/2.0" xmlns:mrd="http://standards.iso.org/iso/19115/-3/mrd/1.0" xmlns:mrs="http://standards.iso.org/iso/19115/-3/mrs/1.0" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:mac="http://standards.iso.org/iso/19115/-3/mac/2.0" xmlns:mdq="http://standards.iso.org/iso/19157/-2/mdq/1.0" xmlns:delwp="https://github.com/geonetwork-delwp/iso19115-3.2018" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:geonet="http://www.fao.org/geonetwork">
+            <mdb:metadataIdentifier>
+                <mcc:MD_Identifier>
+                    <mcc:code>
+                        <gco:CharacterString>6094b65a-c255-5903-9a36-9c012ca03e48</gco:CharacterString>
+                    </mcc:code>
+                </mcc:MD_Identifier>
+            </mdb:metadataIdentifier>
+            <mdb:metadataScope>
+                <mdb:MD_MetadataScope>
+                    <mdb:resourceScope>
+                        <mcc:MD_ScopeCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#MD_ScopeCode" codeListValue="dataset" />
+                    </mdb:resourceScope>
+                </mdb:MD_MetadataScope>
+            </mdb:metadataScope>
+            <mdb:dateInfo>
+                <cit:CI_Date>
+                    <cit:date>
+                        <gco:DateTime>2021-11-03T21:45:15</gco:DateTime>
+                    </cit:date>
+                    <cit:dateType>
+                        <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision" />
+                    </cit:dateType>
+                </cit:CI_Date>
+            </mdb:dateInfo>
+            <mdb:metadataStandard>
+                <cit:CI_Citation>
+                    <cit:title>
+                        <gco:CharacterString>ISO 19115-3:2018</gco:CharacterString>
+                    </cit:title>
+                </cit:CI_Citation>
+            </mdb:metadataStandard>
+            <mdb:metadataProfile>
+                <cit:CI_Citation>
+                    <cit:title>
+                        <gco:CharacterString>DELWP Profile</gco:CharacterString>
+                    </cit:title>
+                </cit:CI_Citation>
+            </mdb:metadataProfile>
+            <mdb:referenceSystemInfo>
+                <mrs:MD_ReferenceSystem>
+                    <mrs:referenceSystemIdentifier>
+                        <mcc:MD_Identifier>
+                            <mcc:code>
+                                <gco:CharacterString>MGA Zone 55 GDA94</gco:CharacterString>
+                            </mcc:code>
+                            <mcc:description>
+                                <gco:CharacterString>EPSG Geodetic Parameter</gco:CharacterString>
+                            </mcc:description>
+                        </mcc:MD_Identifier>
+                    </mrs:referenceSystemIdentifier>
+                </mrs:MD_ReferenceSystem>
+            </mdb:referenceSystemInfo>
+            <mdb:identificationInfo>
+                <mri:MD_DataIdentification>
+                    <mri:citation>
+                        <cit:CI_Citation>
+                            <cit:title>
+                                <gco:CharacterString>South Gippsland - Contour</gco:CharacterString>
+                            </cit:title>
+                            <cit:identifier>
+                                <mcc:MD_Identifier>
+                                    <mcc:authority>
+                                        <cit:CI_Citation>
+                                            <cit:title>
+                                                <gco:CharacterString>ANZLIC Dataset Identifier</gco:CharacterString>
+                                            </cit:title>
+                                            <cit:date>
+                                                <cit:CI_Date>
+                                                    <cit:date>
+                                                        <gco:Date>2001-02</gco:Date>
+                                                    </cit:date>
+                                                    <cit:dateType>
+                                                        <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision" />
+                                                    </cit:dateType>
+                                                </cit:CI_Date>
+                                            </cit:date>
+                                        </cit:CI_Citation>
+                                    </mcc:authority>
+                                    <mcc:code>
+                                        <gco:CharacterString>ANZVI0008103262</gco:CharacterString>
+                                    </mcc:code>
+                                </mcc:MD_Identifier>
+                            </cit:identifier>
+                        </cit:CI_Citation>
+                    </mri:citation>
+                    <mri:abstract>
+                        <gco:CharacterString>Dataset: South Gippsland - Contour
+Assembly: Fused</gco:CharacterString>
+                    </mri:abstract>
+                    <mri:pointOfContact>
+                        <cit:CI_Responsibility>
+                            <cit:role>
+                                <cit:CI_RoleCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#CI_RoleCode" codeListValue="pointOfContact" />
+                            </cit:role>
+                            <cit:party>
+                                <cit:CI_Organisation uuid="urn:delwp:rastermeta:person:-1_person_organisation" title=" null null @ Department of Environment, Land, Water and Planning (DELWP)">
+                                    <cit:name>
+                                        <gco:CharacterString>Department of Environment, Land, Water and Planning (DELWP)</gco:CharacterString>
+                                    </cit:name>
+                                    <cit:contactInfo>
+                                        <cit:CI_Contact>
+                                            <cit:address>
+                                                <cit:CI_Address>
+                                                    <cit:deliveryPoint>
+                                                        <gco:CharacterString>PO Box 500</gco:CharacterString>
+                                                    </cit:deliveryPoint>
+                                                    <cit:city>
+                                                        <gco:CharacterString>East Melbourne</gco:CharacterString>
+                                                    </cit:city>
+                                                    <cit:administrativeArea>
+                                                        <gco:CharacterString>Victoria</gco:CharacterString>
+                                                    </cit:administrativeArea>
+                                                    <cit:postalCode>
+                                                        <gco:CharacterString>3002</gco:CharacterString>
+                                                    </cit:postalCode>
+                                                    <cit:country>
+                                                        <gco:CharacterString>Australia</gco:CharacterString>
+                                                    </cit:country>
+                                                </cit:CI_Address>
+                                            </cit:address>
+                                        </cit:CI_Contact>
+                                    </cit:contactInfo>
+                                    <cit:individual>
+                                        <cit:CI_Individual>
+                                            <cit:contactInfo>
+                                                <cit:CI_Contact>
+                                                    <cit:phone>
+                                                        <cit:CI_Telephone>
+                                                            <cit:number>
+                                                                <gco:CharacterString>+61 3 136186</gco:CharacterString>
+                                                            </cit:number>
+                                                            <cit:numberType>
+                                                                <cit:CI_TelephoneTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#CI_RoleCode" codeListValue="voice" />
+                                                            </cit:numberType>
+                                                        </cit:CI_Telephone>
+                                                    </cit:phone>
+                                                    <cit:address>
+                                                        <cit:CI_Address>
+                                                            <cit:electronicMailAddress>
+                                                                <gco:CharacterString>vicmap.help@delwp.vic.gov.au</gco:CharacterString>
+                                                            </cit:electronicMailAddress>
+                                                        </cit:CI_Address>
+                                                    </cit:address>
+                                                </cit:CI_Contact>
+                                            </cit:contactInfo>
+                                        </cit:CI_Individual>
+                                    </cit:individual>
+                                </cit:CI_Organisation>
+                            </cit:party>
+                        </cit:CI_Responsibility>
+                    </mri:pointOfContact>
+                    <mri:resourceConstraints>
+                        <mco:MD_SecurityConstraints>
+                            <mco:useLimitation>
+                                <gco:CharacterString>General</gco:CharacterString>
+                            </mco:useLimitation>
+                            <mco:classification>
+                                <mco:MD_ClassificationCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#MD_ClassificationCode" codeListValue="unclassified" />
+                            </mco:classification>
+                        </mco:MD_SecurityConstraints>
+                    </mri:resourceConstraints>
+                    <mri:spatialRepresentationType>
+                        <mcc:MD_SpatialRepresentationTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#MD_SpatialRepresentationTypeCode" codeListValue="contour" />
+                    </mri:spatialRepresentationType>
+                    <mri:spatialResolution>
+                        <mri:MD_Resolution>
+                            <mri:distance>
+                                <gco:Distance uom="m">0.3</gco:Distance>
+                            </mri:distance>
+                        </mri:MD_Resolution>
+                    </mri:spatialResolution>
+                    <mri:spatialResolution>
+                        <mri:MD_Resolution>
+                            <mri:vertical>
+                                <gco:Distance uom="m">0.25</gco:Distance>
+                            </mri:vertical>
+                        </mri:MD_Resolution>
+                    </mri:spatialResolution>
+                    <mri:defaultLocale>
+                        <lan:PT_Locale>
+                            <lan:language>
+                                <lan:LanguageCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#LanguageCode" codeListValue="eng" />
+                            </lan:language>
+                            <lan:characterEncoding>
+                                <lan:MD_CharacterSetCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#MD_CharacterSetCode" codeListValue="utf8" />
+                            </lan:characterEncoding>
+                        </lan:PT_Locale>
+                    </mri:defaultLocale>
+                    <mri:topicCategory>
+                        <mri:MD_TopicCategoryCode>elevation</mri:MD_TopicCategoryCode>
+                    </mri:topicCategory>
+                    <mri:extent>
+                        <gex:EX_Extent />
+                    </mri:extent>
+                </mri:MD_DataIdentification>
+            </mdb:identificationInfo>
+            <mdb:dataQualityInfo>
+                <mdq:DQ_DataQuality>
+                    <mdq:scope>
+                        <mcc:MD_Scope>
+                            <mcc:level>
+                                <mcc:MD_ScopeCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#MD_ScopeCode" codeListValue="dataset" />
+                            </mcc:level>
+                            <mcc:levelDescription>
+                                <mcc:MD_ScopeDescription>
+                                    <mcc:other>
+                                        <gco:CharacterString>South Gippsland - Contour</gco:CharacterString>
+                                    </mcc:other>
+                                </mcc:MD_ScopeDescription>
+                            </mcc:levelDescription>
+                        </mcc:MD_Scope>
+                    </mdq:scope>
+                    <mdq:report>
+                        <mdq:DQ_ConceptualConsistency>
+                            <mdq:result>
+                                <mdq:DQ_ConformanceResult>
+                                    <mdq:specification>
+                                        <cit:CI_Citation>
+                                            <cit:title gco:nilReason="unknown" />
+                                        </cit:CI_Citation>
+                                    </mdq:specification>
+                                    <mdq:explanation>
+                                        <gco:CharacterString>The data adheres to the logical rules of data structure, attribution and relationships as per project specifications.</gco:CharacterString>
+                                    </mdq:explanation>
+                                    <mdq:pass>
+                                        <gco:Boolean>1</gco:Boolean>
+                                    </mdq:pass>
+                                </mdq:DQ_ConformanceResult>
+                            </mdq:result>
+                        </mdq:DQ_ConceptualConsistency>
+                    </mdq:report>
+                    <mdq:report>
+                        <mdq:DQ_CompletenessOmission>
+                            <mdq:result>
+                                <mdq:DQ_ConformanceResult>
+                                    <mdq:specification>
+                                        <cit:CI_Citation>
+                                            <cit:title gco:nilReason="unknown" />
+                                        </cit:CI_Citation>
+                                    </mdq:specification>
+                                    <mdq:explanation>
+                                        <gco:CharacterString>This dataset is complete with regards to the specified project AOI.</gco:CharacterString>
+                                    </mdq:explanation>
+                                    <mdq:pass>
+                                        <gco:Boolean>1</gco:Boolean>
+                                    </mdq:pass>
+                                </mdq:DQ_ConformanceResult>
+                            </mdq:result>
+                        </mdq:DQ_CompletenessOmission>
+                    </mdq:report>
+                </mdq:DQ_DataQuality>
+            </mdb:dataQualityInfo>
+        </mdb:MD_Metadata>
+        <mdb:MD_Metadata xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/2.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/2.0" xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:mrl="http://standards.iso.org/iso/19115/-3/mrl/2.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:mmi="http://standards.iso.org/iso/19115/-3/mmi/1.0" xmlns:msr="http://standards.iso.org/iso/19115/-3/msr/2.0" xmlns:mrc="http://standards.iso.org/iso/19115/-3/mrc/2.0" xmlns:mrd="http://standards.iso.org/iso/19115/-3/mrd/1.0" xmlns:mrs="http://standards.iso.org/iso/19115/-3/mrs/1.0" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:mac="http://standards.iso.org/iso/19115/-3/mac/2.0" xmlns:mdq="http://standards.iso.org/iso/19157/-2/mdq/1.0" xmlns:delwp="https://github.com/geonetwork-delwp/iso19115-3.2018" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:geonet="http://www.fao.org/geonetwork">
+            <mdb:metadataIdentifier>
+                <mcc:MD_Identifier>
+                    <mcc:code>
+                        <gco:CharacterString>54e4e46c-c55e-52df-8daf-972bf9b27fbc</gco:CharacterString>
+                    </mcc:code>
+                </mcc:MD_Identifier>
+            </mdb:metadataIdentifier>
+            <mdb:metadataScope>
+                <mdb:MD_MetadataScope>
+                    <mdb:resourceScope>
+                        <mcc:MD_ScopeCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#MD_ScopeCode" codeListValue="dataset" />
+                    </mdb:resourceScope>
+                </mdb:MD_MetadataScope>
+            </mdb:metadataScope>
+            <mdb:dateInfo>
+                <cit:CI_Date>
+                    <cit:date>
+                        <gco:DateTime>2021-11-03T21:45:15</gco:DateTime>
+                    </cit:date>
+                    <cit:dateType>
+                        <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision" />
+                    </cit:dateType>
+                </cit:CI_Date>
+            </mdb:dateInfo>
+            <mdb:metadataStandard>
+                <cit:CI_Citation>
+                    <cit:title>
+                        <gco:CharacterString>ISO 19115-3:2018</gco:CharacterString>
+                    </cit:title>
+                </cit:CI_Citation>
+            </mdb:metadataStandard>
+            <mdb:metadataProfile>
+                <cit:CI_Citation>
+                    <cit:title>
+                        <gco:CharacterString>DELWP Profile</gco:CharacterString>
+                    </cit:title>
+                </cit:CI_Citation>
+            </mdb:metadataProfile>
+            <mdb:referenceSystemInfo>
+                <mrs:MD_ReferenceSystem>
+                    <mrs:referenceSystemIdentifier>
+                        <mcc:MD_Identifier>
+                            <mcc:code>
+                                <gco:CharacterString>AMG Zone 55 AGD66</gco:CharacterString>
+                            </mcc:code>
+                            <mcc:description>
+                                <gco:CharacterString>EPSG Geodetic Parameter</gco:CharacterString>
+                            </mcc:description>
+                        </mcc:MD_Identifier>
+                    </mrs:referenceSystemIdentifier>
+                </mrs:MD_ReferenceSystem>
+            </mdb:referenceSystemInfo>
+            <mdb:identificationInfo>
+                <mri:MD_DataIdentification>
+                    <mri:citation>
+                        <cit:CI_Citation>
+                            <cit:title>
+                                <gco:CharacterString>NAG93DEC_PAN</gco:CharacterString>
+                            </cit:title>
+                            <cit:identifier>
+                                <mcc:MD_Identifier>
+                                    <mcc:authority>
+                                        <cit:CI_Citation>
+                                            <cit:title>
+                                                <gco:CharacterString>ANZLIC Dataset Identifier</gco:CharacterString>
+                                            </cit:title>
+                                            <cit:date>
+                                                <cit:CI_Date>
+                                                    <cit:date>
+                                                        <gco:Date>2001-02</gco:Date>
+                                                    </cit:date>
+                                                    <cit:dateType>
+                                                        <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision" />
+                                                    </cit:dateType>
+                                                </cit:CI_Date>
+                                            </cit:date>
+                                        </cit:CI_Citation>
+                                    </mcc:authority>
+                                    <mcc:code>
+                                        <gco:CharacterString>ANZVI0008102336</gco:CharacterString>
+                                    </mcc:code>
+                                </mcc:MD_Identifier>
+                            </cit:identifier>
+                        </cit:CI_Citation>
+                    </mri:citation>
+                    <mri:abstract>
+                        <gco:CharacterString>Dataset: NAG93DEC_PAN
+Assembly: Single</gco:CharacterString>
+                    </mri:abstract>
+                    <mri:pointOfContact>
+                        <cit:CI_Responsibility>
+                            <cit:role>
+                                <cit:CI_RoleCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#CI_RoleCode" codeListValue="pointOfContact" />
+                            </cit:role>
+                            <cit:party>
+                                <cit:CI_Organisation uuid="urn:delwp:rastermeta:person:-1_person_organisation" title=" null null @ Department of Environment, Land, Water and Planning (DELWP)">
+                                    <cit:name>
+                                        <gco:CharacterString>Department of Environment, Land, Water and Planning (DELWP)</gco:CharacterString>
+                                    </cit:name>
+                                    <cit:contactInfo>
+                                        <cit:CI_Contact>
+                                            <cit:address>
+                                                <cit:CI_Address>
+                                                    <cit:deliveryPoint>
+                                                        <gco:CharacterString>PO Box 500</gco:CharacterString>
+                                                    </cit:deliveryPoint>
+                                                    <cit:city>
+                                                        <gco:CharacterString>East Melbourne</gco:CharacterString>
+                                                    </cit:city>
+                                                    <cit:administrativeArea>
+                                                        <gco:CharacterString>Victoria</gco:CharacterString>
+                                                    </cit:administrativeArea>
+                                                    <cit:postalCode>
+                                                        <gco:CharacterString>3002</gco:CharacterString>
+                                                    </cit:postalCode>
+                                                    <cit:country>
+                                                        <gco:CharacterString>Australia</gco:CharacterString>
+                                                    </cit:country>
+                                                </cit:CI_Address>
+                                            </cit:address>
+                                        </cit:CI_Contact>
+                                    </cit:contactInfo>
+                                    <cit:individual>
+                                        <cit:CI_Individual>
+                                            <cit:contactInfo>
+                                                <cit:CI_Contact>
+                                                    <cit:phone>
+                                                        <cit:CI_Telephone>
+                                                            <cit:number>
+                                                                <gco:CharacterString>+61 3 136186</gco:CharacterString>
+                                                            </cit:number>
+                                                            <cit:numberType>
+                                                                <cit:CI_TelephoneTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#CI_RoleCode" codeListValue="voice" />
+                                                            </cit:numberType>
+                                                        </cit:CI_Telephone>
+                                                    </cit:phone>
+                                                    <cit:address>
+                                                        <cit:CI_Address>
+                                                            <cit:electronicMailAddress>
+                                                                <gco:CharacterString>vicmap.help@delwp.vic.gov.au</gco:CharacterString>
+                                                            </cit:electronicMailAddress>
+                                                        </cit:CI_Address>
+                                                    </cit:address>
+                                                </cit:CI_Contact>
+                                            </cit:contactInfo>
+                                        </cit:CI_Individual>
+                                    </cit:individual>
+                                </cit:CI_Organisation>
+                            </cit:party>
+                        </cit:CI_Responsibility>
+                    </mri:pointOfContact>
+                    <mri:resourceConstraints>
+                        <mco:MD_SecurityConstraints>
+                            <mco:useLimitation>
+                                <gco:CharacterString>Unknown</gco:CharacterString>
+                            </mco:useLimitation>
+                            <mco:classification>
+                                <mco:MD_ClassificationCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#MD_ClassificationCode" codeListValue="unknown" />
+                            </mco:classification>
+                        </mco:MD_SecurityConstraints>
+                    </mri:resourceConstraints>
+                    <mri:spatialRepresentationType>
+                        <mcc:MD_SpatialRepresentationTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#MD_SpatialRepresentationTypeCode" codeListValue="grid" />
+                    </mri:spatialRepresentationType>
+                    <mri:defaultLocale>
+                        <lan:PT_Locale>
+                            <lan:language>
+                                <lan:LanguageCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#LanguageCode" codeListValue="eng" />
+                            </lan:language>
+                            <lan:characterEncoding>
+                                <lan:MD_CharacterSetCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#MD_CharacterSetCode" codeListValue="utf8" />
+                            </lan:characterEncoding>
+                        </lan:PT_Locale>
+                    </mri:defaultLocale>
+                    <mri:topicCategory>
+                        <mri:MD_TopicCategoryCode>imageryBaseMapsEarthCover</mri:MD_TopicCategoryCode>
+                    </mri:topicCategory>
+                </mri:MD_DataIdentification>
+            </mdb:identificationInfo>
+            <mdb:dataQualityInfo>
+                <mdq:DQ_DataQuality>
+                    <mdq:scope>
+                        <mcc:MD_Scope>
+                            <mcc:level>
+                                <mcc:MD_ScopeCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#MD_ScopeCode" codeListValue="dataset" />
+                            </mcc:level>
+                        </mcc:MD_Scope>
+                    </mdq:scope>
+                </mdq:DQ_DataQuality>
+            </mdb:dataQualityInfo>
+        </mdb:MD_Metadata>
+        <mdb:MD_Metadata xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/2.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/2.0" xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:mrl="http://standards.iso.org/iso/19115/-3/mrl/2.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:mmi="http://standards.iso.org/iso/19115/-3/mmi/1.0" xmlns:msr="http://standards.iso.org/iso/19115/-3/msr/2.0" xmlns:mrc="http://standards.iso.org/iso/19115/-3/mrc/2.0" xmlns:mrd="http://standards.iso.org/iso/19115/-3/mrd/1.0" xmlns:mrs="http://standards.iso.org/iso/19115/-3/mrs/1.0" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:mac="http://standards.iso.org/iso/19115/-3/mac/2.0" xmlns:mdq="http://standards.iso.org/iso/19157/-2/mdq/1.0" xmlns:delwp="https://github.com/geonetwork-delwp/iso19115-3.2018" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:geonet="http://www.fao.org/geonetwork">
+            <mdb:metadataIdentifier>
+                <mcc:MD_Identifier>
+                    <mcc:code>
+                        <gco:CharacterString>06091219-dd78-594e-bf01-6c93311b3541</gco:CharacterString>
+                    </mcc:code>
+                </mcc:MD_Identifier>
+            </mdb:metadataIdentifier>
+            <mdb:metadataScope>
+                <mdb:MD_MetadataScope>
+                    <mdb:resourceScope>
+                        <mcc:MD_ScopeCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#MD_ScopeCode" codeListValue="dataset" />
+                    </mdb:resourceScope>
+                </mdb:MD_MetadataScope>
+            </mdb:metadataScope>
+            <mdb:dateInfo>
+                <cit:CI_Date>
+                    <cit:date>
+                        <gco:DateTime>2021-11-03T21:45:15</gco:DateTime>
+                    </cit:date>
+                    <cit:dateType>
+                        <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision" />
+                    </cit:dateType>
+                </cit:CI_Date>
+            </mdb:dateInfo>
+            <mdb:metadataStandard>
+                <cit:CI_Citation>
+                    <cit:title>
+                        <gco:CharacterString>ISO 19115-3:2018</gco:CharacterString>
+                    </cit:title>
+                </cit:CI_Citation>
+            </mdb:metadataStandard>
+            <mdb:metadataProfile>
+                <cit:CI_Citation>
+                    <cit:title>
+                        <gco:CharacterString>DELWP Profile</gco:CharacterString>
+                    </cit:title>
+                </cit:CI_Citation>
+            </mdb:metadataProfile>
+            <mdb:referenceSystemInfo>
+                <mrs:MD_ReferenceSystem>
+                    <mrs:referenceSystemIdentifier>
+                        <mcc:MD_Identifier>
+                            <mcc:code>
+                                <gco:CharacterString>AMG Zone 55 AGD66</gco:CharacterString>
+                            </mcc:code>
+                            <mcc:description>
+                                <gco:CharacterString>EPSG Geodetic Parameter</gco:CharacterString>
+                            </mcc:description>
+                        </mcc:MD_Identifier>
+                    </mrs:referenceSystemIdentifier>
+                </mrs:MD_ReferenceSystem>
+            </mdb:referenceSystemInfo>
+            <mdb:identificationInfo>
+                <mri:MD_DataIdentification>
+                    <mri:citation>
+                        <cit:CI_Citation>
+                            <cit:title>
+                                <gco:CharacterString>MELB97JAN_PAN</gco:CharacterString>
+                            </cit:title>
+                            <cit:identifier>
+                                <mcc:MD_Identifier>
+                                    <mcc:authority>
+                                        <cit:CI_Citation>
+                                            <cit:title>
+                                                <gco:CharacterString>ANZLIC Dataset Identifier</gco:CharacterString>
+                                            </cit:title>
+                                            <cit:date>
+                                                <cit:CI_Date>
+                                                    <cit:date>
+                                                        <gco:Date>2001-02</gco:Date>
+                                                    </cit:date>
+                                                    <cit:dateType>
+                                                        <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#CI_DateTypeCode" codeListValue="revision" />
+                                                    </cit:dateType>
+                                                </cit:CI_Date>
+                                            </cit:date>
+                                        </cit:CI_Citation>
+                                    </mcc:authority>
+                                    <mcc:code>
+                                        <gco:CharacterString>ANZVI0008101849</gco:CharacterString>
+                                    </mcc:code>
+                                </mcc:MD_Identifier>
+                            </cit:identifier>
+                        </cit:CI_Citation>
+                    </mri:citation>
+                    <mri:abstract>
+                        <gco:CharacterString>Dataset: MELB97JAN_PAN
+Assembly: Single</gco:CharacterString>
+                    </mri:abstract>
+                    <mri:pointOfContact>
+                        <cit:CI_Responsibility>
+                            <cit:role>
+                                <cit:CI_RoleCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#CI_RoleCode" codeListValue="pointOfContact" />
+                            </cit:role>
+                            <cit:party>
+                                <cit:CI_Organisation uuid="urn:delwp:rastermeta:person:-1_person_organisation" title=" null null @ Department of Environment, Land, Water and Planning (DELWP)">
+                                    <cit:name>
+                                        <gco:CharacterString>Department of Environment, Land, Water and Planning (DELWP)</gco:CharacterString>
+                                    </cit:name>
+                                    <cit:contactInfo>
+                                        <cit:CI_Contact>
+                                            <cit:address>
+                                                <cit:CI_Address>
+                                                    <cit:deliveryPoint>
+                                                        <gco:CharacterString>PO Box 500</gco:CharacterString>
+                                                    </cit:deliveryPoint>
+                                                    <cit:city>
+                                                        <gco:CharacterString>East Melbourne</gco:CharacterString>
+                                                    </cit:city>
+                                                    <cit:administrativeArea>
+                                                        <gco:CharacterString>Victoria</gco:CharacterString>
+                                                    </cit:administrativeArea>
+                                                    <cit:postalCode>
+                                                        <gco:CharacterString>3002</gco:CharacterString>
+                                                    </cit:postalCode>
+                                                    <cit:country>
+                                                        <gco:CharacterString>Australia</gco:CharacterString>
+                                                    </cit:country>
+                                                </cit:CI_Address>
+                                            </cit:address>
+                                        </cit:CI_Contact>
+                                    </cit:contactInfo>
+                                    <cit:individual>
+                                        <cit:CI_Individual>
+                                            <cit:contactInfo>
+                                                <cit:CI_Contact>
+                                                    <cit:phone>
+                                                        <cit:CI_Telephone>
+                                                            <cit:number>
+                                                                <gco:CharacterString>+61 3 136186</gco:CharacterString>
+                                                            </cit:number>
+                                                            <cit:numberType>
+                                                                <cit:CI_TelephoneTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#CI_RoleCode" codeListValue="voice" />
+                                                            </cit:numberType>
+                                                        </cit:CI_Telephone>
+                                                    </cit:phone>
+                                                    <cit:address>
+                                                        <cit:CI_Address>
+                                                            <cit:electronicMailAddress>
+                                                                <gco:CharacterString>vicmap.help@delwp.vic.gov.au</gco:CharacterString>
+                                                            </cit:electronicMailAddress>
+                                                        </cit:CI_Address>
+                                                    </cit:address>
+                                                </cit:CI_Contact>
+                                            </cit:contactInfo>
+                                        </cit:CI_Individual>
+                                    </cit:individual>
+                                </cit:CI_Organisation>
+                            </cit:party>
+                        </cit:CI_Responsibility>
+                    </mri:pointOfContact>
+                    <mri:resourceConstraints>
+                        <mco:MD_SecurityConstraints>
+                            <mco:useLimitation>
+                                <gco:CharacterString>Unknown</gco:CharacterString>
+                            </mco:useLimitation>
+                            <mco:classification>
+                                <mco:MD_ClassificationCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#MD_ClassificationCode" codeListValue="unknown" />
+                            </mco:classification>
+                        </mco:MD_SecurityConstraints>
+                    </mri:resourceConstraints>
+                    <mri:spatialRepresentationType>
+                        <mcc:MD_SpatialRepresentationTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#MD_SpatialRepresentationTypeCode" codeListValue="grid" />
+                    </mri:spatialRepresentationType>
+                    <mri:defaultLocale>
+                        <lan:PT_Locale>
+                            <lan:language>
+                                <lan:LanguageCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#LanguageCode" codeListValue="eng" />
+                            </lan:language>
+                            <lan:characterEncoding>
+                                <lan:MD_CharacterSetCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#MD_CharacterSetCode" codeListValue="utf8" />
+                            </lan:characterEncoding>
+                        </lan:PT_Locale>
+                    </mri:defaultLocale>
+                    <mri:topicCategory>
+                        <mri:MD_TopicCategoryCode>imageryBaseMapsEarthCover</mri:MD_TopicCategoryCode>
+                    </mri:topicCategory>
+                </mri:MD_DataIdentification>
+            </mdb:identificationInfo>
+            <mdb:dataQualityInfo>
+                <mdq:DQ_DataQuality>
+                    <mdq:scope>
+                        <mcc:MD_Scope>
+                            <mcc:level>
+                                <mcc:MD_ScopeCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#MD_ScopeCode" codeListValue="dataset" />
+                            </mcc:level>
+                        </mcc:MD_Scope>
+                    </mdq:scope>
+                </mdq:DQ_DataQuality>
+            </mdb:dataQualityInfo>
+        </mdb:MD_Metadata>
+    </csw:SearchResults>
+</csw:GetRecordsResponse>

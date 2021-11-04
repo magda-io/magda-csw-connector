@@ -1,0 +1,62 @@
+{
+    "dist-connector-undefined-0": {
+        "aspects": {
+            "csw-distribution": {},
+            "dcat-distribution-strings": {
+                "accessURL": "https://www.delwp.vic.gov.au/maps"
+            },
+            "source": {
+                "id": "connector",
+                "name": "Connector",
+                "type": "csw-distribution"
+            }
+        },
+        "id": "dist-connector-undefined-0",
+        "name": "undefined-0",
+        "sourceTag": "stag"
+    },
+    "org-connector-Department of Environment, Land, Water & Planning": {
+        "aspects": {
+            "organization-details": {
+                "addrCountry": "Australia",
+                "addrPostCode": "3000",
+                "addrState": "Vic",
+                "addrStreet": "11/2 Lonsdale St",
+                "addrSuburb": "Melbourne",
+                "name": "Department of Environment, Land, Water & Planning",
+                "title": "Department of Environment, Land, Water & Planning"
+            },
+            "source": {
+                "id": "connector",
+                "name": "Connector",
+                "type": "csw-organization",
+                "url": "SOURCE/"
+            }
+        },
+        "id": "org-connector-Department of Environment, Land, Water & Planning",
+        "name": "Department of Environment, Land, Water & Planning",
+        "sourceTag": "stag"
+    },
+    "org-connector-Department of Environment, Land, Water and Planning (DELWP)": {
+        "aspects": {
+            "organization-details": {
+                "addrCountry": "Australia",
+                "addrPostCode": "3002",
+                "addrState": "Victoria",
+                "addrStreet": "PO Box 500",
+                "addrSuburb": "East Melbourne",
+                "name": "Department of Environment, Land, Water and Planning (DELWP)",
+                "title": "Department of Environment, Land, Water and Planning (DELWP)"
+            },
+            "source": {
+                "id": "connector",
+                "name": "Connector",
+                "type": "csw-organization",
+                "url": "SOURCE/"
+            }
+        },
+        "id": "org-connector-Department of Environment, Land, Water and Planning (DELWP)",
+        "name": "Department of Environment, Land, Water and Planning (DELWP)",
+        "sourceTag": "stag"
+    }
+}
