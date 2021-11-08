@@ -63,3 +63,21 @@ config:
   ## Crontab schedule for how often this should happen.
   # default = "0 14 * * 6" i.e. 12am Sydney time on Sunday
   # schedule?: string;
+
+  # -- Whether or not use POST request to call getRecords API
+  usePostRequest: false
+
+  # -- Whether or not to send basic auth header.
+  basicAuthEnabled: false
+
+  # -- basic auth username. You can also passing this value via secret.
+  # To do so, set `basicAuthSecretName` to the secret name.
+  basicAuthUsername:
+
+  # -- basic auth password. You can also passing this value via secret.
+  # To do so, set `basicAuthSecretName` to the secret name.
+  basicAuthPassword:
+
+  # -- You can set this value to supply basic auth username & password.
+  # The secret must have two keys: `username` & `password`.
+  basicAuthSecretName:

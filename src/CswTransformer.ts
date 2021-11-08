@@ -115,10 +115,18 @@ export default class CswTransformer extends JsonTransformer {
     }
 
     private getRawDatasetId(jsonDataset: any): string {
-        const urnIdentifier = jsonpath.value(
+        let urnIdentifier = jsonpath.value(
             jsonDataset.json,
             "$..MD_Identifier[?(@.codeSpace[0].CharacterString[0]._=='urn:uuid')].code.._"
         );
+
+        if (!urnIdentifier) {
+            urnIdentifier = jsonpath.value(
+                jsonDataset.json,
+                // some provide didn't set <mcc:codeSpace><gco:CharacterString>urn:uuid</gco:CharacterString></mcc:codeSpace>
+                "$..MD_Identifier[*].code[*].CharacterString[*]._"
+            );
+        }
 
         const fileIdentifier = jsonpath.value(
             jsonDataset.json,

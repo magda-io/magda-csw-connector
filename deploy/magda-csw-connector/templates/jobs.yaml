@@ -40,6 +40,18 @@ spec:
                 secretKeyRef:
                   name: auth-secrets
                   key: jwt-secret
+{{- if .Values.config.basicAuthSecretName }}
+            - name: BASIC_AUTH_USERNAME
+              valueFrom:
+                secretKeyRef:
+                  name: {{ .Values.config.basicAuthSecretName | quote }}
+                  key: username
+            - name: BASIC_AUTH_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: {{ .Values.config.basicAuthSecretName | quote }}
+                  key: password
+{{- end }}
       restartPolicy: "OnFailure"
       volumes:
         - name: config

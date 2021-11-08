@@ -1,7 +1,7 @@
 {
   "name": "@magda/csw-connector",
   "description": "MAGDA OGC Catalogue Service for the Web (CSW) Connector",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "scripts": {
     "prebuild": "rimraf dist tsconfig.tsbuildinfo",
     "build": "yarn run compile",
@@ -11,7 +11,7 @@
     "watch": "tsc -b --watch",
     "start": "node dist/index.js",
     "dev": "run-typescript-in-nodemon src/index.ts",
-    "test": "mocha --require ts-node/register --require tsconfig-paths/register \"src/test/**/*.spec.ts\"",
+    "test": "mocha --require ts-node/register --require tsconfig-paths/register \"src/test/**/black-box.spec.ts\"",
     "docker-build-local": "create-docker-context-for-node-component --build --push --tag auto --local",
     "docker-build-prod": "create-docker-context-for-node-component --build --push --tag auto",
     "retag-and-push": "retag-and-push",
@@ -46,8 +46,10 @@
     "rimraf": "^3.0.0",
     "sinon": "^2.4.1",
     "ts-loader": "^6.2.1",
+    "ts-node": "9.0.0",
+    "tsconfig-paths": "3.9.0",
     "tsconfig-paths-webpack-plugin": "^3.2.0",
-    "typescript": "^3.7.2",
+    "typescript": "^3.9.2",
     "webpack": "^4.28.3",
     "webpack-cli": "^3.3.10"
   },

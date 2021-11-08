@@ -43,6 +43,13 @@ const TEST_CASES = [
     {
         input: fs.readFileSync(path.join(__dirname, "aurin-response.xml")),
         output: JSON.parse(fs.readFileSync(path.join(__dirname, "aurin.json")))
+    },
+    /* VIC geonetwork file */
+    {
+        input: fs.readFileSync(path.join(__dirname, "vic-geonetwork.xml")),
+        output: JSON.parse(
+            fs.readFileSync(path.join(__dirname, "vic-geonetwork.json"))
+        )
     }
 ];
 

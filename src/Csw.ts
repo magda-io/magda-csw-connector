@@ -1,7 +1,7 @@
 import { AsyncPage, formatServiceError, retry, request } from "@magda/utils";
 import { ConnectorSource } from "@magda/connector-sdk";
 import URI from "urijs";
-import CswUrlBuilder from "./CswUrlBuilder";
+import CswUrlBuilder, { BasicAuthConfig } from "./CswUrlBuilder";
 import xmldom from "xmldom";
 import xml2js from "xml2js";
 import jsonpath from "jsonpath";
@@ -40,7 +40,9 @@ export default class Csw implements ConnectorSource {
             name: options.name,
             baseUrl: options.baseUrl,
             outputSchema: options.outputSchema,
-            typeNames: options.typeNames
+            typeNames: options.typeNames,
+            basicAuth: options.basicAuth,
+            usePostRequest: options.usePostRequest
         });
     }
 
@@ -50,8 +52,6 @@ export default class Csw implements ConnectorSource {
         maxResults?: number;
     }): AsyncPage<Document> {
         options = options || {};
-
-        const url = new URI(this.urlBuilder.getRecordsUrl(options.constraint));
 
         const startStart = options.start || 0;
         let startIndex = startStart;
@@ -90,12 +90,16 @@ export default class Csw implements ConnectorSource {
 
                 startIndex = nextStartIndex;
 
-                return this.requestRecordsPage(url, startIndex, remaining);
+                return this.requestRecordsPage(
+                    startIndex,
+                    remaining,
+                    options.constraint
+                );
             } else {
                 return this.requestRecordsPage(
-                    url,
                     startIndex,
-                    options.maxResults
+                    options.maxResults,
+                    options.constraint
                 );
             }
         });
@@ -310,64 +314,69 @@ export default class Csw implements ConnectorSource {
     }
 
     private requestRecordsPage(
-        url: URI,
         startIndex: number,
-        maxResults: number
+        maxResults: number,
+        constraint?: string
     ): Promise<any> {
         const pageSize =
             maxResults && maxResults < this.pageSize
                 ? maxResults
                 : this.pageSize;
 
-        const pageUrl = url.clone();
-        pageUrl.addSearch("startPosition", startIndex + 1);
-        pageUrl.addSearch("maxRecords", pageSize);
-
         const operation = () =>
             new Promise<any>((resolve, reject) => {
-                console.log("Requesting " + pageUrl.toString());
-                request(pageUrl.toString(), {}, (error, response, body) => {
-                    if (error) {
-                        reject(error);
-                        return;
-                    }
-                    try {
-                        if (this.saveXMLFolder) {
-                            const xmlFilename =
-                                this.saveXMLFolder +
-                                "/" +
-                                "getrecords-" +
-                                this.id +
-                                "-" +
-                                startIndex +
-                                ".xml";
-                            fs.writeFile(xmlFilename, body, function(err: any) {
-                                if (err) {
-                                    return console.log(err);
-                                }
-
-                                console.log(
-                                    "The file " + xmlFilename + " was saved!"
-                                );
-                            });
+                this.urlBuilder.createGetRecordsRequest(
+                    startIndex + 1,
+                    pageSize,
+                    (error, response, body) => {
+                        if (error) {
+                            reject(error);
+                            return;
                         }
+                        try {
+                            if (this.saveXMLFolder) {
+                                const xmlFilename =
+                                    this.saveXMLFolder +
+                                    "/" +
+                                    "getrecords-" +
+                                    this.id +
+                                    "-" +
+                                    startIndex +
+                                    ".xml";
+                                fs.writeFile(xmlFilename, body, function(
+                                    err: any
+                                ) {
+                                    if (err) {
+                                        return console.log(err);
+                                    }
 
-                        const data = this.xmlParser.parseFromString(body);
-                        if (
-                            data.documentElement.getElementsByTagNameNS(
-                                "*",
-                                "SearchResults"
-                            ).length < 1
-                        )
-                            throw new Error(
-                                "Invalid Server Response or Empty result returned!"
-                            );
-                        console.log("Received@" + startIndex);
-                        resolve(data);
-                    } catch (e) {
-                        reject(e);
-                    }
-                });
+                                    console.log(
+                                        "The file " +
+                                            xmlFilename +
+                                            " was saved!"
+                                    );
+                                });
+                            }
+
+                            const data = this.xmlParser.parseFromString(body);
+                            if (
+                                data.documentElement.getElementsByTagNameNS(
+                                    "*",
+                                    "SearchResults"
+                                ).length < 1
+                            )
+                                throw new Error(
+                                    "Invalid Server Response or Empty result returned!"
+                                );
+                            console.log("Received@" + startIndex);
+                            resolve(data);
+                        } catch (e) {
+                            reject(e);
+                        }
+                    },
+                    constraint,
+                    true
+                );
             });
 
         return retry(
@@ -377,7 +386,7 @@ export default class Csw implements ConnectorSource {
             (e, retriesLeft) =>
                 console.log(
                     formatServiceError(
-                        `Failed to GET ${pageUrl.toString()}.`,
+                        `Failed to complete the getRecords request.`,
                         e,
                         retriesLeft
                     )
@@ -396,4 +405,6 @@ export interface CswOptions {
     outputSchema?: string;
     typeNames?: string;
     saveXMLFolder?: string;
+    basicAuth?: BasicAuthConfig;
+    usePostRequest?: boolean;
 }
