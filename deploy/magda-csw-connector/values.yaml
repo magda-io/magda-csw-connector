@@ -47,11 +47,6 @@ defaultSettings:
 
 defaultTenantId: 0
 
-# -- You can set this value to supply basic auth username & password.
-# The secret must have two keys: `username` & `password`.
-# When this field is set, `config.basicAuthEnabled` will be auto-set to `true`.
-basicAuthSecretName:
-
 config:
   ## Unique id to identify this connector and records that are harvested from it
   id: default-csw-connector
@@ -73,13 +68,16 @@ config:
   usePostRequest: false
 
   # -- Whether or not to send basic auth header.
-  # When you set `basicAuthSecretName`, the value of this option will be auto-set to `true`.
   basicAuthEnabled: false
 
   # -- basic auth username. You can also passing this value via secret.
   # To do so, set `basicAuthSecretName` to the secret name.
-  basicAuthUsername: ""
+  basicAuthUsername:
 
   # -- basic auth password. You can also passing this value via secret.
   # To do so, set `basicAuthSecretName` to the secret name.
-  basicAuthPassword: ""
+  basicAuthPassword:
+
+  # -- You can set this value to supply basic auth username & password.
+  # The secret must have two keys: `username` & `password`.
+  basicAuthSecretName:
