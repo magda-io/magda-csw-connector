@@ -89,6 +89,12 @@ if (!license) {
     if (license.length === 0) {
         license = undefined;
     }
+    if (!license) {
+        license = jsonpath.value(
+            dataset.json,
+            "$..MD_LegalConstraints[*]..title[*].CharacterString[*]._"
+        );
+    }
 }
 const rights = jsonpath.value(
     constraints,

@@ -1,0 +1,315 @@
+{
+    "dist-connector-c317b0fe-02e8-4ff9-96c9-563fd58e82ac-0": {
+        "id": "dist-connector-c317b0fe-02e8-4ff9-96c9-563fd58e82ac-0",
+        "name": "imos:anfog_dm_trajectory_map",
+        "aspects": {
+            "csw-distribution": {},
+            "dcat-distribution-strings": {
+                "title": "imos:anfog_dm_trajectory_map",
+                "description": "Delayed mode Glider deployments",
+                "license": "Creative Commons Attribution 4.0 International License",
+                "accessURL": "http://geoserver-123.aodn.org.au/geoserver/wms",
+                "format": "OGC:WMS-1.1.1-http-get-map"
+            },
+            "source": {
+                "type": "csw-distribution",
+                "url": "SOURCE/?service=CSW&version=2.0.2&request=GetRecordById&elementsetname=full&outputschema=http%3A%2F%2Fwww.isotc211.org%2F2005%2Fgmd&typeNames=gmd%3AMD_Metadata&id=c317b0fe-02e8-4ff9-96c9-563fd58e82ac",
+                "id": "connector",
+                "name": "Connector"
+            }
+        },
+        "sourceTag": "stag"
+    },
+    "dist-connector-c317b0fe-02e8-4ff9-96c9-563fd58e82ac-1": {
+        "id": "dist-connector-c317b0fe-02e8-4ff9-96c9-563fd58e82ac-1",
+        "name": "ANFOG page on IMOS website",
+        "aspects": {
+            "csw-distribution": {},
+            "dcat-distribution-strings": {
+                "title": "ANFOG page on IMOS website",
+                "license": "Creative Commons Attribution 4.0 International License",
+                "accessURL": "http://imos.org.au/oceangliders.html",
+                "format": "WWW:LINK-1.0-http--link"
+            },
+            "source": {
+                "type": "csw-distribution",
+                "url": "SOURCE/?service=CSW&version=2.0.2&request=GetRecordById&elementsetname=full&outputschema=http%3A%2F%2Fwww.isotc211.org%2F2005%2Fgmd&typeNames=gmd%3AMD_Metadata&id=c317b0fe-02e8-4ff9-96c9-563fd58e82ac",
+                "id": "connector",
+                "name": "Connector"
+            }
+        },
+        "sourceTag": "stag"
+    },
+    "dist-connector-c317b0fe-02e8-4ff9-96c9-563fd58e82ac-2": {
+        "id": "dist-connector-c317b0fe-02e8-4ff9-96c9-563fd58e82ac-2",
+        "name": "ANFOG data management document",
+        "aspects": {
+            "csw-distribution": {},
+            "dcat-distribution-strings": {
+                "description": "ANFOG data management document",
+                "license": "Creative Commons Attribution 4.0 International License",
+                "accessURL": "https://catalogue-imos.aodn.org.au:443/geonetwork/srv/api/records/c317b0fe-02e8-4ff9-96c9-563fd58e82ac/attachments/ANFOG_data_management3_1.pdf",
+                "format": "WWW:DOWNLOAD-1.0-http--download"
+            },
+            "source": {
+                "type": "csw-distribution",
+                "url": "SOURCE/?service=CSW&version=2.0.2&request=GetRecordById&elementsetname=full&outputschema=http%3A%2F%2Fwww.isotc211.org%2F2005%2Fgmd&typeNames=gmd%3AMD_Metadata&id=c317b0fe-02e8-4ff9-96c9-563fd58e82ac",
+                "id": "connector",
+                "name": "Connector"
+            }
+        },
+        "sourceTag": "stag"
+    },
+    "dist-connector-c317b0fe-02e8-4ff9-96c9-563fd58e82ac-3": {
+        "id": "dist-connector-c317b0fe-02e8-4ff9-96c9-563fd58e82ac-3",
+        "name": "Delayed Mode QA/QC Best Practice Manual",
+        "aspects": {
+            "csw-distribution": {},
+            "dcat-distribution-strings": {
+                "title": "Delayed Mode QA/QC Best Practice Manual",
+                "license": "Creative Commons Attribution 4.0 International License",
+                "accessURL": "http://content.aodn.org.au/Documents/IMOS/Facilities/Ocean_glider/Delayed_Mode_QAQC_Best_Practice_Manual_OceanGliders_LATEST.pdf",
+                "format": "WWW:LINK-1.0-http--link"
+            },
+            "source": {
+                "type": "csw-distribution",
+                "url": "SOURCE/?service=CSW&version=2.0.2&request=GetRecordById&elementsetname=full&outputschema=http%3A%2F%2Fwww.isotc211.org%2F2005%2Fgmd&typeNames=gmd%3AMD_Metadata&id=c317b0fe-02e8-4ff9-96c9-563fd58e82ac",
+                "id": "connector",
+                "name": "Connector"
+            }
+        },
+        "sourceTag": "stag"
+    },
+    "dist-connector-c317b0fe-02e8-4ff9-96c9-563fd58e82ac-4": {
+        "id": "dist-connector-c317b0fe-02e8-4ff9-96c9-563fd58e82ac-4",
+        "name": "NetCDF files via THREDDS catalog",
+        "aspects": {
+            "csw-distribution": {},
+            "dcat-distribution-strings": {
+                "title": "NetCDF files via THREDDS catalog",
+                "license": "Creative Commons Attribution 4.0 International License",
+                "accessURL": "http://thredds.aodn.org.au/thredds/catalog/IMOS/ANFOG/catalog.html",
+                "format": "WWW:LINK-1.0-http--link"
+            },
+            "source": {
+                "type": "csw-distribution",
+                "url": "SOURCE/?service=CSW&version=2.0.2&request=GetRecordById&elementsetname=full&outputschema=http%3A%2F%2Fwww.isotc211.org%2F2005%2Fgmd&typeNames=gmd%3AMD_Metadata&id=c317b0fe-02e8-4ff9-96c9-563fd58e82ac",
+                "id": "connector",
+                "name": "Connector"
+            }
+        },
+        "sourceTag": "stag"
+    },
+    "dist-connector-c317b0fe-02e8-4ff9-96c9-563fd58e82ac-5": {
+        "id": "dist-connector-c317b0fe-02e8-4ff9-96c9-563fd58e82ac-5",
+        "name": "View and download data though the AODN Portal",
+        "aspects": {
+            "csw-distribution": {},
+            "dcat-distribution-strings": {
+                "title": "View and download data though the AODN Portal",
+                "license": "Creative Commons Attribution 4.0 International License",
+                "accessURL": "https://portal.aodn.org.au/search?uuid=c317b0fe-02e8-4ff9-96c9-563fd58e82ac",
+                "format": "WWW:LINK-1.0-http--link"
+            },
+            "source": {
+                "type": "csw-distribution",
+                "url": "SOURCE/?service=CSW&version=2.0.2&request=GetRecordById&elementsetname=full&outputschema=http%3A%2F%2Fwww.isotc211.org%2F2005%2Fgmd&typeNames=gmd%3AMD_Metadata&id=c317b0fe-02e8-4ff9-96c9-563fd58e82ac",
+                "id": "connector",
+                "name": "Connector"
+            }
+        },
+        "sourceTag": "stag"
+    },
+    "dist-connector-c317b0fe-02e8-4ff9-96c9-563fd58e82ac-6": {
+        "id": "dist-connector-c317b0fe-02e8-4ff9-96c9-563fd58e82ac-6",
+        "name": "anfog_dm_trajectory_data",
+        "aspects": {
+            "csw-distribution": {},
+            "dcat-distribution-strings": {
+                "title": "anfog_dm_trajectory_data",
+                "description": "This OGC WFS service returns filtered geographic information. The returned data is available in multiple formats including CSV.",
+                "license": "Creative Commons Attribution 4.0 International License",
+                "accessURL": "http://geoserver-123.aodn.org.au/geoserver/ows",
+                "format": "OGC:WFS-1.0.0-http-get-capabilities"
+            },
+            "source": {
+                "type": "csw-distribution",
+                "url": "SOURCE/?service=CSW&version=2.0.2&request=GetRecordById&elementsetname=full&outputschema=http%3A%2F%2Fwww.isotc211.org%2F2005%2Fgmd&typeNames=gmd%3AMD_Metadata&id=c317b0fe-02e8-4ff9-96c9-563fd58e82ac",
+                "id": "connector",
+                "name": "Connector"
+            }
+        },
+        "sourceTag": "stag"
+    },
+    "dist-connector-c317b0fe-02e8-4ff9-96c9-563fd58e82ac-7": {
+        "id": "dist-connector-c317b0fe-02e8-4ff9-96c9-563fd58e82ac-7",
+        "name": "OGC WFS help documentation",
+        "aspects": {
+            "csw-distribution": {},
+            "dcat-distribution-strings": {
+                "title": "OGC WFS help documentation",
+                "license": "Creative Commons Attribution 4.0 International License",
+                "accessURL": "https://help.aodn.org.au/web-services/ogc-wfs/",
+                "format": "WWW:LINK-1.0-http--link"
+            },
+            "source": {
+                "type": "csw-distribution",
+                "url": "SOURCE/?service=CSW&version=2.0.2&request=GetRecordById&elementsetname=full&outputschema=http%3A%2F%2Fwww.isotc211.org%2F2005%2Fgmd&typeNames=gmd%3AMD_Metadata&id=c317b0fe-02e8-4ff9-96c9-563fd58e82ac",
+                "id": "connector",
+                "name": "Connector"
+            }
+        },
+        "sourceTag": "stag"
+    },
+    "dist-connector-c317b0fe-02e8-4ff9-96c9-563fd58e82ac-8": {
+        "id": "dist-connector-c317b0fe-02e8-4ff9-96c9-563fd58e82ac-8",
+        "name": "anfog_dm_trajectory_map#url",
+        "aspects": {
+            "csw-distribution": {},
+            "dcat-distribution-strings": {
+                "title": "anfog_dm_trajectory_map#url",
+                "description": "The ncUrlList is a WFS service that returns a list of URLs matching a query.",
+                "license": "Creative Commons Attribution 4.0 International License",
+                "accessURL": "http://geoserver-123.aodn.org.au/geoserver/ows",
+                "format": "IMOS:AGGREGATION--bodaac"
+            },
+            "source": {
+                "type": "csw-distribution",
+                "url": "SOURCE/?service=CSW&version=2.0.2&request=GetRecordById&elementsetname=full&outputschema=http%3A%2F%2Fwww.isotc211.org%2F2005%2Fgmd&typeNames=gmd%3AMD_Metadata&id=c317b0fe-02e8-4ff9-96c9-563fd58e82ac",
+                "id": "connector",
+                "name": "Connector"
+            }
+        },
+        "sourceTag": "stag"
+    },
+    "dist-connector-c317b0fe-02e8-4ff9-96c9-563fd58e82ac-9": {
+        "id": "dist-connector-c317b0fe-02e8-4ff9-96c9-563fd58e82ac-9",
+        "name": "ncUrlList help documentation",
+        "aspects": {
+            "csw-distribution": {},
+            "dcat-distribution-strings": {
+                "title": "ncUrlList help documentation",
+                "license": "Creative Commons Attribution 4.0 International License",
+                "accessURL": "https://help.aodn.org.au/web-services/ncurllist-service/",
+                "format": "WWW:LINK-1.0-http--link"
+            },
+            "source": {
+                "type": "csw-distribution",
+                "url": "SOURCE/?service=CSW&version=2.0.2&request=GetRecordById&elementsetname=full&outputschema=http%3A%2F%2Fwww.isotc211.org%2F2005%2Fgmd&typeNames=gmd%3AMD_Metadata&id=c317b0fe-02e8-4ff9-96c9-563fd58e82ac",
+                "id": "connector",
+                "name": "Connector"
+            }
+        },
+        "sourceTag": "stag"
+    },
+    "org-connector-Integrated Marine Observing System (IMOS)": {
+        "id": "org-connector-Integrated Marine Observing System (IMOS)",
+        "name": "Integrated Marine Observing System (IMOS)",
+        "aspects": {
+            "source": {
+                "type": "csw-organization",
+                "url": "SOURCE/",
+                "id": "connector",
+                "name": "Connector"
+            },
+            "organization-details": {
+                "name": "Integrated Marine Observing System (IMOS)",
+                "title": "Integrated Marine Observing System (IMOS)",
+                "phone": "61 3 6226 7488",
+                "email": "info@aodn.org.au",
+                "addrStreet": "University of Tasmania",
+                "addrSuburb": "Hobart",
+                "addrState": "Tasmania",
+                "addrPostCode": "7001",
+                "addrCountry": "Australia",
+                "website": "http://imos.org.au/aodn.html"
+            }
+        },
+        "sourceTag": "stag"
+    },
+    "ds-connector-c317b0fe-02e8-4ff9-96c9-563fd58e82ac": {
+        "id": "ds-connector-c317b0fe-02e8-4ff9-96c9-563fd58e82ac",
+        "name": "c317b0fe-02e8-4ff9-96c9-563fd58e82ac",
+        "aspects": {
+            "csw-dataset": {},
+            "dcat-dataset-strings": {
+                "title": "IMOS - Australian National Facility for Ocean Gliders (ANFOG) - delayed mode glider deployments",
+                "description": "The Australian National Facility for Ocean Gliders (ANFOG), with IMOS/NCRIS funding, deploys a fleet of eight gliders around Australia. The data represented by this record, are presented in delayed mode. The underwater ocean glider represents a technological revolution for oceanography. Autonomous ocean gliders can be built relatively cheaply, are controlled remotely and are reusable allowing them to make repeated subsurface ocean observations at a fraction of the cost of conventional methods. The data retrieved from the glider fleet will contribute to the study of the major boundary current systems surrounding Australia and their links to coastal ecosystems. The ANFOG glider fleet consists of two types; Slocum gliders and Seagliders. Slocum gliders (named for Joshua Slocum, the first solo global circumnavigator), manufactured by Webb Research Corp are optimised for shallow coastal waters (<200m) where high manoeuvrability is needed. ANFOG will have three Slocum gliders for deployment on the continental shelf. Seagliders, built at the University of Washington, are designed to operate more efficiently in the open ocean up to 1000m water depth. ANFOG uses their five Seagliders to monitor the boundary currents and continental shelves, which is valuable for gathering long-term environmental records of physical, chemical and biological data not widely measured to date. Whilst the Slocum gliders, due to their low cost and operational flexibility, will be of great use in intensive coastal monitoring, both types of gliders weigh only 52kg, enabling them to be launched from small boats. They have a suite of sensors able to record temperature, salinity, dissolved oxygen, turbidity, dissolved organic matter and chlorophyll against position and depth Sustained ocean observations will allow researchers to document the natural variability of the ocean, and better understand the effect of climate change on coastal ecosystems. The IMOS gliders will focus particularly on the major boundary currents that run down the Australian coast, the Leeuwin in the west and the East Australian Current (EAC). The study of these currents is critical for understanding the north-south transport of freshwater, heat and biogeochemical properties. The currents exert a large influence on coastal ecosystems, shipping lanes and fisheries.",
+                "issued": "2014-01-16T00:00:00",
+                "modified": "2022-02-02T09:22:26",
+                "languages": ["eng"],
+                "publisher": "Integrated Marine Observing System (IMOS)",
+                "temporal": {
+                    "start": "2008-07-16"
+                },
+                "themes": ["oceans"],
+                "keywords": [
+                    "Oceans | Salinity/density | Conductivity",
+                    "Oceans | Ocean Temperature | Water Temperature",
+                    "Oceans | Bathymetry | Water Depth",
+                    "Oceans | Ocean Optics | Fluorescence",
+                    "Oceans | Ocean Chemistry | Oxygen",
+                    "Oceans | Ocean Optics | Turbidity",
+                    "Oceans | Ocean Circulation | Ocean Currents",
+                    "Oceans | Ocean Chemistry | Chlorophyll",
+                    "Oceans | Salinity/density | Salinity",
+                    "Oceans | Ocean Chemistry | Organic Matter",
+                    "Fluorometers",
+                    "CTD (Conductivity-Temperature-Depth Profilers)",
+                    "IMOS Node | Bluewater and Climate",
+                    "IMOS Node | WAIMOS | Western Australia Integrated Marine Observing System",
+                    "IMOS Node | NSW-IMOS | New South Wales Integrated Marine Observing System",
+                    "IMOS Node | SA-IMOS | Southern Australian Integrated Marine Observing System",
+                    "Marine Features (Australia) | Leeuwin Current",
+                    "Marine Features (Australia) | East Australian Current",
+                    "Physical Oceanography",
+                    "Global / Oceans | Indian Ocean",
+                    "Global / Oceans | Southern Ocean",
+                    "Global / Oceans | Pacific Ocean",
+                    "Marine Features (Australia) | Great Australian Bight, SA/WA",
+                    "Regional Seas | Tasman Sea",
+                    "Regional Seas | Coral Sea",
+                    "Countries | Australia",
+                    "States, Territories (Australia) | Western Australia",
+                    "States, Territories (Australia) | South Australia",
+                    "States, Territories (Australia) | Tasmania",
+                    "States, Territories (Australia) | Victoria",
+                    "States, Territories (Australia) | New South Wales",
+                    "States, Territories (Australia) | Queensland"
+                ],
+                "contactPoint": "Integrated Marine Observing System (IMOS), http://imos.org.au/aodn.html, info@aodn.org.au"
+            },
+            "source": {
+                "type": "csw-dataset",
+                "url": "SOURCE/?service=CSW&version=2.0.2&request=GetRecordById&elementsetname=full&outputschema=http%3A%2F%2Fwww.isotc211.org%2F2005%2Fgmd&typeNames=gmd%3AMD_Metadata&id=c317b0fe-02e8-4ff9-96c9-563fd58e82ac",
+                "id": "connector",
+                "name": "Connector"
+            },
+            "temporal-coverage": {
+                "intervals": [
+                    {
+                        "start": "2008-07-16"
+                    }
+                ]
+            },
+            "dataset-distributions": {
+                "distributions": [
+                    "dist-connector-c317b0fe-02e8-4ff9-96c9-563fd58e82ac-0",
+                    "dist-connector-c317b0fe-02e8-4ff9-96c9-563fd58e82ac-1",
+                    "dist-connector-c317b0fe-02e8-4ff9-96c9-563fd58e82ac-2",
+                    "dist-connector-c317b0fe-02e8-4ff9-96c9-563fd58e82ac-3",
+                    "dist-connector-c317b0fe-02e8-4ff9-96c9-563fd58e82ac-4",
+                    "dist-connector-c317b0fe-02e8-4ff9-96c9-563fd58e82ac-5",
+                    "dist-connector-c317b0fe-02e8-4ff9-96c9-563fd58e82ac-6",
+                    "dist-connector-c317b0fe-02e8-4ff9-96c9-563fd58e82ac-7",
+                    "dist-connector-c317b0fe-02e8-4ff9-96c9-563fd58e82ac-8",
+                    "dist-connector-c317b0fe-02e8-4ff9-96c9-563fd58e82ac-9"
+                ]
+            },
+            "dataset-publisher": {
+                "publisher": "org-connector-Integrated Marine Observing System (IMOS)"
+            }
+        },
+        "sourceTag": "stag"
+    }
+}

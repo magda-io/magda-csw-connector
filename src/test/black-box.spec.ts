@@ -7,6 +7,18 @@ const fs = require("fs");
 const path = require("path");
 
 const TEST_CASES = [
+    /**
+     * Test for CSW data source: aurin mainly for license info
+     * https://openapi.aurin.org.au/public/csw?service=CSW&version=2.0.2&request=GetRecords&constraintLanguage=FILTER&constraint_language_version=1.1.0&resultType=results&elementsetname=full&outputschema=http%3A%2F%2Fwww.isotc211.org%2F2005%2Fgmd&typeNames=gmd%3AMD_Metadata&startPosition=1&maxRecords=100
+     */
+    {
+        input: fs.readFileSync(
+            path.join(__dirname, "aurin-license-response.xml")
+        ),
+        output: JSON.parse(
+            fs.readFileSync(path.join(__dirname, "aurin-license-response.json"))
+        )
+    },
     /* basic CSW test file */
     {
         input: fs.readFileSync(path.join(__dirname, "csw1.xml")),
