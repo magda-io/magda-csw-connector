@@ -1,3 +1,7 @@
+# 1.1.1
+
+-   #21 Fixed: make sure license info is captured correctly for the AURIN CSW registry
+
 # 1.1.0
 
 -   Add POST request support for getRecords endpoints

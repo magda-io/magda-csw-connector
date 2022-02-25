@@ -1,0 +1,1328 @@
+<?xml version="1.0" encoding="UTF-8"?><csw:GetRecordsResponse xmlns="http://www.opengis.net/cat/csw/apiso/1.0" xmlns:csw="http://www.opengis.net/cat/csw/2.0.2" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.2" xsi:schemaLocation="http://www.opengis.net/cat/csw/2.0.2 http://openapi.aurin.org.au//public/schemas/csw/2.0.2/record.xsd">
+  <csw:SearchStatus timestamp="2019-10-28T02:57:40.604Z"/>
+  <csw:SearchResults numberOfRecordsMatched="1" numberOfRecordsReturned="1" nextRecord="0" recordSchema="http://www.isotc211.org/2005/gmd" elementSet="full">
+  <gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <gmd:fileIdentifier>
+      <gco:CharacterString>c317b0fe-02e8-4ff9-96c9-563fd58e82ac</gco:CharacterString>
+    </gmd:fileIdentifier>
+    <gmd:language>
+      <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" />
+    </gmd:language>
+    <gmd:characterSet>
+      <gmd:MD_CharacterSetCode codeListValue="utf8" codeList="http://www.isotc211.org/namespace/resources/codeList.xml#MD_CharacterSetCode" />
+    </gmd:characterSet>
+    <gmd:parentIdentifier>
+      <gco:CharacterString>11b3ccd0-d9e0-11dc-8635-00188b4c0af8</gco:CharacterString>
+    </gmd:parentIdentifier>
+    <gmd:hierarchyLevel>
+      <gmd:MD_ScopeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset" />
+    </gmd:hierarchyLevel>
+    <gmd:hierarchyLevelName>
+      <gco:CharacterString>IMOS Dataset level record</gco:CharacterString>
+    </gmd:hierarchyLevelName>
+    <gmd:contact>
+      <gmd:CI_ResponsibleParty>
+        <gmd:organisationName>
+          <gco:CharacterString>Integrated Marine Observing System (IMOS)</gco:CharacterString>
+        </gmd:organisationName>
+        <gmd:positionName>
+          <gco:CharacterString>Data Officer</gco:CharacterString>
+        </gmd:positionName>
+        <gmd:contactInfo>
+          <gmd:CI_Contact>
+            <gmd:phone>
+              <gmd:CI_Telephone>
+                <gmd:voice>
+                  <gco:CharacterString>61 3 6226 7488</gco:CharacterString>
+                </gmd:voice>
+                <gmd:facsimile>
+                  <gco:CharacterString>61 3 6226 2107</gco:CharacterString>
+                </gmd:facsimile>
+              </gmd:CI_Telephone>
+            </gmd:phone>
+            <gmd:address>
+              <gmd:CI_Address>
+                <gmd:deliveryPoint>
+                  <gco:CharacterString>University of Tasmania</gco:CharacterString>
+                </gmd:deliveryPoint>
+                <gmd:deliveryPoint>
+                  <gco:CharacterString>Private Bag 110</gco:CharacterString>
+                </gmd:deliveryPoint>
+                <gmd:city>
+                  <gco:CharacterString>Hobart</gco:CharacterString>
+                </gmd:city>
+                <gmd:administrativeArea>
+                  <gco:CharacterString>Tasmania</gco:CharacterString>
+                </gmd:administrativeArea>
+                <gmd:postalCode>
+                  <gco:CharacterString>7001</gco:CharacterString>
+                </gmd:postalCode>
+                <gmd:country>
+                  <gco:CharacterString>Australia</gco:CharacterString>
+                </gmd:country>
+                <gmd:electronicMailAddress>
+                  <gco:CharacterString>info@aodn.org.au</gco:CharacterString>
+                </gmd:electronicMailAddress>
+              </gmd:CI_Address>
+            </gmd:address>
+            <gmd:onlineResource>
+              <gmd:CI_OnlineResource>
+                <gmd:linkage>
+                  <gmd:URL>http://imos.org.au/aodn.html</gmd:URL>
+                </gmd:linkage>
+                <gmd:protocol>
+                  <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+                </gmd:protocol>
+                <gmd:name>
+                  <gco:CharacterString>Website of the Australian Ocean Data Network (AODN)</gco:CharacterString>
+                </gmd:name>
+              </gmd:CI_OnlineResource>
+            </gmd:onlineResource>
+          </gmd:CI_Contact>
+        </gmd:contactInfo>
+        <gmd:role>
+          <gmd:CI_RoleCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode" codeListValue="distributor">distributor</gmd:CI_RoleCode>
+        </gmd:role>
+      </gmd:CI_ResponsibleParty>
+    </gmd:contact>
+    <gmd:dateStamp>
+      <gco:DateTime>2022-02-02T09:22:26</gco:DateTime>
+    </gmd:dateStamp>
+    <gmd:metadataStandardName>
+      <gco:CharacterString>ISO 19115-3:2018</gco:CharacterString>
+    </gmd:metadataStandardName>
+    <gmd:metadataStandardVersion>
+      <gco:CharacterString />
+    </gmd:metadataStandardVersion>
+    <gmd:identificationInfo>
+      <gmd:MD_DataIdentification>
+        <gmd:citation>
+          <gmd:CI_Citation>
+            <gmd:title>
+              <gco:CharacterString>IMOS - Australian National Facility for Ocean Gliders (ANFOG) - delayed mode glider deployments</gco:CharacterString>
+            </gmd:title>
+            <gmd:alternateTitle>
+              <gco:CharacterString>Glider deployments - Delayed mode</gco:CharacterString>
+            </gmd:alternateTitle>
+            <gmd:date>
+              <gmd:CI_Date>
+                <gmd:date>
+                  <gco:DateTime>2014-01-16T00:00:00</gco:DateTime>
+                </gmd:date>
+                <gmd:dateType>
+                  <gmd:CI_DateTypeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                </gmd:dateType>
+              </gmd:CI_Date>
+            </gmd:date>
+            <gmd:citedResponsibleParty>
+              <gmd:CI_ResponsibleParty>
+                <gmd:organisationName>
+                  <gco:CharacterString>Integrated Marine Observing System (IMOS)</gco:CharacterString>
+                </gmd:organisationName>
+                <gmd:contactInfo>
+                  <gmd:CI_Contact>
+                    <gmd:phone>
+                      <gmd:CI_Telephone>
+                        <gmd:voice>
+                          <gco:CharacterString>61 3 6226 7549</gco:CharacterString>
+                        </gmd:voice>
+                        <gmd:facsimile>
+                          <gco:CharacterString>61 3 6226 2107</gco:CharacterString>
+                        </gmd:facsimile>
+                      </gmd:CI_Telephone>
+                    </gmd:phone>
+                    <gmd:address>
+                      <gmd:CI_Address>
+                        <gmd:deliveryPoint>
+                          <gco:CharacterString>Private Bag 110</gco:CharacterString>
+                        </gmd:deliveryPoint>
+                        <gmd:deliveryPoint>
+                          <gco:CharacterString>University of Tasmania</gco:CharacterString>
+                        </gmd:deliveryPoint>
+                        <gmd:city>
+                          <gco:CharacterString>Hobart</gco:CharacterString>
+                        </gmd:city>
+                        <gmd:administrativeArea>
+                          <gco:CharacterString>Tasmania</gco:CharacterString>
+                        </gmd:administrativeArea>
+                        <gmd:postalCode>
+                          <gco:CharacterString>7001</gco:CharacterString>
+                        </gmd:postalCode>
+                        <gmd:country>
+                          <gco:CharacterString>Australia</gco:CharacterString>
+                        </gmd:country>
+                        <gmd:electronicMailAddress>
+                          <gco:CharacterString>imos@imos.org.au</gco:CharacterString>
+                        </gmd:electronicMailAddress>
+                      </gmd:CI_Address>
+                    </gmd:address>
+                    <gmd:onlineResource>
+                      <gmd:CI_OnlineResource>
+                        <gmd:linkage>
+                          <gmd:URL>http://www.imos.org.au/html</gmd:URL>
+                        </gmd:linkage>
+                        <gmd:protocol>
+                          <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+                        </gmd:protocol>
+                        <gmd:name>
+                          <gco:CharacterString>Website of the Integrated Marine Observing System (IMOS)</gco:CharacterString>
+                        </gmd:name>
+                      </gmd:CI_OnlineResource>
+                    </gmd:onlineResource>
+                    <gmd:hoursOfService>
+                      <gco:CharacterString>9am to 5pm UTC+10 Monday to Friday</gco:CharacterString>
+                    </gmd:hoursOfService>
+                  </gmd:CI_Contact>
+                </gmd:contactInfo>
+                <gmd:role>
+                  <gmd:CI_RoleCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider">resourceProvider</gmd:CI_RoleCode>
+                </gmd:role>
+              </gmd:CI_ResponsibleParty>
+            </gmd:citedResponsibleParty>
+            <gmd:otherCitationDetails>
+              <gco:CharacterString>The citation in a list of references is : "IMOS [year-of-data-downloaded], [Title], [data-access-URL], accessed [date-of-access]"</gco:CharacterString>
+            </gmd:otherCitationDetails>
+          </gmd:CI_Citation>
+        </gmd:citation>
+        <gmd:abstract>
+          <gco:CharacterString>The Australian National Facility for Ocean Gliders (ANFOG), with IMOS/NCRIS funding, deploys a fleet of eight gliders around Australia. The data represented by this record, are presented in delayed mode. The underwater ocean glider represents a technological revolution for oceanography. Autonomous ocean gliders can be built relatively cheaply, are controlled remotely and are reusable allowing them to make repeated subsurface ocean observations at a fraction of the cost of conventional methods. The data retrieved from the glider fleet will contribute to the study of the major boundary current systems surrounding Australia and their links to coastal ecosystems. The ANFOG glider fleet consists of two types; Slocum gliders and Seagliders. Slocum gliders (named for Joshua Slocum, the first solo global circumnavigator), manufactured by Webb Research Corp are optimised for shallow coastal waters (&lt;200m) where high manoeuvrability is needed. ANFOG will have three Slocum gliders for deployment on the continental shelf. Seagliders, built at the University of Washington, are designed to operate more efficiently in the open ocean up to 1000m water depth. ANFOG uses their five Seagliders to monitor the boundary currents and continental shelves, which is valuable for gathering long-term environmental records of physical, chemical and biological data not widely measured to date. Whilst the Slocum gliders, due to their low cost and operational flexibility, will be of great use in intensive coastal monitoring, both types of gliders weigh only 52kg, enabling them to be launched from small boats. They have a suite of sensors able to record temperature, salinity, dissolved oxygen, turbidity, dissolved organic matter and chlorophyll against position and depth Sustained ocean observations will allow researchers to document the natural variability of the ocean, and better understand the effect of climate change on coastal ecosystems. The IMOS gliders will focus particularly on the major boundary currents that run down the Australian coast, the Leeuwin in the west and the East Australian Current (EAC). The study of these currents is critical for understanding the north-south transport of freshwater, heat and biogeochemical properties. The currents exert a large influence on coastal ecosystems, shipping lanes and fisheries.</gco:CharacterString>
+        </gmd:abstract>
+        <gmd:credit />
+        <gmd:pointOfContact>
+          <gmd:CI_ResponsibleParty>
+            <gmd:individualName>
+              <gco:CharacterString>Pattiaratchi, Charitha, Professor</gco:CharacterString>
+            </gmd:individualName>
+            <gmd:organisationName>
+              <gco:CharacterString>Oceans Graduate School (OGS), The University of Western Australia (UWA)</gco:CharacterString>
+            </gmd:organisationName>
+            <gmd:contactInfo>
+              <gmd:CI_Contact>
+                <gmd:phone>
+                  <gmd:CI_Telephone>
+                    <gmd:voice>
+                      <gco:CharacterString>61 8 6488 3179</gco:CharacterString>
+                    </gmd:voice>
+                    <gmd:facsimile>
+                      <gco:CharacterString>61 8 6488 1015</gco:CharacterString>
+                    </gmd:facsimile>
+                  </gmd:CI_Telephone>
+                </gmd:phone>
+                <gmd:address>
+                  <gmd:CI_Address>
+                    <gmd:deliveryPoint>
+                      <gco:CharacterString>M470, 35 Stirling Highway</gco:CharacterString>
+                    </gmd:deliveryPoint>
+                    <gmd:city>
+                      <gco:CharacterString>Crawley</gco:CharacterString>
+                    </gmd:city>
+                    <gmd:administrativeArea>
+                      <gco:CharacterString>Western Australia</gco:CharacterString>
+                    </gmd:administrativeArea>
+                    <gmd:postalCode>
+                      <gco:CharacterString>6009</gco:CharacterString>
+                    </gmd:postalCode>
+                    <gmd:country>
+                      <gco:CharacterString>Australia</gco:CharacterString>
+                    </gmd:country>
+                    <gmd:electronicMailAddress>
+                      <gco:CharacterString>chari.pattiaratchi@uwa.edu.au</gco:CharacterString>
+                    </gmd:electronicMailAddress>
+                  </gmd:CI_Address>
+                </gmd:address>
+              </gmd:CI_Contact>
+            </gmd:contactInfo>
+            <gmd:role>
+              <gmd:CI_RoleCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+            </gmd:role>
+          </gmd:CI_ResponsibleParty>
+        </gmd:pointOfContact>
+        <gmd:descriptiveKeywords>
+          <gmd:MD_Keywords>
+            <gmd:keyword>
+              <gco:CharacterString>Oceans | Salinity/density | Conductivity</gco:CharacterString>
+            </gmd:keyword>
+            <gmd:keyword>
+              <gco:CharacterString>Oceans | Ocean Temperature | Water Temperature</gco:CharacterString>
+            </gmd:keyword>
+            <gmd:keyword>
+              <gco:CharacterString>Oceans | Bathymetry | Water Depth</gco:CharacterString>
+            </gmd:keyword>
+            <gmd:keyword>
+              <gco:CharacterString>Oceans | Ocean Optics | Fluorescence</gco:CharacterString>
+            </gmd:keyword>
+            <gmd:keyword>
+              <gco:CharacterString>Oceans | Ocean Chemistry | Oxygen</gco:CharacterString>
+            </gmd:keyword>
+            <gmd:keyword>
+              <gco:CharacterString>Oceans | Ocean Optics | Turbidity</gco:CharacterString>
+            </gmd:keyword>
+            <gmd:keyword>
+              <gco:CharacterString>Oceans | Ocean Circulation | Ocean Currents</gco:CharacterString>
+            </gmd:keyword>
+            <gmd:keyword>
+              <gco:CharacterString>Oceans | Ocean Chemistry | Chlorophyll</gco:CharacterString>
+            </gmd:keyword>
+            <gmd:keyword>
+              <gco:CharacterString>Oceans | Salinity/density | Salinity</gco:CharacterString>
+            </gmd:keyword>
+            <gmd:keyword>
+              <gco:CharacterString>Oceans | Ocean Chemistry | Organic Matter</gco:CharacterString>
+            </gmd:keyword>
+            <gmd:type>
+              <gmd:MD_KeywordTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_KeywordTypeCode" codeListValue="theme" />
+            </gmd:type>
+            <gmd:thesaurusName>
+              <gmd:CI_Citation>
+                <gmd:title>
+                  <gco:CharacterString>NASA/Global Change Master Directory Earth Science Keywords Version 5.3.8</gco:CharacterString>
+                </gmd:title>
+                <gmd:alternateTitle>
+                  <gco:CharacterString>GCMD</gco:CharacterString>
+                </gmd:alternateTitle>
+                <gmd:date>
+                  <gmd:CI_Date>
+                    <gmd:date>
+                      <gco:DateTime>2006-01-01T00:00:00</gco:DateTime>
+                    </gmd:date>
+                  </gmd:CI_Date>
+                </gmd:date>
+                <gmd:citedResponsibleParty>
+                  <gmd:CI_ResponsibleParty>
+                    <gmd:organisationName>
+                      <gco:CharacterString>National Aeronautics and Space Administration (NASA)</gco:CharacterString>
+                    </gmd:organisationName>
+                    <gmd:role>
+                      <gmd:CI_RoleCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode" codeListValue="owner">owner</gmd:CI_RoleCode>
+                    </gmd:role>
+                  </gmd:CI_ResponsibleParty>
+                </gmd:citedResponsibleParty>
+              </gmd:CI_Citation>
+            </gmd:thesaurusName>
+          </gmd:MD_Keywords>
+        </gmd:descriptiveKeywords>
+        <gmd:descriptiveKeywords>
+          <gmd:MD_Keywords>
+            <gmd:keyword>
+              <gco:CharacterString>Fluorometers</gco:CharacterString>
+            </gmd:keyword>
+            <gmd:keyword>
+              <gco:CharacterString>CTD (Conductivity-Temperature-Depth Profilers)</gco:CharacterString>
+            </gmd:keyword>
+            <gmd:type>
+              <gmd:MD_KeywordTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_KeywordTypeCode" codeListValue="theme" />
+            </gmd:type>
+            <gmd:thesaurusName>
+              <gmd:CI_Citation>
+                <gmd:title>
+                  <gco:CharacterString>Marine Community Profile of ISO19115 v1.4 Collection Methods Vocabulary (Annex C.1.3)</gco:CharacterString>
+                </gmd:title>
+                <gmd:alternateTitle>
+                  <gco:CharacterString>MCP</gco:CharacterString>
+                </gmd:alternateTitle>
+                <gmd:date>
+                  <gmd:CI_Date>
+                    <gmd:date>
+                      <gco:DateTime>2008-10-30T00:00:00</gco:DateTime>
+                    </gmd:date>
+                  </gmd:CI_Date>
+                </gmd:date>
+                <gmd:citedResponsibleParty>
+                  <gmd:CI_ResponsibleParty>
+                    <gmd:organisationName>
+                      <gco:CharacterString>Australian Ocean Data Centre Joint Facility (AODCJF)</gco:CharacterString>
+                    </gmd:organisationName>
+                    <gmd:role>
+                      <gmd:CI_RoleCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode" codeListValue="owner">owner</gmd:CI_RoleCode>
+                    </gmd:role>
+                  </gmd:CI_ResponsibleParty>
+                </gmd:citedResponsibleParty>
+              </gmd:CI_Citation>
+            </gmd:thesaurusName>
+          </gmd:MD_Keywords>
+        </gmd:descriptiveKeywords>
+        <gmd:descriptiveKeywords>
+          <gmd:MD_Keywords>
+            <gmd:keyword>
+              <gco:CharacterString>IMOS Node | Bluewater and Climate</gco:CharacterString>
+            </gmd:keyword>
+            <gmd:keyword>
+              <gco:CharacterString>IMOS Node | WAIMOS | Western Australia Integrated Marine Observing System</gco:CharacterString>
+            </gmd:keyword>
+            <gmd:keyword>
+              <gco:CharacterString>IMOS Node | NSW-IMOS | New South Wales Integrated Marine Observing System</gco:CharacterString>
+            </gmd:keyword>
+            <gmd:keyword>
+              <gco:CharacterString>IMOS Node | SA-IMOS | Southern Australian Integrated Marine Observing System</gco:CharacterString>
+            </gmd:keyword>
+            <gmd:keyword>
+              <gco:CharacterString>Marine Features (Australia) | Leeuwin Current</gco:CharacterString>
+            </gmd:keyword>
+            <gmd:keyword>
+              <gco:CharacterString>Marine Features (Australia) | East Australian Current</gco:CharacterString>
+            </gmd:keyword>
+            <gmd:keyword>
+              <gco:CharacterString>Physical Oceanography</gco:CharacterString>
+            </gmd:keyword>
+            <gmd:type>
+              <gmd:MD_KeywordTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_KeywordTypeCode" codeListValue="theme" />
+            </gmd:type>
+            <gmd:thesaurusName>
+              <gmd:CI_Citation>
+                <gmd:title>
+                  <gco:CharacterString>IMOS Keywords Thesaurus</gco:CharacterString>
+                </gmd:title>
+                <gmd:alternateTitle>
+                  <gco:CharacterString>IMOS</gco:CharacterString>
+                </gmd:alternateTitle>
+                <gmd:date>
+                  <gmd:CI_Date>
+                    <gmd:date>
+                      <gco:DateTime>2008-10-30T00:00:00</gco:DateTime>
+                    </gmd:date>
+                  </gmd:CI_Date>
+                </gmd:date>
+                <gmd:citedResponsibleParty>
+                  <gmd:CI_ResponsibleParty>
+                    <gmd:organisationName>
+                      <gco:CharacterString>Integrated Marine Observing System (IMOS)</gco:CharacterString>
+                    </gmd:organisationName>
+                    <gmd:role>
+                      <gmd:CI_RoleCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode" codeListValue="owner">owner</gmd:CI_RoleCode>
+                    </gmd:role>
+                  </gmd:CI_ResponsibleParty>
+                </gmd:citedResponsibleParty>
+              </gmd:CI_Citation>
+            </gmd:thesaurusName>
+          </gmd:MD_Keywords>
+        </gmd:descriptiveKeywords>
+        <gmd:descriptiveKeywords>
+          <gmd:MD_Keywords>
+            <gmd:keyword>
+              <gco:CharacterString>Global / Oceans | Indian Ocean</gco:CharacterString>
+            </gmd:keyword>
+            <gmd:keyword>
+              <gco:CharacterString>Global / Oceans | Southern Ocean</gco:CharacterString>
+            </gmd:keyword>
+            <gmd:keyword>
+              <gco:CharacterString>Global / Oceans | Pacific Ocean</gco:CharacterString>
+            </gmd:keyword>
+            <gmd:keyword>
+              <gco:CharacterString>Marine Features (Australia) | Great Australian Bight, SA/WA</gco:CharacterString>
+            </gmd:keyword>
+            <gmd:keyword>
+              <gco:CharacterString>Regional Seas | Tasman Sea</gco:CharacterString>
+            </gmd:keyword>
+            <gmd:keyword>
+              <gco:CharacterString>Regional Seas | Coral Sea</gco:CharacterString>
+            </gmd:keyword>
+            <gmd:type>
+              <gmd:MD_KeywordTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_KeywordTypeCode" codeListValue="place" />
+            </gmd:type>
+            <gmd:thesaurusName>
+              <gmd:CI_Citation>
+                <gmd:title>
+                  <gmx:Anchor xlink:href="http://vocab.aodn.org.au/def/geographicextents/1">AODN Geographic Extents Vocabulary</gmx:Anchor>
+                </gmd:title>
+                <gmd:date>
+                  <gmd:CI_Date>
+                    <gmd:date>
+                      <gco:Date>2021-09-02</gco:Date>
+                    </gmd:date>
+                    <gmd:dateType>
+                      <gmd:CI_DateTypeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                    </gmd:dateType>
+                  </gmd:CI_Date>
+                </gmd:date>
+                <gmd:identifier>
+                  <gmd:MD_Identifier>
+                    <gmd:code>
+                      <gmx:Anchor xlink:href="https://catalogue-imos.aodn.org.au/geonetwork/srv/eng/thesaurus.download?ref=external.place.aodn_aodn-geographic-extents-vocabulary">geonetwork.thesaurus.external.place.aodn_aodn-geographic-extents-vocabulary</gmx:Anchor>
+                    </gmd:code>
+                  </gmd:MD_Identifier>
+                </gmd:identifier>
+              </gmd:CI_Citation>
+            </gmd:thesaurusName>
+          </gmd:MD_Keywords>
+        </gmd:descriptiveKeywords>
+        <gmd:descriptiveKeywords>
+          <gmd:MD_Keywords>
+            <gmd:keyword>
+              <gco:CharacterString>Countries | Australia</gco:CharacterString>
+            </gmd:keyword>
+            <gmd:keyword>
+              <gco:CharacterString>States, Territories (Australia) | Western Australia</gco:CharacterString>
+            </gmd:keyword>
+            <gmd:keyword>
+              <gco:CharacterString>States, Territories (Australia) | South Australia</gco:CharacterString>
+            </gmd:keyword>
+            <gmd:keyword>
+              <gco:CharacterString>States, Territories (Australia) | Tasmania</gco:CharacterString>
+            </gmd:keyword>
+            <gmd:keyword>
+              <gco:CharacterString>States, Territories (Australia) | Victoria</gco:CharacterString>
+            </gmd:keyword>
+            <gmd:keyword>
+              <gco:CharacterString>States, Territories (Australia) | New South Wales</gco:CharacterString>
+            </gmd:keyword>
+            <gmd:keyword>
+              <gco:CharacterString>States, Territories (Australia) | Queensland</gco:CharacterString>
+            </gmd:keyword>
+            <gmd:type>
+              <gmd:MD_KeywordTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_KeywordTypeCode" codeListValue="place" />
+            </gmd:type>
+            <gmd:thesaurusName>
+              <gmd:CI_Citation>
+                <gmd:title>
+                  <gmx:Anchor xlink:href="http://vocab.aodn.org.au/def/geographicextents/1">AODN Geographic Extents Vocabulary</gmx:Anchor>
+                </gmd:title>
+                <gmd:date>
+                  <gmd:CI_Date>
+                    <gmd:date>
+                      <gco:Date>2021-09-02</gco:Date>
+                    </gmd:date>
+                    <gmd:dateType>
+                      <gmd:CI_DateTypeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                    </gmd:dateType>
+                  </gmd:CI_Date>
+                </gmd:date>
+                <gmd:identifier>
+                  <gmd:MD_Identifier>
+                    <gmd:code>
+                      <gmx:Anchor xlink:href="https://catalogue-imos.aodn.org.au/geonetwork/srv/eng/thesaurus.download?ref=external.place.aodn_aodn-geographic-extents-vocabulary">geonetwork.thesaurus.external.place.aodn_aodn-geographic-extents-vocabulary</gmx:Anchor>
+                    </gmd:code>
+                  </gmd:MD_Identifier>
+                </gmd:identifier>
+              </gmd:CI_Citation>
+            </gmd:thesaurusName>
+          </gmd:MD_Keywords>
+        </gmd:descriptiveKeywords>
+        <gmd:descriptiveKeywords>
+          <gmd:MD_Keywords>
+            <gmd:keyword>
+              <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/L06/current/27">sub-surface gliders</gmx:Anchor>
+            </gmd:keyword>
+            <gmd:type>
+              <gmd:MD_KeywordTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_KeywordTypeCode" codeListValue="theme" />
+            </gmd:type>
+            <gmd:thesaurusName>
+              <gmd:CI_Citation>
+                <gmd:title>
+                  <gmx:Anchor xlink:href="http://vocab.aodn.org.au/def/platform/1">AODN Platform Vocabulary</gmx:Anchor>
+                </gmd:title>
+                <gmd:date>
+                  <gmd:CI_Date>
+                    <gmd:date>
+                      <gco:Date>2021-12-17</gco:Date>
+                    </gmd:date>
+                    <gmd:dateType>
+                      <gmd:CI_DateTypeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                    </gmd:dateType>
+                  </gmd:CI_Date>
+                </gmd:date>
+                <gmd:identifier>
+                  <gmd:MD_Identifier>
+                    <gmd:code>
+                      <gmx:Anchor xlink:href="https://catalogue-imos.aodn.org.au/geonetwork/srv/eng/thesaurus.download?ref=external.theme.aodn_aodn-platform-vocabulary">geonetwork.thesaurus.external.theme.aodn_aodn-platform-vocabulary</gmx:Anchor>
+                    </gmd:code>
+                  </gmd:MD_Identifier>
+                </gmd:identifier>
+              </gmd:CI_Citation>
+            </gmd:thesaurusName>
+          </gmd:MD_Keywords>
+        </gmd:descriptiveKeywords>
+        <gmd:descriptiveKeywords>
+          <gmd:MD_Keywords>
+            <gmd:keyword>
+              <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/P01/current/TEMPPR01">Temperature of the water body</gmx:Anchor>
+            </gmd:keyword>
+            <gmd:keyword>
+              <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/P01/current/PSLTZZ01">Practical salinity of the water body</gmx:Anchor>
+            </gmd:keyword>
+            <gmd:keyword>
+              <gmx:Anchor xlink:href="http://vocab.aodn.org.au/def/discovery_parameter/entity/372">Concentration of oxygen {O2} per unit volume of the water body</gmx:Anchor>
+            </gmd:keyword>
+            <gmd:keyword>
+              <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/P01/current/CNDCZZ01">Electrical conductivity of the water body</gmx:Anchor>
+            </gmd:keyword>
+            <gmd:keyword>
+              <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/P01/current/LCNSZZ01">Northward current velocity in the water body</gmx:Anchor>
+            </gmd:keyword>
+            <gmd:keyword>
+              <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/P01/current/LCEWZZ01">Eastward current velocity in the water body</gmx:Anchor>
+            </gmd:keyword>
+            <gmd:keyword>
+              <gmx:Anchor xlink:href="http://vocab.aodn.org.au/def/discovery_parameter/entity/565">Pressure (measured variable) in the water body exerted by overlying sea water and any medium above it</gmx:Anchor>
+            </gmd:keyword>
+            <gmd:keyword>
+              <gmx:Anchor xlink:href="http://vocab.aodn.org.au/def/discovery_parameter/894">Concentration of inferred chlorophyll from relative fluorescence per unit volume of the water body</gmx:Anchor>
+            </gmd:keyword>
+            <gmd:keyword>
+              <gmx:Anchor xlink:href="http://vocab.aodn.org.au/def/discovery_parameter/entity/629">Colored Dissolved Organic Matter</gmx:Anchor>
+            </gmd:keyword>
+            <gmd:type>
+              <gmd:MD_KeywordTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_KeywordTypeCode" codeListValue="theme" />
+            </gmd:type>
+            <gmd:thesaurusName>
+              <gmd:CI_Citation>
+                <gmd:title>
+                  <gmx:Anchor xlink:href="http://vocab.aodn.org.au/def/discovery_parameter/1">AODN Discovery Parameter Vocabulary</gmx:Anchor>
+                </gmd:title>
+                <gmd:date>
+                  <gmd:CI_Date>
+                    <gmd:date>
+                      <gco:Date>2020-07-14</gco:Date>
+                    </gmd:date>
+                    <gmd:dateType>
+                      <gmd:CI_DateTypeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                    </gmd:dateType>
+                  </gmd:CI_Date>
+                </gmd:date>
+                <gmd:identifier>
+                  <gmd:MD_Identifier>
+                    <gmd:code>
+                      <gmx:Anchor xlink:href="https://catalogue-imos.aodn.org.au/geonetwork/srv/eng/thesaurus.download?ref=external.theme.aodn_aodn-discovery-parameter-vocabulary">geonetwork.thesaurus.external.theme.aodn_aodn-discovery-parameter-vocabulary</gmx:Anchor>
+                    </gmd:code>
+                  </gmd:MD_Identifier>
+                </gmd:identifier>
+              </gmd:CI_Citation>
+            </gmd:thesaurusName>
+          </gmd:MD_Keywords>
+        </gmd:descriptiveKeywords>
+        <gmd:descriptiveKeywords>
+          <gmd:MD_Keywords>
+            <gmd:keyword>
+              <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/L05/current/130">CTD</gmx:Anchor>
+            </gmd:keyword>
+            <gmd:keyword>
+              <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/L05/current/351">dissolved gas sensors</gmx:Anchor>
+            </gmd:keyword>
+            <gmd:keyword>
+              <gmx:Anchor xlink:href="http://vocab.aodn.org.au/def/instrument/entity/361">water biogeochemical sensor</gmx:Anchor>
+            </gmd:keyword>
+            <gmd:type>
+              <gmd:MD_KeywordTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_KeywordTypeCode" codeListValue="theme" />
+            </gmd:type>
+            <gmd:thesaurusName>
+              <gmd:CI_Citation>
+                <gmd:title>
+                  <gmx:Anchor xlink:href="http://vocab.aodn.org.au/def/instrument/1">AODN Instrument Vocabulary</gmx:Anchor>
+                </gmd:title>
+                <gmd:date>
+                  <gmd:CI_Date>
+                    <gmd:date>
+                      <gco:Date>2021-11-18</gco:Date>
+                    </gmd:date>
+                    <gmd:dateType>
+                      <gmd:CI_DateTypeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                    </gmd:dateType>
+                  </gmd:CI_Date>
+                </gmd:date>
+                <gmd:identifier>
+                  <gmd:MD_Identifier>
+                    <gmd:code>
+                      <gmx:Anchor xlink:href="https://catalogue-imos.aodn.org.au/geonetwork/srv/eng/thesaurus.download?ref=external.theme.aodn_aodn-instrument-vocabulary">geonetwork.thesaurus.external.theme.aodn_aodn-instrument-vocabulary</gmx:Anchor>
+                    </gmd:code>
+                  </gmd:MD_Identifier>
+                </gmd:identifier>
+              </gmd:CI_Citation>
+            </gmd:thesaurusName>
+          </gmd:MD_Keywords>
+        </gmd:descriptiveKeywords>
+        <gmd:descriptiveKeywords>
+          <gmd:MD_Keywords>
+            <gmd:keyword>
+              <gmx:Anchor xlink:href="http://vocab.aodn.org.au/def/organisation/entity/470">Ocean Gliders Facility, Integrated Marine Observing System (IMOS)</gmx:Anchor>
+            </gmd:keyword>
+            <gmd:type>
+              <gmd:MD_KeywordTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_KeywordTypeCode" codeListValue="discipline" />
+            </gmd:type>
+            <gmd:thesaurusName>
+              <gmd:CI_Citation>
+                <gmd:title>
+                  <gmx:Anchor xlink:href="http://vocab.aodn.org.au/def/organisation/1">AODN Organisation Vocabulary</gmx:Anchor>
+                </gmd:title>
+                <gmd:date>
+                  <gmd:CI_Date>
+                    <gmd:date>
+                      <gco:Date>2021-08-13</gco:Date>
+                    </gmd:date>
+                    <gmd:dateType>
+                      <gmd:CI_DateTypeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                    </gmd:dateType>
+                  </gmd:CI_Date>
+                </gmd:date>
+                <gmd:identifier>
+                  <gmd:MD_Identifier>
+                    <gmd:code>
+                      <gmx:Anchor xlink:href="https://catalogue-imos.aodn.org.au/geonetwork/srv/eng/thesaurus.download?ref=external.discipline.aodn_aodn-organisation-vocabulary">geonetwork.thesaurus.external.discipline.aodn_aodn-organisation-vocabulary</gmx:Anchor>
+                    </gmd:code>
+                  </gmd:MD_Identifier>
+                </gmd:identifier>
+              </gmd:CI_Citation>
+            </gmd:thesaurusName>
+          </gmd:MD_Keywords>
+        </gmd:descriptiveKeywords>
+        <gmd:resourceConstraints>
+          <gmd:MD_Constraints>
+            <gmd:useLimitation>
+              <gco:CharacterString>Data, products and services from IMOS are provided "as is" without any warranty as to fitness for a particular purpose.</gco:CharacterString>
+            </gmd:useLimitation>
+          </gmd:MD_Constraints>
+        </gmd:resourceConstraints>
+        <gmd:resourceConstraints>
+          <gmd:MD_LegalConstraints>
+            <gmd:graphic>
+              <gmd:MD_BrowseGraphic>
+                <gmd:fileName gco:nilReason="inapplicable" />
+                <gmd:linkage>
+                  <gmd:CI_OnlineResource>
+                    <gmd:linkage>
+                      <gmd:URL>https://licensebuttons.net/l/by/4.0/88x31.png</gmd:URL>
+                    </gmd:linkage>
+                    <gmd:protocol>
+                      <gco:CharacterString>WWW:LINK-1.0-http--related</gco:CharacterString>
+                    </gmd:protocol>
+                    <gmd:description>
+                      <gco:CharacterString>License Graphic</gco:CharacterString>
+                    </gmd:description>
+                  </gmd:CI_OnlineResource>
+                </gmd:linkage>
+              </gmd:MD_BrowseGraphic>
+            </gmd:graphic>
+            <gmd:reference>
+              <gmd:CI_Citation>
+                <gmd:title>
+                  <gco:CharacterString>Creative Commons Attribution 4.0 International License</gco:CharacterString>
+                </gmd:title>
+                <gmd:date gco:nilReason="missing" />
+                <gmd:citedResponsibleParty>
+                  <gmd:CI_ResponsibleParty>
+                    <gmd:contactInfo>
+                      <gmd:CI_Contact>
+                        <gmd:address>
+                          <gmd:CI_Address>
+                            <gmd:electronicMailAddress gco:nilReason="missing">
+                              <gco:CharacterString />
+                            </gmd:electronicMailAddress>
+                          </gmd:CI_Address>
+                        </gmd:address>
+                        <gmd:onlineResource>
+                          <gmd:CI_OnlineResource>
+                            <gmd:linkage>
+                              <gmd:URL>http://creativecommons.org/international/</gmd:URL>
+                            </gmd:linkage>
+                            <gmd:protocol>
+                              <gco:CharacterString>WWW:LINK-1.0-http--related</gco:CharacterString>
+                            </gmd:protocol>
+                            <gmd:name gco:nilReason="missing">
+                              <gco:CharacterString />
+                            </gmd:name>
+                            <gmd:description gco:nilReason="missing">
+                              <gco:CharacterString />
+                            </gmd:description>
+                          </gmd:CI_OnlineResource>
+                        </gmd:onlineResource>
+                      </gmd:CI_Contact>
+                    </gmd:contactInfo>
+                    <gmd:role gco:nilReason="missing" />
+                  </gmd:CI_ResponsibleParty>
+                </gmd:citedResponsibleParty>
+              </gmd:CI_Citation>
+            </gmd:reference>
+            <gmd:otherConstraints>
+              <gco:CharacterString>The citation in a list of references is: "IMOS [year-of-data-download], [Title], [data-access-URL], accessed [date-of-access]."</gco:CharacterString>
+            </gmd:otherConstraints>
+            <gmd:otherConstraints>
+              <gco:CharacterString>Any users of IMOS data are required to clearly acknowledge the source of the material derived from IMOS in the format: "Data was sourced from Australia’s Integrated Marine Observing System (IMOS) – IMOS is enabled by the National Collaborative Research Infrastructure strategy (NCRIS)." If relevant, also credit other organisations involved in collection of this particular datastream (as listed in 'credit' in the metadata record).</gco:CharacterString>
+            </gmd:otherConstraints>
+          </gmd:MD_LegalConstraints>
+        </gmd:resourceConstraints>
+        <gmd:language>
+          <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" />
+        </gmd:language>
+        <gmd:characterSet>
+          <gmd:MD_CharacterSetCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
+        </gmd:characterSet>
+        <gmd:topicCategory>
+          <gmd:MD_TopicCategoryCode>oceans</gmd:MD_TopicCategoryCode>
+        </gmd:topicCategory>
+        <gmd:extent>
+          <gmd:EX_Extent>
+            <gmd:geographicElement>
+              <gmd:EX_BoundingPolygon>
+                <gmd:polygon>
+                  <gml:MultiSurface srsName="CRS:84">
+                    <gml:surfaceMember>
+                      <gml:Polygon gml:id="polygon12" srsName="CRS:84">
+                        <gml:exterior>
+                          <gml:LinearRing>
+                            <gml:posList srsDimension="2">150 -38 150 -32 152 -32 152 -26 156 -26 156 -30 154 -30 154 -32 156 -32 156 -34 158 -34 158 -36 154 -36 154 -38 150 -38</gml:posList>
+                          </gml:LinearRing>
+                        </gml:exterior>
+                      </gml:Polygon>
+                    </gml:surfaceMember>
+                  </gml:MultiSurface>
+                </gmd:polygon>
+              </gmd:EX_BoundingPolygon>
+            </gmd:geographicElement>
+            <gmd:geographicElement>
+              <gmd:EX_BoundingPolygon>
+                <gmd:polygon>
+                  <gml:MultiSurface srsName="CRS:84">
+                    <gml:surfaceMember>
+                      <gml:Polygon gml:id="polygon11" srsName="CRS:84">
+                        <gml:exterior>
+                          <gml:LinearRing>
+                            <gml:posList srsDimension="2">110 -32 110 -30 112 -30 112 -22 110 -22 110 -20 112 -20 112 -18 116 -18 116 -16 120 -16 120 -14 122 -14 122 -20 118 -20 118 -22 114 -22 114 -26 116 -26 116 -34 112 -34 112 -32 110 -32</gml:posList>
+                          </gml:LinearRing>
+                        </gml:exterior>
+                      </gml:Polygon>
+                    </gml:surfaceMember>
+                  </gml:MultiSurface>
+                </gmd:polygon>
+              </gmd:EX_BoundingPolygon>
+            </gmd:geographicElement>
+            <gmd:geographicElement>
+              <gmd:EX_BoundingPolygon>
+                <gmd:polygon>
+                  <gml:MultiSurface srsName="CRS:84">
+                    <gml:surfaceMember>
+                      <gml:Polygon gml:id="polygon10" srsName="CRS:84">
+                        <gml:exterior>
+                          <gml:LinearRing>
+                            <gml:posList srsDimension="2">150 -18 150 -20 146 -20 146 -18 144 -18 144 -10 146 -10 146 -12 148 -12 148 -16 150 -16 150 -18</gml:posList>
+                          </gml:LinearRing>
+                        </gml:exterior>
+                      </gml:Polygon>
+                    </gml:surfaceMember>
+                  </gml:MultiSurface>
+                </gmd:polygon>
+              </gmd:EX_BoundingPolygon>
+            </gmd:geographicElement>
+            <gmd:geographicElement>
+              <gmd:EX_BoundingPolygon>
+                <gmd:polygon>
+                  <gml:MultiSurface srsName="CRS:84">
+                    <gml:surfaceMember>
+                      <gml:Polygon gml:id="polygon9" srsName="CRS:84">
+                        <gml:exterior>
+                          <gml:LinearRing>
+                            <gml:posList srsDimension="2">140 -14 140 -12 142 -12 142 -14 140 -14</gml:posList>
+                          </gml:LinearRing>
+                        </gml:exterior>
+                      </gml:Polygon>
+                    </gml:surfaceMember>
+                  </gml:MultiSurface>
+                </gmd:polygon>
+              </gmd:EX_BoundingPolygon>
+            </gmd:geographicElement>
+            <gmd:geographicElement>
+              <gmd:EX_BoundingPolygon>
+                <gmd:polygon>
+                  <gml:MultiSurface srsName="CRS:84">
+                    <gml:surfaceMember>
+                      <gml:Polygon gml:id="polygon8" srsName="CRS:84">
+                        <gml:exterior>
+                          <gml:LinearRing>
+                            <gml:posList srsDimension="2">78 0 78 6 82 6 82 8 80 8 80 10 84 10 84 4 82 4 82 0 78 0</gml:posList>
+                          </gml:LinearRing>
+                        </gml:exterior>
+                      </gml:Polygon>
+                    </gml:surfaceMember>
+                  </gml:MultiSurface>
+                </gmd:polygon>
+              </gmd:EX_BoundingPolygon>
+            </gmd:geographicElement>
+            <gmd:geographicElement>
+              <gmd:EX_BoundingPolygon>
+                <gmd:polygon>
+                  <gml:MultiSurface srsName="CRS:84">
+                    <gml:surfaceMember>
+                      <gml:Polygon gml:id="polygon7" srsName="CRS:84">
+                        <gml:exterior>
+                          <gml:LinearRing>
+                            <gml:posList srsDimension="2">148 -6 150 -6 150 -8 146 -8 146 -2 148 -2 148 -6</gml:posList>
+                          </gml:LinearRing>
+                        </gml:exterior>
+                      </gml:Polygon>
+                    </gml:surfaceMember>
+                  </gml:MultiSurface>
+                </gmd:polygon>
+              </gmd:EX_BoundingPolygon>
+            </gmd:geographicElement>
+            <gmd:geographicElement>
+              <gmd:EX_BoundingPolygon>
+                <gmd:polygon>
+                  <gml:MultiSurface srsName="CRS:84">
+                    <gml:surfaceMember>
+                      <gml:Polygon gml:id="polygon6" srsName="CRS:84">
+                        <gml:exterior>
+                          <gml:LinearRing>
+                            <gml:posList srsDimension="2">126 -10 126 -8 128 -8 128 -10 126 -10</gml:posList>
+                          </gml:LinearRing>
+                        </gml:exterior>
+                      </gml:Polygon>
+                    </gml:surfaceMember>
+                  </gml:MultiSurface>
+                </gmd:polygon>
+              </gmd:EX_BoundingPolygon>
+            </gmd:geographicElement>
+            <gmd:geographicElement>
+              <gmd:EX_BoundingPolygon>
+                <gmd:polygon>
+                  <gml:MultiSurface srsName="CRS:84">
+                    <gml:surfaceMember>
+                      <gml:Polygon gml:id="polygon5" srsName="CRS:84">
+                        <gml:exterior>
+                          <gml:LinearRing>
+                            <gml:posList srsDimension="2">150 -24 150 -22 154 -22 154 -24 150 -24</gml:posList>
+                          </gml:LinearRing>
+                        </gml:exterior>
+                      </gml:Polygon>
+                    </gml:surfaceMember>
+                  </gml:MultiSurface>
+                </gmd:polygon>
+              </gmd:EX_BoundingPolygon>
+            </gmd:geographicElement>
+            <gmd:geographicElement>
+              <gmd:EX_BoundingPolygon>
+                <gmd:polygon>
+                  <gml:MultiSurface srsName="CRS:84">
+                    <gml:surfaceMember>
+                      <gml:Polygon gml:id="polygon4" srsName="CRS:84">
+                        <gml:exterior>
+                          <gml:LinearRing>
+                            <gml:posList srsDimension="2">140 -48 140 -46 142 -46 142 -44 144 -44 144 -42 146 -42 146 -38 148 -38 148 -40 154 -40 154 -42 152 -42 152 -44 148 -44 148 -46 144 -46 144 -48 140 -48</gml:posList>
+                          </gml:LinearRing>
+                        </gml:exterior>
+                      </gml:Polygon>
+                    </gml:surfaceMember>
+                  </gml:MultiSurface>
+                </gmd:polygon>
+              </gmd:EX_BoundingPolygon>
+            </gmd:geographicElement>
+            <gmd:geographicElement>
+              <gmd:EX_BoundingPolygon>
+                <gmd:polygon>
+                  <gml:MultiSurface srsName="CRS:84">
+                    <gml:surfaceMember>
+                      <gml:Polygon gml:id="polygon3" srsName="CRS:84">
+                        <gml:exterior>
+                          <gml:LinearRing>
+                            <gml:posList srsDimension="2">142 -38 144 -38 144 -40 140 -40 140 -38 138 -38 138 -36 142 -36 142 -38</gml:posList>
+                          </gml:LinearRing>
+                        </gml:exterior>
+                      </gml:Polygon>
+                    </gml:surfaceMember>
+                  </gml:MultiSurface>
+                </gmd:polygon>
+              </gmd:EX_BoundingPolygon>
+            </gmd:geographicElement>
+            <gmd:geographicElement>
+              <gmd:EX_BoundingPolygon>
+                <gmd:polygon>
+                  <gml:MultiSurface srsName="CRS:84">
+                    <gml:surfaceMember>
+                      <gml:Polygon gml:id="polygon2" srsName="CRS:84">
+                        <gml:exterior>
+                          <gml:LinearRing>
+                            <gml:posList srsDimension="2">132 -34 138 -34 138 -36 130 -36 130 -32 132 -32 132 -34</gml:posList>
+                          </gml:LinearRing>
+                        </gml:exterior>
+                      </gml:Polygon>
+                    </gml:surfaceMember>
+                  </gml:MultiSurface>
+                </gmd:polygon>
+              </gmd:EX_BoundingPolygon>
+            </gmd:geographicElement>
+            <gmd:geographicElement>
+              <gmd:EX_BoundingPolygon>
+                <gmd:polygon>
+                  <gml:MultiSurface srsName="CRS:84">
+                    <gml:surfaceMember>
+                      <gml:Polygon gml:id="polygon1" srsName="CRS:84">
+                        <gml:exterior>
+                          <gml:LinearRing>
+                            <gml:posList srsDimension="2">116 -36 116 -34 122 -34 122 -36 116 -36</gml:posList>
+                          </gml:LinearRing>
+                        </gml:exterior>
+                      </gml:Polygon>
+                    </gml:surfaceMember>
+                  </gml:MultiSurface>
+                </gmd:polygon>
+              </gmd:EX_BoundingPolygon>
+            </gmd:geographicElement>
+            <gmd:temporalElement>
+              <gmd:EX_TemporalExtent>
+                <gmd:extent>
+                  <gml:TimePeriod gml:id="d5137372e782a1052958">
+                    <gml:beginPosition>2008-07-16</gml:beginPosition>
+                    <gml:endPosition />
+                  </gml:TimePeriod>
+                </gmd:extent>
+              </gmd:EX_TemporalExtent>
+            </gmd:temporalElement>
+          </gmd:EX_Extent>
+        </gmd:extent>
+      </gmd:MD_DataIdentification>
+    </gmd:identificationInfo>
+    <gmd:contentInfo>
+      <gmd:MD_CoverageDescription>
+        <gmd:attributeDescription gco:nilReason="inapplicable" />
+        <gmd:attributeGroup>
+          <gmd:MD_AttributeGroup>
+            <gmd:contentType>
+              <gmd:MD_CoverageContentTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_CoverageContentTypeCode" codeListValue="physicalMeasurement" />
+            </gmd:contentType>
+            <gmd:attribute>
+              <gmd:MD_SampleDimension>
+                <gmd:name>
+                  <gmd:MD_Identifier>
+                    <gmd:code>
+                      <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/P01/current/TEMPPR01">Temperature of the water body</gmx:Anchor>
+                    </gmd:code>
+                  </gmd:MD_Identifier>
+                </gmd:name>
+                <gmd:maxValue>
+                  <gco:Real>40</gco:Real>
+                </gmd:maxValue>
+                <gmd:minValue>
+                  <gco:Real>-2</gco:Real>
+                </gmd:minValue>
+                <gmd:units>
+                  <gml:BaseUnit gml:id="d20e484">
+                    <gml:identifier codeSpace="unknown">http://vocab.nerc.ac.uk/collection/P06/current/UPAA</gml:identifier>
+                    <gml:name>Degrees Celsius</gml:name>
+                    <gml:unitsSystem />
+                  </gml:BaseUnit>
+                </gmd:units>
+              </gmd:MD_SampleDimension>
+            </gmd:attribute>
+            <gmd:attribute>
+              <gmd:MD_SampleDimension>
+                <gmd:name>
+                  <gmd:MD_Identifier>
+                    <gmd:code>
+                      <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/P01/current/PSLTZZ01">Practical salinity of the water body</gmx:Anchor>
+                    </gmd:code>
+                  </gmd:MD_Identifier>
+                </gmd:name>
+                <gmd:maxValue>
+                  <gco:Real>41</gco:Real>
+                </gmd:maxValue>
+                <gmd:minValue>
+                  <gco:Real>2</gco:Real>
+                </gmd:minValue>
+                <gmd:units>
+                  <gml:BaseUnit gml:id="d20e534">
+                    <gml:identifier codeSpace="unknown">http://vocab.aodn.org.au/def/unitsofmeasure/entity/481</gml:identifier>
+                    <gml:name>Practical Salinity Unit</gml:name>
+                    <gml:unitsSystem />
+                  </gml:BaseUnit>
+                </gmd:units>
+              </gmd:MD_SampleDimension>
+            </gmd:attribute>
+            <gmd:attribute>
+              <gmd:MD_SampleDimension>
+                <gmd:description>
+                  <gco:CharacterString>This parameter is also measured in millilitres per litre.</gco:CharacterString>
+                </gmd:description>
+                <gmd:name>
+                  <gmd:MD_Identifier>
+                    <gmd:code>
+                      <gmx:Anchor xlink:href="http://vocab.aodn.org.au/def/discovery_parameter/entity/372">Concentration of oxygen {O2} per unit volume of the water body</gmx:Anchor>
+                    </gmd:code>
+                  </gmd:MD_Identifier>
+                </gmd:name>
+                <gmd:units>
+                  <gml:BaseUnit gml:id="d20e584">
+                    <gml:identifier codeSpace="unknown">http://vocab.nerc.ac.uk/collection/P06/current/UKMC</gml:identifier>
+                    <gml:name>Kilograms per cubic metre</gml:name>
+                    <gml:unitsSystem />
+                  </gml:BaseUnit>
+                </gmd:units>
+              </gmd:MD_SampleDimension>
+            </gmd:attribute>
+            <gmd:attribute>
+              <gmd:MD_SampleDimension>
+                <gmd:name>
+                  <gmd:MD_Identifier>
+                    <gmd:code>
+                      <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/P01/current/CNDCZZ01">Electrical conductivity of the water body</gmx:Anchor>
+                    </gmd:code>
+                  </gmd:MD_Identifier>
+                </gmd:name>
+                <gmd:maxValue>
+                  <gco:Real>60</gco:Real>
+                </gmd:maxValue>
+                <gmd:minValue>
+                  <gco:Real>0</gco:Real>
+                </gmd:minValue>
+                <gmd:units>
+                  <gml:BaseUnit gml:id="d20e632">
+                    <gml:identifier codeSpace="unknown">http://vocab.nerc.ac.uk/collection/P06/current/UECA</gml:identifier>
+                    <gml:name>Siemens per metre</gml:name>
+                    <gml:unitsSystem />
+                  </gml:BaseUnit>
+                </gmd:units>
+              </gmd:MD_SampleDimension>
+            </gmd:attribute>
+            <gmd:attribute>
+              <gmd:MD_SampleDimension>
+                <gmd:name>
+                  <gmd:MD_Identifier>
+                    <gmd:code>
+                      <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/P01/current/LCNSZZ01">Northward current velocity in the water body</gmx:Anchor>
+                    </gmd:code>
+                  </gmd:MD_Identifier>
+                </gmd:name>
+                <gmd:units>
+                  <gml:BaseUnit gml:id="d20e682">
+                    <gml:identifier codeSpace="unknown">http://vocab.nerc.ac.uk/collection/P06/current/UVAA</gml:identifier>
+                    <gml:name>Metres per second</gml:name>
+                    <gml:unitsSystem />
+                  </gml:BaseUnit>
+                </gmd:units>
+              </gmd:MD_SampleDimension>
+            </gmd:attribute>
+            <gmd:attribute>
+              <gmd:MD_SampleDimension>
+                <gmd:name>
+                  <gmd:MD_Identifier>
+                    <gmd:code>
+                      <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/P01/current/LCEWZZ01">Eastward current velocity in the water body</gmx:Anchor>
+                    </gmd:code>
+                  </gmd:MD_Identifier>
+                </gmd:name>
+                <gmd:units>
+                  <gml:BaseUnit gml:id="d20e717">
+                    <gml:identifier codeSpace="unknown">http://vocab.nerc.ac.uk/collection/P06/current/UVAA</gml:identifier>
+                    <gml:name>Metres per second</gml:name>
+                    <gml:unitsSystem />
+                  </gml:BaseUnit>
+                </gmd:units>
+              </gmd:MD_SampleDimension>
+            </gmd:attribute>
+            <gmd:attribute>
+              <gmd:MD_SampleDimension>
+                <gmd:name>
+                  <gmd:MD_Identifier>
+                    <gmd:code>
+                      <gmx:Anchor xlink:href="http://vocab.aodn.org.au/def/discovery_parameter/entity/565">Pressure (measured variable) in the water body exerted by overlying sea water and any medium above it</gmx:Anchor>
+                    </gmd:code>
+                  </gmd:MD_Identifier>
+                </gmd:name>
+                <gmd:units>
+                  <gml:BaseUnit gml:id="d20e752">
+                    <gml:identifier codeSpace="unknown">http://vocab.nerc.ac.uk/collection/P06/current/UPDB</gml:identifier>
+                    <gml:name>Decibars</gml:name>
+                    <gml:unitsSystem />
+                  </gml:BaseUnit>
+                </gmd:units>
+              </gmd:MD_SampleDimension>
+            </gmd:attribute>
+            <gmd:attribute>
+              <gmd:MD_SampleDimension>
+                <gmd:name>
+                  <gmd:MD_Identifier>
+                    <gmd:code>
+                      <gmx:Anchor xlink:href="http://vocab.aodn.org.au/def/discovery_parameter/894">Concentration of inferred chlorophyll from relative fluorescence per unit volume of the water body</gmx:Anchor>
+                    </gmd:code>
+                  </gmd:MD_Identifier>
+                </gmd:name>
+                <gmd:units>
+                  <gml:BaseUnit gml:id="d20e798">
+                    <gml:identifier codeSpace="unknown">http://vocab.nerc.ac.uk/collection/P06/current/UMMC</gml:identifier>
+                    <gml:name>Milligrams per cubic metre</gml:name>
+                    <gml:unitsSystem />
+                  </gml:BaseUnit>
+                </gmd:units>
+              </gmd:MD_SampleDimension>
+            </gmd:attribute>
+            <gmd:attribute>
+              <gmd:MD_SampleDimension>
+                <gmd:name>
+                  <gmd:MD_Identifier>
+                    <gmd:code>
+                      <gmx:Anchor xlink:href="http://vocab.aodn.org.au/def/discovery_parameter/entity/629">Colored Dissolved Organic Matter</gmx:Anchor>
+                    </gmd:code>
+                  </gmd:MD_Identifier>
+                </gmd:name>
+                <gmd:units>
+                  <gml:BaseUnit gml:id="d20e844">
+                    <gml:identifier codeSpace="unknown">http://vocab.nerc.ac.uk/collection/P06/current/UPPB</gml:identifier>
+                    <gml:name>Parts per billion</gml:name>
+                    <gml:unitsSystem />
+                  </gml:BaseUnit>
+                </gmd:units>
+              </gmd:MD_SampleDimension>
+            </gmd:attribute>
+          </gmd:MD_AttributeGroup>
+        </gmd:attributeGroup>
+      </gmd:MD_CoverageDescription>
+    </gmd:contentInfo>
+    <gmd:distributionInfo>
+      <gmd:MD_Distribution>
+        <gmd:distributionFormat>
+          <gmd:MD_Format>
+            <gmd:name>
+              <gco:CharacterString />
+            </gmd:name>
+            <gmd:version gco:nilReason="unknown">
+              <gco:CharacterString />
+            </gmd:version>
+            <gmd:specification />
+          </gmd:MD_Format>
+        </gmd:distributionFormat>
+        <gmd:transferOptions>
+          <gmd:MD_DigitalTransferOptions>
+            <gmd:onLine>
+              <gmd:CI_OnlineResource>
+                <gmd:linkage>
+                  <gmd:URL>http://geoserver-123.aodn.org.au/geoserver/wms</gmd:URL>
+                </gmd:linkage>
+                <gmd:protocol>
+                  <gco:CharacterString>OGC:WMS-1.1.1-http-get-map</gco:CharacterString>
+                </gmd:protocol>
+                <gmd:name>
+                  <gco:CharacterString>imos:anfog_dm_trajectory_map</gco:CharacterString>
+                </gmd:name>
+                <gmd:description>
+                  <gco:CharacterString>Delayed mode Glider deployments</gco:CharacterString>
+                </gmd:description>
+              </gmd:CI_OnlineResource>
+            </gmd:onLine>
+            <gmd:onLine>
+              <gmd:CI_OnlineResource>
+                <gmd:linkage>
+                  <gmd:URL>http://imos.org.au/oceangliders.html</gmd:URL>
+                </gmd:linkage>
+                <gmd:protocol>
+                  <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+                </gmd:protocol>
+                <gmd:name>
+                  <gco:CharacterString>ANFOG page on IMOS website</gco:CharacterString>
+                </gmd:name>
+              </gmd:CI_OnlineResource>
+            </gmd:onLine>
+            <gmd:onLine>
+              <gmd:CI_OnlineResource>
+                <gmd:linkage>
+                  <gmd:URL>https://catalogue-imos.aodn.org.au:443/geonetwork/srv/api/records/c317b0fe-02e8-4ff9-96c9-563fd58e82ac/attachments/ANFOG_data_management3_1.pdf</gmd:URL>
+                </gmd:linkage>
+                <gmd:protocol>
+                  <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+                </gmd:protocol>
+                <gmd:name>
+                  <gmx:MimeFileType type="application/pdf">ANFOG_data_management3_1.pdf</gmx:MimeFileType>
+                </gmd:name>
+                <gmd:description>
+                  <gco:CharacterString>ANFOG data management document</gco:CharacterString>
+                </gmd:description>
+              </gmd:CI_OnlineResource>
+            </gmd:onLine>
+            <gmd:onLine>
+              <gmd:CI_OnlineResource>
+                <gmd:linkage>
+                  <gmd:URL>http://content.aodn.org.au/Documents/IMOS/Facilities/Ocean_glider/Delayed_Mode_QAQC_Best_Practice_Manual_OceanGliders_LATEST.pdf</gmd:URL>
+                </gmd:linkage>
+                <gmd:protocol>
+                  <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+                </gmd:protocol>
+                <gmd:name>
+                  <gco:CharacterString>Delayed Mode QA/QC Best Practice Manual</gco:CharacterString>
+                </gmd:name>
+              </gmd:CI_OnlineResource>
+            </gmd:onLine>
+            <gmd:onLine>
+              <gmd:CI_OnlineResource>
+                <gmd:linkage>
+                  <gmd:URL>http://thredds.aodn.org.au/thredds/catalog/IMOS/ANFOG/catalog.html</gmd:URL>
+                </gmd:linkage>
+                <gmd:protocol>
+                  <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+                </gmd:protocol>
+                <gmd:name>
+                  <gco:CharacterString>NetCDF files via THREDDS catalog</gco:CharacterString>
+                </gmd:name>
+              </gmd:CI_OnlineResource>
+            </gmd:onLine>
+            <gmd:onLine>
+              <gmd:CI_OnlineResource>
+                <gmd:linkage>
+                  <gmd:URL>https://portal.aodn.org.au/search?uuid=c317b0fe-02e8-4ff9-96c9-563fd58e82ac</gmd:URL>
+                </gmd:linkage>
+                <gmd:protocol>
+                  <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+                </gmd:protocol>
+                <gmd:name>
+                  <gco:CharacterString>View and download data though the AODN Portal</gco:CharacterString>
+                </gmd:name>
+              </gmd:CI_OnlineResource>
+            </gmd:onLine>
+            <gmd:onLine>
+              <gmd:CI_OnlineResource>
+                <gmd:linkage>
+                  <gmd:URL>http://geoserver-123.aodn.org.au/geoserver/ows</gmd:URL>
+                </gmd:linkage>
+                <gmd:protocol>
+                  <gco:CharacterString>OGC:WFS-1.0.0-http-get-capabilities</gco:CharacterString>
+                </gmd:protocol>
+                <gmd:name>
+                  <gco:CharacterString>anfog_dm_trajectory_data</gco:CharacterString>
+                </gmd:name>
+                <gmd:description>
+                  <gco:CharacterString>This OGC WFS service returns filtered geographic information. The returned data is available in multiple formats including CSV.</gco:CharacterString>
+                </gmd:description>
+              </gmd:CI_OnlineResource>
+            </gmd:onLine>
+            <gmd:onLine>
+              <gmd:CI_OnlineResource>
+                <gmd:linkage>
+                  <gmd:URL>https://help.aodn.org.au/web-services/ogc-wfs/</gmd:URL>
+                </gmd:linkage>
+                <gmd:protocol>
+                  <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+                </gmd:protocol>
+                <gmd:name>
+                  <gco:CharacterString>OGC WFS help documentation</gco:CharacterString>
+                </gmd:name>
+              </gmd:CI_OnlineResource>
+            </gmd:onLine>
+            <gmd:onLine>
+              <gmd:CI_OnlineResource>
+                <gmd:linkage>
+                  <gmd:URL>http://geoserver-123.aodn.org.au/geoserver/ows</gmd:URL>
+                </gmd:linkage>
+                <gmd:protocol>
+                  <gco:CharacterString>IMOS:AGGREGATION--bodaac</gco:CharacterString>
+                </gmd:protocol>
+                <gmd:name>
+                  <gco:CharacterString>anfog_dm_trajectory_map#url</gco:CharacterString>
+                </gmd:name>
+                <gmd:description>
+                  <gco:CharacterString>The ncUrlList is a WFS service that returns a list of URLs matching a query.</gco:CharacterString>
+                </gmd:description>
+              </gmd:CI_OnlineResource>
+            </gmd:onLine>
+            <gmd:onLine>
+              <gmd:CI_OnlineResource>
+                <gmd:linkage>
+                  <gmd:URL>https://help.aodn.org.au/web-services/ncurllist-service/</gmd:URL>
+                </gmd:linkage>
+                <gmd:protocol>
+                  <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+                </gmd:protocol>
+                <gmd:name>
+                  <gco:CharacterString>ncUrlList help documentation</gco:CharacterString>
+                </gmd:name>
+              </gmd:CI_OnlineResource>
+            </gmd:onLine>
+          </gmd:MD_DigitalTransferOptions>
+        </gmd:transferOptions>
+      </gmd:MD_Distribution>
+    </gmd:distributionInfo>
+  </gmd:MD_Metadata>
+  </csw:SearchResults>
+</csw:GetRecordsResponse>
