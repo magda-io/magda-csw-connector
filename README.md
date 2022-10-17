@@ -30,31 +30,31 @@ Development releases (per commit) are also available from [GitHub Registry](http
 
 ## Requirements
 
-Kubernetes: `>= 1.14.0-0`
+Kubernetes: `>= 1.21.0`
 
-| Repository              | Name         | Version       |
-| ----------------------- | ------------ | ------------- |
-| https://charts.magda.io | magda-common | 1.0.0-alpha.4 |
+| Repository | Name | Version |
+|------------|------|---------|
+| oci://ghcr.io/magda-io/charts | magda-common | 2.1.1 |
 
 ## Values
 
-| Key                                | Type   | Default                   | Description                                                                                                              |
-| ---------------------------------- | ------ | ------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
-| config.basicAuthEnabled            | bool   | `false`                   | Whether or not to send basic auth header.                                                                                |
-| config.basicAuthPassword           | string | `nil`                     | basic auth password. You can also passing this value via secret. To do so, set `basicAuthSecretName` to the secret name. |
-| config.basicAuthSecretName         | string | `nil`                     | You can set this value to supply basic auth username & password. The secret must have two keys: `username` & `password`. |
-| config.basicAuthUsername           | string | `nil`                     | basic auth username. You can also passing this value via secret. To do so, set `basicAuthSecretName` to the secret name. |
-| config.id                          | string | `"default-csw-connector"` |                                                                                                                          |
-| config.usePostRequest              | bool   | `false`                   |                                                                                                                          |
-| defaultImage.imagePullSecret       | bool   | `false`                   |                                                                                                                          |
-| defaultImage.pullPolicy            | string | `"IfNotPresent"`          |                                                                                                                          |
-| defaultImage.repository            | string | `"docker.io/data61"`      |                                                                                                                          |
-| defaultSettings.includeCronJobs    | bool   | `true`                    |                                                                                                                          |
-| defaultSettings.includeInitialJobs | bool   | `false`                   |                                                                                                                          |
-| defaultTenantId                    | int    | `0`                       |                                                                                                                          |
-| global.connectors.image            | object | `{}`                      |                                                                                                                          |
-| global.image                       | object | `{}`                      |                                                                                                                          |
-| image.name                         | string | `"magda-csw-connector"`   |                                                                                                                          |
-| resources.limits.cpu               | string | `"100m"`                  |                                                                                                                          |
-| resources.requests.cpu             | string | `"50m"`                   |                                                                                                                          |
-| resources.requests.memory          | string | `"30Mi"`                  |                                                                                                                          |
+| Key | Type | Default | Description |
+|-----|------|---------|-------------|
+| config.basicAuthEnabled | bool | `false` | Whether or not to send basic auth header. |
+| config.basicAuthPassword | string | `nil` | basic auth password. You can also passing this value via secret. To do so, set `basicAuthSecretName` to the secret name. |
+| config.basicAuthSecretName | string | `nil` | You can set this value to supply basic auth username & password. The secret must have two keys: `username` & `password`. |
+| config.basicAuthUsername | string | `nil` | basic auth username. You can also passing this value via secret. To do so, set `basicAuthSecretName` to the secret name. |
+| config.id | string | `"default-csw-connector"` |  |
+| config.usePostRequest | bool | `false` |  |
+| defaultImage.imagePullSecret | bool | `false` |  |
+| defaultImage.pullPolicy | string | `"IfNotPresent"` |  |
+| defaultImage.repository | string | `"ghcr.io/magda-io"` |  |
+| defaultSettings.includeCronJobs | bool | `true` |  |
+| defaultSettings.includeInitialJobs | bool | `false` |  |
+| defaultTenantId | int | `0` |  |
+| global.connectors.image | object | `{}` |  |
+| global.image | object | `{}` |  |
+| image.name | string | `"magda-csw-connector"` |  |
+| resources.limits.cpu | string | `"100m"` |  |
+| resources.requests.cpu | string | `"50m"` |  |
+| resources.requests.memory | string | `"30Mi"` |  |
