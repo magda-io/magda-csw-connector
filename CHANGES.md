@@ -1,3 +1,12 @@
+# 2.0.0
+
+-   Upgrade to node 14
+-   Upgrade to typescript 4 & webpack 5
+-   Upgrade @magda dependencies to v2
+-   Release all artifacts to GitHub Container Registry (instead of docker.io & https://charts.magda.io)
+-   Upgrade API version for CronJob to batch/v1 (for k8s v1.25 support)
+-   Release multi-arch docker images
+
 # 1.1.1
 
 -   #21 Fixed: make sure license info is captured correctly for the AURIN CSW registry
