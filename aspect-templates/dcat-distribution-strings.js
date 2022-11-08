@@ -39,14 +39,14 @@ const licenseSortFunc = (lcA, lcB) => {
 let license =
     licenseName || licenseUrl
         ? [licenseName, licenseUrl]
-              .filter(item => item !== undefined)
+              .filter((item) => item !== undefined)
               .sort(licenseSortFunc)
               .join("\n")
         : undefined;
 if (!license) {
     const legalConstraints = jsonpath
         .nodes(dataset.json, "$..MD_LegalConstraints[*]")
-        .map(node => {
+        .map((node) => {
             return {
                 ...node,
                 title:
@@ -64,14 +64,14 @@ if (!license) {
     // try looking for just creative commons licences
     license = legalConstraints
         .filter(
-            lc =>
+            (lc) =>
                 lc.codeListValue == "license" &&
                 lc.title &&
                 lc.title.search(
                     /Creative Commons|CC BY|CC - Attribution|creativecommons/i
                 ) !== -1
         )
-        .map(lc => {
+        .map((lc) => {
             return lc.title;
         })
         .sort(licenseSortFunc)
@@ -79,8 +79,8 @@ if (!license) {
 
     if (!license) {
         license = legalConstraints
-            .filter(lc => lc.codeListValue == "license" && lc.title)
-            .map(lc => {
+            .filter((lc) => lc.codeListValue == "license" && lc.title)
+            .map((lc) => {
                 return lc.title;
             })
             .sort(licenseSortFunc)
@@ -93,6 +93,12 @@ if (!license) {
         license = jsonpath.value(
             dataset.json,
             "$..MD_LegalConstraints[*]..title[*].CharacterString[*]._"
+        );
+    }
+    if (!license) {
+        license = jsonpath.value(
+            dataset.json,
+            "$..MD_LegalConstraints..useLimitation[*].CharacterString[*]._"
         );
     }
 }
