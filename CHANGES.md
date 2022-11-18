@@ -1,3 +1,7 @@
+# 2.0.1
+
+-  #23 Fixed license capture issue for some Australian Ocean Data Network (AODN) datasets
+
 # 2.0.0
 
 -   Upgrade to node 14
