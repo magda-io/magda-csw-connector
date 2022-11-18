@@ -1,0 +1,148 @@
+{
+    "dist-connector-FE66E7B1-28D1-4CF1-A6EA-77A302EDCB98-0": {
+        "id": "dist-connector-FE66E7B1-28D1-4CF1-A6EA-77A302EDCB98-0",
+        "name": "NISB maps",
+        "aspects": {
+            "csw-distribution": {},
+            "dcat-distribution-strings": {
+                "title": "NISB maps",
+                "license": "Data under Creative Commons by Attribution Licensing Agreement (CC BY 3.0 AU). More information can be found here: http://creativecommons.org/licenses/by/3.0/au/. Australian Government Department of the Environment requests attribution in the following manner:  Australian Government Department of the Environment 2007",
+                "accessURL": "http://www.ozcoasts.gov.au/nrm_rpt/habitat_extent.jsp",
+                "format": "WWW:LINK-1.0-http--link"
+            },
+            "source": {
+                "type": "csw-distribution",
+                "url": "SOURCE/?service=CSW&version=2.0.2&request=GetRecordById&elementsetname=full&outputschema=http%3A%2F%2Fwww.isotc211.org%2F2005%2Fgmd&typeNames=gmd%3AMD_Metadata&id=FE66E7B1-28D1-4CF1-A6EA-77A302EDCB98",
+                "id": "connector",
+                "name": "Connector"
+            }
+        },
+        "sourceTag": "stag"
+    },
+    "dist-connector-FE66E7B1-28D1-4CF1-A6EA-77A302EDCB98-1": {
+        "id": "dist-connector-FE66E7B1-28D1-4CF1-A6EA-77A302EDCB98-1",
+        "name": "NISB project report",
+        "aspects": {
+            "csw-distribution": {},
+            "dcat-distribution-strings": {
+                "title": "NISB project report",
+                "license": "Data under Creative Commons by Attribution Licensing Agreement (CC BY 3.0 AU). More information can be found here: http://creativecommons.org/licenses/by/3.0/au/. Australian Government Department of the Environment requests attribution in the following manner:  Australian Government Department of the Environment 2007",
+                "accessURL": "http://www.ozcoasts.gov.au/pdf/ACVbio_ProjectReport_v14.pdf",
+                "format": "WWW:LINK-1.0-http--link"
+            },
+            "source": {
+                "type": "csw-distribution",
+                "url": "SOURCE/?service=CSW&version=2.0.2&request=GetRecordById&elementsetname=full&outputschema=http%3A%2F%2Fwww.isotc211.org%2F2005%2Fgmd&typeNames=gmd%3AMD_Metadata&id=FE66E7B1-28D1-4CF1-A6EA-77A302EDCB98",
+                "id": "connector",
+                "name": "Connector"
+            }
+        },
+        "sourceTag": "stag"
+    },
+    "dist-connector-FE66E7B1-28D1-4CF1-A6EA-77A302EDCB98-2": {
+        "id": "dist-connector-FE66E7B1-28D1-4CF1-A6EA-77A302EDCB98-2",
+        "name": "NISB user guide",
+        "aspects": {
+            "csw-distribution": {},
+            "dcat-distribution-strings": {
+                "title": "NISB user guide",
+                "license": "Data under Creative Commons by Attribution Licensing Agreement (CC BY 3.0 AU). More information can be found here: http://creativecommons.org/licenses/by/3.0/au/. Australian Government Department of the Environment requests attribution in the following manner:  Australian Government Department of the Environment 2007",
+                "accessURL": "http://www.ozcoasts.gov.au/pdf/NationalECMHabitatMapSeriesUserGuide_v7.pdf",
+                "format": "WWW:LINK-1.0-http--link"
+            },
+            "source": {
+                "type": "csw-distribution",
+                "url": "SOURCE/?service=CSW&version=2.0.2&request=GetRecordById&elementsetname=full&outputschema=http%3A%2F%2Fwww.isotc211.org%2F2005%2Fgmd&typeNames=gmd%3AMD_Metadata&id=FE66E7B1-28D1-4CF1-A6EA-77A302EDCB98",
+                "id": "connector",
+                "name": "Connector"
+            }
+        },
+        "sourceTag": "stag"
+    },
+    "dist-connector-FE66E7B1-28D1-4CF1-A6EA-77A302EDCB98-3": {
+        "id": "dist-connector-FE66E7B1-28D1-4CF1-A6EA-77A302EDCB98-3",
+        "name": "NISB NT 2008 Shapefile download. WARNING: FILE SIZE 78MB",
+        "aspects": {
+            "csw-distribution": {},
+            "dcat-distribution-strings": {
+                "title": "NISB NT 2008 Shapefile download. WARNING: FILE SIZE 78MB",
+                "license": "Data under Creative Commons by Attribution Licensing Agreement (CC BY 3.0 AU). More information can be found here: http://creativecommons.org/licenses/by/3.0/au/. Australian Government Department of the Environment requests attribution in the following manner:  Australian Government Department of the Environment 2007",
+                "accessURL": "http://data.aodn.org.au/TERN/ACEF/Habitats/NISB_NT_June2008.zip",
+                "format": "WWW:LINK-1.0-http--link"
+            },
+            "source": {
+                "type": "csw-distribution",
+                "url": "SOURCE/?service=CSW&version=2.0.2&request=GetRecordById&elementsetname=full&outputschema=http%3A%2F%2Fwww.isotc211.org%2F2005%2Fgmd&typeNames=gmd%3AMD_Metadata&id=FE66E7B1-28D1-4CF1-A6EA-77A302EDCB98",
+                "id": "connector",
+                "name": "Connector"
+            }
+        },
+        "sourceTag": "stag"
+    },
+    "org-connector-Australian Ocean Data Network (AODN)": {
+        "id": "org-connector-Australian Ocean Data Network (AODN)",
+        "name": "Australian Ocean Data Network (AODN)",
+        "aspects": {
+            "source": {
+                "type": "csw-organization",
+                "url": "SOURCE/",
+                "id": "connector",
+                "name": "Connector"
+            },
+            "organization-details": {
+                "name": "Australian Ocean Data Network (AODN)",
+                "title": "Australian Ocean Data Network (AODN)",
+                "phone": "61 3 6226 7488",
+                "email": "info@aodn.org.au",
+                "addrStreet": "University of Tasmania",
+                "addrSuburb": "Hobart",
+                "addrState": "Tasmania",
+                "addrPostCode": "7001",
+                "addrCountry": "Australia"
+            }
+        },
+        "sourceTag": "stag"
+    },
+    "ds-connector-FE66E7B1-28D1-4CF1-A6EA-77A302EDCB98": {
+        "id": "ds-connector-FE66E7B1-28D1-4CF1-A6EA-77A302EDCB98",
+        "name": "FE66E7B1-28D1-4CF1-A6EA-77A302EDCB98",
+        "aspects": {
+            "csw-dataset": {},
+            "dcat-dataset-strings": {
+                "title": "Northern Territory - National Intertidal-Subtidal Benthic NISB Habitat Map (PLUS)",
+                "description": "The NISB Habitat Map was created by the University of Tasmania for a partnership between the Department of Climate Change and the National Land and Water Resources Audit. It supports the DCC/Audit partnership by providing a nationally consistent set of the available mapping data for those habitats that occur between the approximate position of the highest astronomical tide mark (HAT) and the location of the outer limit of the photic benthic zone (approximately at the 50-70 m depth contour). This area is broadly equivalent to the 'inner' and 'mid-shelf' regions identified by Geoscience Australia. The resulting map data set forms a core component of the ECM National Habitat Map Series. The habitat classes include: coral reef, rock dominated habitat, sediment dominated habitat, mangroves, saltmarsh, seagrass, macroalgae and filter feeders (e.g. sponges), as defined in the NISB Habitat Classification Scheme. The scheme is designed to support the development of marine 'ecoregions' or bioregional subregions. Details of the scheme and the process of its development are available in National Intertidal/Subtidal Benthic (NISB) Habitat Classification Scheme Version 1 (Mount, Bricher and Newton, 2007). The NISB Habitat Map consists of two layers for each state. _NISB.shp consists of the entire available habitat mapping at a resolution finer than 1:50 000 (with a few exceptions, outlined in the data quality section below). _NISB_PLUS.shp consists of all the data in _NISB.shp along with coarser resolution data, including NVIS and OzEstuaries data. These layers were used to produce the National ECM Key Habitat Distribution Map Series 10 km and 50 km tile maps.\n\nNote: This data is labelled as “NISB_plus”, indicating that it is the NISB Habitat layer plus other lower quality layers.",
+                "issued": "2007-01-01T00:00:00",
+                "modified": "2013-04-09T00:00:00",
+                "languages": ["eng"],
+                "publisher": "Australian Ocean Data Network (AODN)",
+                "accrualPeriodicity": "notPlanned",
+                "temporal": { "start": "1984", "end": "2007" },
+                "themes": ["biota", "structure"],
+                "keywords": ["Australia", "Northern Territory"],
+                "contactPoint": "Marine Data Manager, marine.metadata@environment.gov.au",
+                "defaultLicense": "Data under Creative Commons by Attribution Licensing Agreement (CC BY 3.0 AU). More information can be found here: http://creativecommons.org/licenses/by/3.0/au/. Australian Government Department of the Environment requests attribution in the following manner:  Australian Government Department of the Environment 2007"
+            },
+            "source": {
+                "type": "csw-dataset",
+                "url": "SOURCE/?service=CSW&version=2.0.2&request=GetRecordById&elementsetname=full&outputschema=http%3A%2F%2Fwww.isotc211.org%2F2005%2Fgmd&typeNames=gmd%3AMD_Metadata&id=FE66E7B1-28D1-4CF1-A6EA-77A302EDCB98",
+                "id": "connector",
+                "name": "Connector"
+            },
+            "temporal-coverage": {
+                "intervals": [{ "start": "1984", "end": "2007" }]
+            },
+            "dataset-distributions": {
+                "distributions": [
+                    "dist-connector-FE66E7B1-28D1-4CF1-A6EA-77A302EDCB98-0",
+                    "dist-connector-FE66E7B1-28D1-4CF1-A6EA-77A302EDCB98-1",
+                    "dist-connector-FE66E7B1-28D1-4CF1-A6EA-77A302EDCB98-2",
+                    "dist-connector-FE66E7B1-28D1-4CF1-A6EA-77A302EDCB98-3"
+                ]
+            },
+            "dataset-publisher": {
+                "publisher": "org-connector-Australian Ocean Data Network (AODN)"
+            }
+        },
+        "sourceTag": "stag"
+    }
+}

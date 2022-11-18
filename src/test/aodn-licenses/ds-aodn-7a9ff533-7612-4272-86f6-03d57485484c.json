@@ -1,0 +1,69 @@
+{
+    "org-connector-Australian Ocean Data Network (AODN)": {
+        "id": "org-connector-Australian Ocean Data Network (AODN)",
+        "name": "Australian Ocean Data Network (AODN)",
+        "aspects": {
+            "source": {
+                "type": "csw-organization",
+                "url": "SOURCE/",
+                "id": "connector",
+                "name": "Connector"
+            },
+            "organization-details": {
+                "name": "Australian Ocean Data Network (AODN)",
+                "title": "Australian Ocean Data Network (AODN)",
+                "phone": "61 3 6226 7488",
+                "email": "info@aodn.org.au",
+                "addrStreet": "University of Tasmania",
+                "addrSuburb": "Hobart",
+                "addrState": "Tasmania",
+                "addrPostCode": "7001",
+                "addrCountry": "Australia",
+                "website": "http://imos.org.au/aodn.html"
+            }
+        },
+        "sourceTag": "stag"
+    },
+    "ds-connector-7a9ff533-7612-4272-86f6-03d57485484c": {
+        "id": "ds-connector-7a9ff533-7612-4272-86f6-03d57485484c",
+        "name": "7a9ff533-7612-4272-86f6-03d57485484c",
+        "aspects": {
+            "csw-dataset": {},
+            "dcat-dataset-strings": {
+                "title": "Tessa Shoals Dampier Marine Park Habitat Validation",
+                "description": "MScience conducted a restricted habitat mapping exercise on behalf of Robe River Mining to confirm the type and location of a benthic habitat class mapped and identified previously by satellite. Transects were recorded through field use of a drop camera and video.  Habitat type within the transects were assigned a class by experienced marine scientists and the data used to update a GIS of habitats of the area.",
+                "modified": "2022-04-29T05:35:53",
+                "languages": ["eng"],
+                "publisher": "Australian Ocean Data Network (AODN)",
+                "spatial": "POLYGON((117.33089447 -20.5252387943, 117.43183136 -20.5252387943, 117.43183136 -20.4860075757, 117.33089447 -20.4860075757, 117.33089447 -20.5252387943))",
+                "temporal": { "start": "2021-11-02", "end": "2021-11-05" },
+                "themes": ["biota"],
+                "keywords": [
+                    "Habitat mapping",
+                    "Habitat Class",
+                    "Ascidians",
+                    "scleractinians",
+                    "alconarians",
+                    "gorgonians",
+                    "poriferans"
+                ],
+                "contactPoint": "AODN Data Manager, http://imos.org.au/aodn.html, info@aodn.org.au",
+                "defaultLicense": "Creative Commons Attribution 4.0 International License"
+            },
+            "source": {
+                "type": "csw-dataset",
+                "url": "SOURCE/?service=CSW&version=2.0.2&request=GetRecordById&elementsetname=full&outputschema=http%3A%2F%2Fwww.isotc211.org%2F2005%2Fgmd&typeNames=gmd%3AMD_Metadata&id=7a9ff533-7612-4272-86f6-03d57485484c",
+                "id": "connector",
+                "name": "Connector"
+            },
+            "temporal-coverage": {
+                "intervals": [{ "start": "2021-11-02", "end": "2021-11-05" }]
+            },
+            "dataset-distributions": { "distributions": [] },
+            "dataset-publisher": {
+                "publisher": "org-connector-Australian Ocean Data Network (AODN)"
+            }
+        },
+        "sourceTag": "stag"
+    }
+}

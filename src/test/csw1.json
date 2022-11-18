@@ -5,6 +5,7 @@
             "dcat-distribution-strings": {
                 "accessURL": "\nTRANSFER 1\n",
                 "issued": "2000-01-02",
+                "license": "\nCONST 1\n",
                 "rights": "\nCONST 1\n"
             },
             "source": {
@@ -24,6 +25,7 @@
             "dcat-distribution-strings": {
                 "accessURL": "\nTRANSFER 2\n",
                 "issued": "2000-01-02",
+                "license": "\nCONST 1\n",
                 "rights": "\nCONST 1\n"
             },
             "source": {
@@ -63,7 +65,8 @@
                     "start": "2003-11-23"
                 },
                 "themes": [],
-                "title": "Imagery service Queensland - QldBase QGovSispUsers"
+                "title": "Imagery service Queensland - QldBase QGovSispUsers",
+                "defaultLicense": "\nCONST 1\n"
             },
             "source": {
                 "id": "connector",

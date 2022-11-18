@@ -65,12 +65,35 @@ const TEST_CASES = [
     }
 ];
 
-runConnectorTest(TEST_CASES, MockCSWCatalog, {
-    cleanRegistry: function(registry: any) {
+const licenseTestCaseDirItem = fs.readdirSync(
+    path.resolve(__dirname, "./aodn-licenses")
+);
+
+const licenseTestCases: any[] = licenseTestCaseDirItem
+    .filter((item: string) => item.endsWith(".xml"))
+    .map((item: string) => item.replace(/\.xml$/, ""))
+    .map((item: string) => ({
+        input: fs.readFileSync(
+            path.resolve(__dirname, `./aodn-licenses/${item}.xml`),
+            { encoding: "utf8" }
+        ),
+        output: JSON.parse(
+            fs.readFileSync(
+                path.resolve(__dirname, `./aodn-licenses/${item}.json`),
+                { encoding: "utf8" }
+            )
+        )
+    }));
+
+const allTestCases = [...licenseTestCases, ...TEST_CASES];
+
+runConnectorTest(allTestCases, MockCSWCatalog, {
+    cleanRegistry: function (registry: any) {
         Object.values(registry.records).forEach((record: any) => {
             if (record.aspects && record.aspects["csw-dataset"]) {
                 delete record.aspects["csw-dataset"].xml;
             }
         });
+        //console.log("registry.records: ", JSON.stringify(registry.records));
     }
 });

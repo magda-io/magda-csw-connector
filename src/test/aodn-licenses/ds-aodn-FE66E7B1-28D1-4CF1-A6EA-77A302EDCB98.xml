@@ -1,0 +1,769 @@
+<?xml version="1.0" encoding="UTF-8"?><csw:GetRecordsResponse xmlns="http://www.opengis.net/cat/csw/apiso/1.0" xmlns:csw="http://www.opengis.net/cat/csw/2.0.2" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0.2" xsi:schemaLocation="http://www.opengis.net/cat/csw/2.0.2 http://openapi.aurin.org.au//public/schemas/csw/2.0.2/record.xsd">
+  <csw:SearchStatus timestamp="2019-10-28T02:57:40.604Z"/>
+  <csw:SearchResults numberOfRecordsMatched="1" numberOfRecordsReturned="1" nextRecord="0" recordSchema="http://www.isotc211.org/2005/gmd" elementSet="full">
+  <gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <gmd:fileIdentifier>
+      <gco:CharacterString>FE66E7B1-28D1-4CF1-A6EA-77A302EDCB98</gco:CharacterString>
+    </gmd:fileIdentifier>
+    <gmd:language>
+      <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" />
+    </gmd:language>
+    <gmd:characterSet>
+      <gmd:MD_CharacterSetCode codeListValue="utf8" codeList="http://www.isotc211.org/namespace/resources/codeList.xml#MD_CharacterSetCode" />
+    </gmd:characterSet>
+    <gmd:hierarchyLevel>
+      <gmd:MD_ScopeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset" />
+    </gmd:hierarchyLevel>
+    <gmd:hierarchyLevelName>
+      <gco:CharacterString>dataset</gco:CharacterString>
+    </gmd:hierarchyLevelName>
+    <gmd:contact>
+      <gmd:CI_ResponsibleParty>
+        <gmd:organisationName>
+          <gco:CharacterString>Australian Ocean Data Network (AODN)</gco:CharacterString>
+        </gmd:organisationName>
+        <gmd:positionName>
+          <gco:CharacterString>AODN Project Officer</gco:CharacterString>
+        </gmd:positionName>
+        <gmd:contactInfo>
+          <gmd:CI_Contact>
+            <gmd:phone>
+              <gmd:CI_Telephone>
+                <gmd:voice>
+                  <gco:CharacterString>61 3 6226 7488</gco:CharacterString>
+                </gmd:voice>
+                <gmd:facsimile>
+                  <gco:CharacterString>61 3 6226 8575</gco:CharacterString>
+                </gmd:facsimile>
+              </gmd:CI_Telephone>
+            </gmd:phone>
+            <gmd:address>
+              <gmd:CI_Address>
+                <gmd:deliveryPoint>
+                  <gco:CharacterString>University of Tasmania</gco:CharacterString>
+                </gmd:deliveryPoint>
+                <gmd:deliveryPoint>
+                  <gco:CharacterString>Private Bag 110</gco:CharacterString>
+                </gmd:deliveryPoint>
+                <gmd:city>
+                  <gco:CharacterString>Hobart</gco:CharacterString>
+                </gmd:city>
+                <gmd:administrativeArea>
+                  <gco:CharacterString>Tasmania</gco:CharacterString>
+                </gmd:administrativeArea>
+                <gmd:postalCode>
+                  <gco:CharacterString>7001</gco:CharacterString>
+                </gmd:postalCode>
+                <gmd:country>
+                  <gco:CharacterString>Australia</gco:CharacterString>
+                </gmd:country>
+                <gmd:electronicMailAddress>
+                  <gco:CharacterString>info@aodn.org.au</gco:CharacterString>
+                </gmd:electronicMailAddress>
+              </gmd:CI_Address>
+            </gmd:address>
+          </gmd:CI_Contact>
+        </gmd:contactInfo>
+        <gmd:role>
+          <gmd:CI_RoleCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode" codeListValue="distributor">distributor</gmd:CI_RoleCode>
+        </gmd:role>
+      </gmd:CI_ResponsibleParty>
+    </gmd:contact>
+    <gmd:dateStamp>
+      <gco:DateTime>2013-11-01T00:00:00</gco:DateTime>
+    </gmd:dateStamp>
+    <gmd:metadataStandardName>
+      <gco:CharacterString>ISO 19115-3:2018</gco:CharacterString>
+    </gmd:metadataStandardName>
+    <gmd:metadataStandardVersion>
+      <gco:CharacterString />
+    </gmd:metadataStandardVersion>
+    <gmd:referenceSystemInfo>
+      <gmd:MD_ReferenceSystem>
+        <gmd:referenceSystemIdentifier>
+          <gmd:RS_Identifier>
+            <gmd:code>
+              <gco:CharacterString>EPSG::4283</gco:CharacterString>
+            </gmd:code>
+          </gmd:RS_Identifier>
+        </gmd:referenceSystemIdentifier>
+      </gmd:MD_ReferenceSystem>
+    </gmd:referenceSystemInfo>
+    <gmd:identificationInfo>
+      <gmd:MD_DataIdentification>
+        <gmd:citation>
+          <gmd:CI_Citation>
+            <gmd:title>
+              <gco:CharacterString>Northern Territory - National Intertidal-Subtidal Benthic NISB Habitat Map (PLUS)</gco:CharacterString>
+            </gmd:title>
+            <gmd:date>
+              <gmd:CI_Date>
+                <gmd:date>
+                  <gco:DateTime>2007-01-01T00:00:00</gco:DateTime>
+                </gmd:date>
+                <gmd:dateType>
+                  <gmd:CI_DateTypeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation">creation</gmd:CI_DateTypeCode>
+                </gmd:dateType>
+              </gmd:CI_Date>
+            </gmd:date>
+            <gmd:date>
+              <gmd:CI_Date>
+                <gmd:date>
+                  <gco:DateTime>2013-04-09T00:00:00</gco:DateTime>
+                </gmd:date>
+                <gmd:dateType>
+                  <gmd:CI_DateTypeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
+                </gmd:dateType>
+              </gmd:CI_Date>
+            </gmd:date>
+          </gmd:CI_Citation>
+        </gmd:citation>
+        <gmd:abstract>
+          <gco:CharacterString>The NISB Habitat Map was created by the University of Tasmania for a partnership between the Department of Climate Change and the National Land and Water Resources Audit. It supports the DCC/Audit partnership by providing a nationally consistent set of the available mapping data for those habitats that occur between the approximate position of the highest astronomical tide mark (HAT) and the location of the outer limit of the photic benthic zone (approximately at the 50-70 m depth contour). This area is broadly equivalent to the 'inner' and 'mid-shelf' regions identified by Geoscience Australia. The resulting map data set forms a core component of the ECM National Habitat Map Series. The habitat classes include: coral reef, rock dominated habitat, sediment dominated habitat, mangroves, saltmarsh, seagrass, macroalgae and filter feeders (e.g. sponges), as defined in the NISB Habitat Classification Scheme. The scheme is designed to support the development of marine 'ecoregions' or bioregional subregions. Details of the scheme and the process of its development are available in National Intertidal/Subtidal Benthic (NISB) Habitat Classification Scheme Version 1 (Mount, Bricher and Newton, 2007). The NISB Habitat Map consists of two layers for each state. _NISB.shp consists of the entire available habitat mapping at a resolution finer than 1:50 000 (with a few exceptions, outlined in the data quality section below). _NISB_PLUS.shp consists of all the data in _NISB.shp along with coarser resolution data, including NVIS and OzEstuaries data. These layers were used to produce the National ECM Key Habitat Distribution Map Series 10 km and 50 km tile maps.
+
+Note: This data is labelled as “NISB_plus”, indicating that it is the NISB Habitat layer plus other lower quality layers.</gco:CharacterString>
+        </gmd:abstract>
+        <gmd:status>
+          <gmd:MD_ProgressCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed">completed</gmd:MD_ProgressCode>
+        </gmd:status>
+        <gmd:pointOfContact>
+          <gmd:CI_ResponsibleParty>
+            <gmd:individualName>
+              <gco:CharacterString>Marine Data Manager</gco:CharacterString>
+            </gmd:individualName>
+            <gmd:organisationName>
+              <gco:CharacterString>Australian Government Department of the Environment</gco:CharacterString>
+            </gmd:organisationName>
+            <gmd:positionName>
+              <gco:CharacterString>Data Manager</gco:CharacterString>
+            </gmd:positionName>
+            <gmd:contactInfo>
+              <gmd:CI_Contact>
+                <gmd:phone>
+                  <gmd:CI_Telephone>
+                    <gmd:voice>
+                      <gco:CharacterString>02 6274 1111</gco:CharacterString>
+                    </gmd:voice>
+                    <gmd:facsimile>
+                      <gco:CharacterString>02 6274 1666</gco:CharacterString>
+                    </gmd:facsimile>
+                  </gmd:CI_Telephone>
+                </gmd:phone>
+                <gmd:address>
+                  <gmd:CI_Address>
+                    <gmd:deliveryPoint>
+                      <gco:CharacterString>GPO Box 787</gco:CharacterString>
+                    </gmd:deliveryPoint>
+                    <gmd:city>
+                      <gco:CharacterString>Canberra</gco:CharacterString>
+                    </gmd:city>
+                    <gmd:administrativeArea>
+                      <gco:CharacterString>Australian Capital Territory</gco:CharacterString>
+                    </gmd:administrativeArea>
+                    <gmd:postalCode>
+                      <gco:CharacterString>2601</gco:CharacterString>
+                    </gmd:postalCode>
+                    <gmd:country>
+                      <gco:CharacterString>Australia</gco:CharacterString>
+                    </gmd:country>
+                    <gmd:electronicMailAddress>
+                      <gco:CharacterString>marine.metadata@environment.gov.au</gco:CharacterString>
+                    </gmd:electronicMailAddress>
+                  </gmd:CI_Address>
+                </gmd:address>
+              </gmd:CI_Contact>
+            </gmd:contactInfo>
+            <gmd:role>
+              <gmd:CI_RoleCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode" codeListValue="distributor">distributor</gmd:CI_RoleCode>
+            </gmd:role>
+          </gmd:CI_ResponsibleParty>
+        </gmd:pointOfContact>
+        <gmd:pointOfContact>
+          <gmd:CI_ResponsibleParty>
+            <gmd:individualName>
+              <gco:CharacterString>Dr Richard Mount</gco:CharacterString>
+            </gmd:individualName>
+            <gmd:organisationName>
+              <gco:CharacterString>Spatial Science Group, School of Geography, University of Tasmania</gco:CharacterString>
+            </gmd:organisationName>
+            <gmd:positionName>
+              <gco:CharacterString>University Associate</gco:CharacterString>
+            </gmd:positionName>
+            <gmd:contactInfo>
+              <gmd:CI_Contact>
+                <gmd:phone>
+                  <gmd:CI_Telephone>
+                    <gmd:voice>
+                      <gco:CharacterString>+61 3 6226 2106</gco:CharacterString>
+                    </gmd:voice>
+                    <gmd:facsimile>
+                      <gco:CharacterString>+61 3 6226 7628</gco:CharacterString>
+                    </gmd:facsimile>
+                  </gmd:CI_Telephone>
+                </gmd:phone>
+                <gmd:address>
+                  <gmd:CI_Address>
+                    <gmd:deliveryPoint>
+                      <gco:CharacterString>School of Geography, University of Tasmania</gco:CharacterString>
+                    </gmd:deliveryPoint>
+                    <gmd:city>
+                      <gco:CharacterString>Hobart</gco:CharacterString>
+                    </gmd:city>
+                    <gmd:administrativeArea>
+                      <gco:CharacterString>Tasmania</gco:CharacterString>
+                    </gmd:administrativeArea>
+                    <gmd:postalCode>
+                      <gco:CharacterString>7001</gco:CharacterString>
+                    </gmd:postalCode>
+                    <gmd:country>
+                      <gco:CharacterString>Australia</gco:CharacterString>
+                    </gmd:country>
+                    <gmd:electronicMailAddress>
+                      <gco:CharacterString>Richard.Mount@utas.edu.au</gco:CharacterString>
+                    </gmd:electronicMailAddress>
+                  </gmd:CI_Address>
+                </gmd:address>
+              </gmd:CI_Contact>
+            </gmd:contactInfo>
+            <gmd:role>
+              <gmd:CI_RoleCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
+            </gmd:role>
+          </gmd:CI_ResponsibleParty>
+        </gmd:pointOfContact>
+        <gmd:pointOfContact>
+          <gmd:CI_ResponsibleParty>
+            <gmd:individualName>
+              <gco:CharacterString>Phillippa Bricher</gco:CharacterString>
+            </gmd:individualName>
+            <gmd:organisationName>
+              <gco:CharacterString>Spatial Science Group, School of Geography, University of Tasmania</gco:CharacterString>
+            </gmd:organisationName>
+            <gmd:positionName>
+              <gco:CharacterString>University Associate</gco:CharacterString>
+            </gmd:positionName>
+            <gmd:contactInfo>
+              <gmd:CI_Contact>
+                <gmd:address>
+                  <gmd:CI_Address>
+                    <gmd:deliveryPoint>
+                      <gco:CharacterString>School of Geography, University of Tasmania</gco:CharacterString>
+                    </gmd:deliveryPoint>
+                    <gmd:city>
+                      <gco:CharacterString>Hobart</gco:CharacterString>
+                    </gmd:city>
+                    <gmd:administrativeArea>
+                      <gco:CharacterString>Tasmania</gco:CharacterString>
+                    </gmd:administrativeArea>
+                    <gmd:postalCode>
+                      <gco:CharacterString>7001</gco:CharacterString>
+                    </gmd:postalCode>
+                    <gmd:country>
+                      <gco:CharacterString>Australia</gco:CharacterString>
+                    </gmd:country>
+                  </gmd:CI_Address>
+                </gmd:address>
+              </gmd:CI_Contact>
+            </gmd:contactInfo>
+            <gmd:role>
+              <gmd:CI_RoleCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
+            </gmd:role>
+          </gmd:CI_ResponsibleParty>
+        </gmd:pointOfContact>
+        <gmd:resourceMaintenance>
+          <gmd:MD_MaintenanceInformation>
+            <gmd:maintenanceAndUpdateFrequency>
+              <gmd:MD_MaintenanceFrequencyCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_MaintenanceFrequencyCode" codeListValue="notPlanned" />
+            </gmd:maintenanceAndUpdateFrequency>
+          </gmd:MD_MaintenanceInformation>
+        </gmd:resourceMaintenance>
+        <gmd:resourceFormat xlink:type="simple">
+          <gmd:MD_Format>
+            <gmd:name>
+              <gco:CharacterString>*.shp</gco:CharacterString>
+            </gmd:name>
+            <gmd:version>
+              <gco:CharacterString>Unknown</gco:CharacterString>
+            </gmd:version>
+            <gmd:specification />
+          </gmd:MD_Format>
+        </gmd:resourceFormat>
+        <gmd:descriptiveKeywords>
+          <gmd:MD_Keywords>
+            <gmd:keyword>
+              <gco:CharacterString>Australia</gco:CharacterString>
+            </gmd:keyword>
+            <gmd:keyword>
+              <gco:CharacterString>Northern Territory</gco:CharacterString>
+            </gmd:keyword>
+            <gmd:type>
+              <gmd:MD_KeywordTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_KeywordTypeCode" codeListValue="theme" />
+            </gmd:type>
+            <gmd:thesaurusName>
+              <gmd:CI_Citation>
+                <gmd:title>
+                  <gco:CharacterString>ANZLIC Jurisdictions</gco:CharacterString>
+                </gmd:title>
+                <gmd:date>
+                  <gmd:CI_Date>
+                    <gmd:date>
+                      <gco:DateTime>2008-10-29T00:00:00</gco:DateTime>
+                    </gmd:date>
+                    <gmd:dateType>
+                      <gmd:CI_DateTypeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
+                    </gmd:dateType>
+                  </gmd:CI_Date>
+                </gmd:date>
+                <gmd:edition>
+                  <gco:CharacterString>Version 2.1</gco:CharacterString>
+                </gmd:edition>
+                <gmd:editionDate>
+                  <gco:DateTime>2008-10-29T00:00:00</gco:DateTime>
+                </gmd:editionDate>
+                <gmd:identifier>
+                  <gmd:MD_Identifier>
+                    <gmd:code>
+                      <gco:CharacterString>http://asdd.ga.gov.au/asdd/profileinfo/anzlic-jurisdic.xml#anzlic-jurisdic</gco:CharacterString>
+                    </gmd:code>
+                  </gmd:MD_Identifier>
+                </gmd:identifier>
+                <gmd:citedResponsibleParty>
+                  <gmd:CI_ResponsibleParty>
+                    <gmd:organisationName>
+                      <gco:CharacterString>ANZLIC the Spatial Information Council</gco:CharacterString>
+                    </gmd:organisationName>
+                    <gmd:role>
+                      <gmd:CI_RoleCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode" codeListValue="custodian">custodian</gmd:CI_RoleCode>
+                    </gmd:role>
+                  </gmd:CI_ResponsibleParty>
+                </gmd:citedResponsibleParty>
+              </gmd:CI_Citation>
+            </gmd:thesaurusName>
+          </gmd:MD_Keywords>
+        </gmd:descriptiveKeywords>
+        <gmd:resourceConstraints>
+          <gmd:MD_SecurityConstraints>
+            <gmd:classification>
+              <gmd:MD_ClassificationCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_ClassificationCode" codeListValue="unclassified" />
+            </gmd:classification>
+          </gmd:MD_SecurityConstraints>
+        </gmd:resourceConstraints>
+        <gmd:resourceConstraints>
+          <gmd:MD_LegalConstraints>
+            <gmd:useLimitation>
+              <gco:CharacterString>Data under Creative Commons by Attribution Licensing Agreement (CC BY 3.0 AU). More information can be found here: http://creativecommons.org/licenses/by/3.0/au/. Australian Government Department of the Environment requests attribution in the following manner:  Australian Government Department of the Environment 2007</gco:CharacterString>
+            </gmd:useLimitation>
+            <gmd:accessConstraints>
+              <gmd:MD_RestrictionCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_RestrictionCode" codeListValue="license" />
+            </gmd:accessConstraints>
+          </gmd:MD_LegalConstraints>
+        </gmd:resourceConstraints>
+        <gmd:spatialRepresentationType>
+          <gmd:MD_SpatialRepresentationTypeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_SpatialRepresentationTypeCode" codeListValue="vector">vector</gmd:MD_SpatialRepresentationTypeCode>
+        </gmd:spatialRepresentationType>
+        <gmd:spatialResolution>
+          <gmd:MD_Resolution>
+            <gmd:equivalentScale>
+              <gmd:MD_RepresentativeFraction>
+                <gmd:denominator>
+                  <gco:Integer>50000</gco:Integer>
+                </gmd:denominator>
+              </gmd:MD_RepresentativeFraction>
+            </gmd:equivalentScale>
+          </gmd:MD_Resolution>
+        </gmd:spatialResolution>
+        <gmd:language>
+          <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" />
+        </gmd:language>
+        <gmd:characterSet>
+          <gmd:MD_CharacterSetCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
+        </gmd:characterSet>
+        <gmd:topicCategory>
+          <gmd:MD_TopicCategoryCode>biota</gmd:MD_TopicCategoryCode>
+        </gmd:topicCategory>
+        <gmd:topicCategory>
+          <gmd:MD_TopicCategoryCode>structure</gmd:MD_TopicCategoryCode>
+        </gmd:topicCategory>
+        <gmd:extent>
+          <gmd:EX_Extent>
+            <gmd:geographicElement>
+              <gmd:EX_GeographicDescription>
+                <gmd:geographicIdentifier>
+                  <gmd:MD_Identifier>
+                    <gmd:authority>
+                      <gmd:CI_Citation>
+                        <gmd:title>
+                          <gco:CharacterString>ANZMet Lite Country codelist</gco:CharacterString>
+                        </gmd:title>
+                        <gmd:date>
+                          <gmd:CI_Date>
+                            <gmd:date>
+                              <gco:DateTime>2009-03-31T00:00:00</gco:DateTime>
+                            </gmd:date>
+                            <gmd:dateType>
+                              <gmd:CI_DateTypeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                            </gmd:dateType>
+                          </gmd:CI_Date>
+                        </gmd:date>
+                        <gmd:edition>
+                          <gco:CharacterString>Version 1.0</gco:CharacterString>
+                        </gmd:edition>
+                        <gmd:editionDate>
+                          <gco:DateTime>2009-03-31T00:00:00</gco:DateTime>
+                        </gmd:editionDate>
+                        <gmd:identifier>
+                          <gmd:MD_Identifier>
+                            <gmd:code>
+                              <gco:CharacterString>http://asdd.ga.gov.au/asdd/profileinfo/anzlic-country.xml#Country</gco:CharacterString>
+                            </gmd:code>
+                          </gmd:MD_Identifier>
+                        </gmd:identifier>
+                        <gmd:citedResponsibleParty>
+                          <gmd:CI_ResponsibleParty>
+                            <gmd:organisationName>
+                              <gco:CharacterString>ANZLIC the Spatial Information Council</gco:CharacterString>
+                            </gmd:organisationName>
+                            <gmd:role>
+                              <gmd:CI_RoleCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode" codeListValue="custodian">custodian</gmd:CI_RoleCode>
+                            </gmd:role>
+                          </gmd:CI_ResponsibleParty>
+                        </gmd:citedResponsibleParty>
+                      </gmd:CI_Citation>
+                    </gmd:authority>
+                    <gmd:code>
+                      <gco:CharacterString>aus</gco:CharacterString>
+                    </gmd:code>
+                  </gmd:MD_Identifier>
+                </gmd:geographicIdentifier>
+              </gmd:EX_GeographicDescription>
+            </gmd:geographicElement>
+          </gmd:EX_Extent>
+        </gmd:extent>
+        <gmd:extent>
+          <gmd:EX_Extent>
+            <gmd:geographicElement>
+              <gmd:EX_GeographicDescription>
+                <gmd:geographicIdentifier>
+                  <gmd:MD_Identifier>
+                    <gmd:authority>
+                      <gmd:CI_Citation>
+                        <gmd:title>
+                          <gco:CharacterString>ANZLIC Geographic Extent Name Register</gco:CharacterString>
+                        </gmd:title>
+                        <gmd:date>
+                          <gmd:CI_Date>
+                            <gmd:date>
+                              <gco:DateTime>2006-10-10T00:00:00</gco:DateTime>
+                            </gmd:date>
+                            <gmd:dateType>
+                              <gmd:CI_DateTypeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                            </gmd:dateType>
+                          </gmd:CI_Date>
+                        </gmd:date>
+                        <gmd:edition>
+                          <gco:CharacterString>Version 2</gco:CharacterString>
+                        </gmd:edition>
+                        <gmd:editionDate>
+                          <gco:DateTime>2001-02-01T00:00:00</gco:DateTime>
+                        </gmd:editionDate>
+                        <gmd:identifier>
+                          <gmd:MD_Identifier>
+                            <gmd:code>
+                              <gco:CharacterString>http://asdd.ga.gov.au/asdd/profileinfo/anzlic-allgens.xml#anzlic-state_territory</gco:CharacterString>
+                            </gmd:code>
+                          </gmd:MD_Identifier>
+                        </gmd:identifier>
+                        <gmd:citedResponsibleParty>
+                          <gmd:CI_ResponsibleParty>
+                            <gmd:organisationName>
+                              <gco:CharacterString>ANZLIC the Spatial Information Council</gco:CharacterString>
+                            </gmd:organisationName>
+                            <gmd:role>
+                              <gmd:CI_RoleCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode" codeListValue="custodian">custodian</gmd:CI_RoleCode>
+                            </gmd:role>
+                          </gmd:CI_ResponsibleParty>
+                        </gmd:citedResponsibleParty>
+                      </gmd:CI_Citation>
+                    </gmd:authority>
+                    <gmd:code>
+                      <gco:CharacterString>NT</gco:CharacterString>
+                    </gmd:code>
+                  </gmd:MD_Identifier>
+                </gmd:geographicIdentifier>
+              </gmd:EX_GeographicDescription>
+            </gmd:geographicElement>
+          </gmd:EX_Extent>
+        </gmd:extent>
+        <gmd:extent>
+          <gmd:EX_Extent>
+            <gmd:temporalElement>
+              <gmd:EX_TemporalExtent>
+                <gmd:extent>
+                  <gml:TimePeriod gml:id="TP1">
+                    <gml:beginPosition>1984</gml:beginPosition>
+                    <gml:endPosition>2007</gml:endPosition>
+                  </gml:TimePeriod>
+                </gmd:extent>
+              </gmd:EX_TemporalExtent>
+            </gmd:temporalElement>
+          </gmd:EX_Extent>
+        </gmd:extent>
+      </gmd:MD_DataIdentification>
+    </gmd:identificationInfo>
+    <gmd:distributionInfo>
+      <gmd:MD_Distribution>
+        <gmd:distributor>
+          <gmd:MD_Distributor>
+            <gmd:distributorContact>
+              <gmd:CI_ResponsibleParty>
+                <gmd:individualName>
+                  <gco:CharacterString>Marine Data Manager</gco:CharacterString>
+                </gmd:individualName>
+                <gmd:organisationName>
+                  <gco:CharacterString>Australian Government Department of the Environment</gco:CharacterString>
+                </gmd:organisationName>
+                <gmd:positionName>
+                  <gco:CharacterString>Data Manager</gco:CharacterString>
+                </gmd:positionName>
+                <gmd:contactInfo>
+                  <gmd:CI_Contact>
+                    <gmd:phone>
+                      <gmd:CI_Telephone>
+                        <gmd:voice>
+                          <gco:CharacterString>02 6274 1111</gco:CharacterString>
+                        </gmd:voice>
+                        <gmd:facsimile>
+                          <gco:CharacterString>02 6274 1666</gco:CharacterString>
+                        </gmd:facsimile>
+                      </gmd:CI_Telephone>
+                    </gmd:phone>
+                    <gmd:address>
+                      <gmd:CI_Address>
+                        <gmd:deliveryPoint>
+                          <gco:CharacterString>GPO Box 787</gco:CharacterString>
+                        </gmd:deliveryPoint>
+                        <gmd:city>
+                          <gco:CharacterString>Canberra</gco:CharacterString>
+                        </gmd:city>
+                        <gmd:administrativeArea>
+                          <gco:CharacterString>Australian Capital Territory</gco:CharacterString>
+                        </gmd:administrativeArea>
+                        <gmd:postalCode>
+                          <gco:CharacterString>2601</gco:CharacterString>
+                        </gmd:postalCode>
+                        <gmd:country>
+                          <gco:CharacterString>Australia</gco:CharacterString>
+                        </gmd:country>
+                        <gmd:electronicMailAddress>
+                          <gco:CharacterString>marine.metadata@environment.gov.au</gco:CharacterString>
+                        </gmd:electronicMailAddress>
+                      </gmd:CI_Address>
+                    </gmd:address>
+                  </gmd:CI_Contact>
+                </gmd:contactInfo>
+                <gmd:role>
+                  <gmd:CI_RoleCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode" codeListValue="distributor">distributor</gmd:CI_RoleCode>
+                </gmd:role>
+              </gmd:CI_ResponsibleParty>
+            </gmd:distributorContact>
+            <gmd:distributionOrderProcess>
+              <gmd:MD_StandardOrderProcess>
+                <gmd:orderingInstructions>
+                  <gco:CharacterString>Offline Data. Email: marine.metadata@environment.gov.au</gco:CharacterString>
+                </gmd:orderingInstructions>
+              </gmd:MD_StandardOrderProcess>
+            </gmd:distributionOrderProcess>
+          </gmd:MD_Distributor>
+        </gmd:distributor>
+        <gmd:transferOptions>
+          <gmd:MD_DigitalTransferOptions>
+            <gmd:onLine>
+              <gmd:CI_OnlineResource>
+                <gmd:linkage>
+                  <gmd:URL>http://www.ozcoasts.gov.au/nrm_rpt/habitat_extent.jsp</gmd:URL>
+                </gmd:linkage>
+                <gmd:protocol>
+                  <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+                </gmd:protocol>
+                <gmd:name>
+                  <gco:CharacterString>NISB maps</gco:CharacterString>
+                </gmd:name>
+              </gmd:CI_OnlineResource>
+            </gmd:onLine>
+            <gmd:onLine>
+              <gmd:CI_OnlineResource>
+                <gmd:linkage>
+                  <gmd:URL>http://www.ozcoasts.gov.au/pdf/ACVbio_ProjectReport_v14.pdf</gmd:URL>
+                </gmd:linkage>
+                <gmd:protocol>
+                  <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+                </gmd:protocol>
+                <gmd:name>
+                  <gco:CharacterString>NISB project report</gco:CharacterString>
+                </gmd:name>
+              </gmd:CI_OnlineResource>
+            </gmd:onLine>
+            <gmd:onLine>
+              <gmd:CI_OnlineResource>
+                <gmd:linkage>
+                  <gmd:URL>http://www.ozcoasts.gov.au/pdf/NationalECMHabitatMapSeriesUserGuide_v7.pdf</gmd:URL>
+                </gmd:linkage>
+                <gmd:protocol>
+                  <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+                </gmd:protocol>
+                <gmd:name>
+                  <gco:CharacterString>NISB user guide</gco:CharacterString>
+                </gmd:name>
+              </gmd:CI_OnlineResource>
+            </gmd:onLine>
+          </gmd:MD_DigitalTransferOptions>
+        </gmd:transferOptions>
+        <gmd:transferOptions>
+          <gmd:MD_DigitalTransferOptions>
+            <gmd:onLine>
+              <gmd:CI_OnlineResource>
+                <gmd:linkage>
+                  <gmd:URL>http://data.aodn.org.au/TERN/ACEF/Habitats/NISB_NT_June2008.zip</gmd:URL>
+                </gmd:linkage>
+                <gmd:protocol>
+                  <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+                </gmd:protocol>
+                <gmd:name>
+                  <gco:CharacterString>NISB NT 2008 Shapefile download. WARNING: FILE SIZE 78MB</gco:CharacterString>
+                </gmd:name>
+              </gmd:CI_OnlineResource>
+            </gmd:onLine>
+          </gmd:MD_DigitalTransferOptions>
+        </gmd:transferOptions>
+      </gmd:MD_Distribution>
+    </gmd:distributionInfo>
+    <gmd:dataQualityInfo>
+      <gmd:DQ_DataQuality>
+        <gmd:scope>
+          <gmd:MD_Scope>
+            <gmd:level>
+              <gmd:MD_ScopeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_ScopeCode" codeListValue="dataset" />
+            </gmd:level>
+            <gmd:levelDescription>
+              <gmd:MD_ScopeDescription>
+                <gmd:other>
+                  <gco:CharacterString>dataset</gco:CharacterString>
+                </gmd:other>
+              </gmd:MD_ScopeDescription>
+            </gmd:levelDescription>
+          </gmd:MD_Scope>
+        </gmd:scope>
+        <gmd:lineage>
+          <gmd:LI_Lineage>
+            <gmd:statement>
+              <gco:CharacterString>Scope of quality information: dataset
+
+Lineage:
+
+    The NISB Habitat Map is a composite data set of the best available habitat mapping data for Australia’s intertidal and subtidal benthos. Using ArcGIS 9.2, all the input layers were imported into geodatabases for processing. Fields were added to each layer’s attribute table, listing the data source (DSource), original file name (DOrig_File), metadata file name (DMeta_File) and ANZLIC ID number (ANZLIC_ID).
+
+    Each layer then had NISB fields added, which correspond to the four tiers in the NISB Habitat Classification Scheme (2007). NISB_Sub01 and NISB_Sub02 refer to the first two tiers of the classification, which are based on the substrate. NISB_Dom01 and NISB_Dom02 refer to the dominant land cover, as described in the third and fourth tiers. The scheme is hierarchical, so where insufficient information was available to fully classify a polygon, it was classified to the finest tier possible.
+
+    The NISB Habitat Classification Scheme includes decision rules that describe the limits of each habitat class. For example, for a polygon to be described as class 1.2.2 Structural Macrobiota Dominated, SMBs (Structural Macrobiota such as seagrass or mangrove) must cover more than 10% of the substrate. However, many of the source data sets do not include information on percent cover, and so the original classifications were accepted on face value. That is, if the data provider identified a polygon as seagrass dominated sediment, we classified it as 2.0.2.1 Seagrass Dominated, without information about how precisely the original category fit the NISB classes. Microsoft Access was used to reclassify the layers.
+
+    Where habitat types extended inland (e.g. saltmarsh or mangrove), a buffer was used to select those that are “coastal”. The coastal zone is defined here as being within 500 m of the coast or less than 10 m above sea level. A 500 m buffer was created around the coastline as defined by the Geodata Coast 100k (Geoscience Australia 2004). The Shuttle Radar Topography Mission (SRTM) v2 Digital Elevation Model was used to determine all areas below 10 m ASL. These two areas were merged to create the coastal zone buffer.
+
+    Once all the layers for a state had been converted to the NISB Habitat Classification scheme, they were merged into a single layer. Where layers overlapped, a decision was made as to which was considered to be more reliable. This decision was based on a combination of the metadata records and a visual inspection of the data sets. Then, the erase and merge functions were used to combine the layers.
+    The layers were then tested to ensure that the classifications were translated correctly from the source data and that there were no overlapping polygons. Overlaps were discovered in some of the source data for Victoria and were left as they were. The layers were not tested topologically. The maps were not independently ground-truthed.
+
+    All areas were calculated in m², using Albers equal area projection.
+
+    The contributing agencies must be acknowledged with each use of this derived data set are:
+    Contributors to the National Intertidal/Subtidal (NISB) Habitat Map:
+    Department of Natural Resources, Environment and the Arts, Northern Territory Government of Australia
+    Queensland Department of Primary Industries and Fisheries
+    Queensland Parks and Wildlife Services Environmental Protection Agency
+    Great Barrier Reef Marine Park Authority
+    National Oceans Office
+    Western Australia Department of Environment and Conservation
+    South Australian Department of Environment and Heritage
+    New South Wales Department of Environment and Conservation
+    New South Wales Department of Primary Industries: Fisheries
+    Conservation Commission of the Northern Territory Land Conservation Unit
+    Victorian Department of Primary Industries
+    Parks Victoria
+    Tasmanian Aquaculture and fisheries Institute
+
+
+Source data acknowledgements:
+
+    Dr Richard Mount and Phillippa Bricher, Spatial Science Group, School of Geography, University of Tasmania
+
+    The contributing agencies must be acknowledged with each use of this derived data set are:
+
+    Contributors to the National Intertidal/Subtidal (NISB) Habitat Map:
+
+    Department of Natural Resources, Environment and the Arts, Northern Territory Government of Australia
+
+    Queensland Department of Primary Industries and Fisheries
+
+    Queensland Parks and Wildlife Services Environmental Protection Agency
+
+    Great Barrier Reef Marine Park Authority
+
+    National Oceans Office
+
+    Western Australia Department of Environment and Conservation
+
+    South Australian Department of Environment and Heritage
+
+    New South Wales Department of Environment and Conservation
+
+    New South Wales Department of Primary Industries: Fisheries
+
+    Conservation Commission of the Northern Territory Land Conservation Unit
+
+    Victorian Department of Primary Industries
+
+    Parks Victoria
+
+    Tasmanian Aquaculture and fisheries Institute
+
+
+Data quality report - Absolute external positional accuracy:
+
+As this is a multi-scale dataset, it is impossible to give a single value for positional accuracy. Most layers in the NISB dataset were mapped at scales finer than 1:50 000, which translates to a positional accuracy of approximately ±25 m. However, some seagrass mapping for Queensland and South Australia has errors up to ±100 m. It is recommended that the user reads the metadata for the source layers for more specific accuracy information.
+
+
+Data quality report - Attribute accuracy:
+
+After the NISB habitat classification scheme was applied to the data, MS Access queries were used to confirm that all records had been reclassified correctly. However, it was not possible to test the accuracy of the source datasets, and the original classifications were taken on trust. A pragmatic approach was used in applying the scheme, as there was rarely sufficient information to test whether any given record met the criteria for classes (e.g. percent cover was often not listed). For this reason, if the source dataset stated that a polygon contained sparse seagrass, then it was classified as 2.0.2.1 Seagrass Dominated Habitat, even though it have had less than 5% seagrass cover. Conservative assumptions were made about the substrate, where this was not listed. For example, it was generally assumed that a seagrass site had a sediment substrate. The only state where it was believed that this assumption would not hold was Victoria and Tasmania, where Amphibolis occurs on both rock and sediment substrates in very limited locations. In those sites, substrate information was provided and no assumptions were made.
+
+
+Data quality report - Conceptual consistency:
+
+A single person conducted all classifications, using a consistent classification scheme. After merging, the datasets were visually inspected for overlaps, but were not tested for topological consistency.
+
+
+Data quality report - Completeness:
+
+Complete</gco:CharacterString>
+            </gmd:statement>
+          </gmd:LI_Lineage>
+        </gmd:lineage>
+      </gmd:DQ_DataQuality>
+    </gmd:dataQualityInfo>
+    <gmd:metadataConstraints>
+      <gmd:MD_SecurityConstraints>
+        <gmd:classification>
+          <gmd:MD_ClassificationCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_ClassificationCode" codeListValue="unclassified" />
+        </gmd:classification>
+      </gmd:MD_SecurityConstraints>
+    </gmd:metadataConstraints>
+    <gmd:metadataConstraints>
+      <gmd:MD_LegalConstraints>
+        <gmd:useLimitation>
+          <gco:CharacterString>Data under Creative Commons by Attribution Licensing Agreement (CC BY 3.0 AU). More information can be found here: http://creativecommons.org/licenses/by/3.0/au/. Australian Government Department of the Environment requests attribution in the following manner:  Australian Government Department of the Environment 2007</gco:CharacterString>
+        </gmd:useLimitation>
+        <gmd:accessConstraints>
+          <gmd:MD_RestrictionCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_RestrictionCode" codeListValue="license" />
+        </gmd:accessConstraints>
+      </gmd:MD_LegalConstraints>
+    </gmd:metadataConstraints>
+  </gmd:MD_Metadata>
+  </csw:SearchResults>
+</csw:GetRecordsResponse>
