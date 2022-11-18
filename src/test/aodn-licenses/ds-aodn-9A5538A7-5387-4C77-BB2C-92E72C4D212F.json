@@ -119,7 +119,8 @@
                 "temporal": { "start": "1984", "end": "2007" },
                 "themes": ["biota", "structure"],
                 "keywords": ["Australia", "Tasmania"],
-                "contactPoint": "Marine Data Manager, marine.metadata@environment.gov.au"
+                "contactPoint": "Marine Data Manager, marine.metadata@environment.gov.au",
+                "defaultLicense": "Data under Creative Commons by Attribution Licensing Agreement (CC BY 3.0 AU). More information can be found here: http://creativecommons.org/licenses/by/3.0/au/. Australian Government Department of the Environment requests attribution in the following manner:  Australian Government Department of the Environment 2007"
             },
             "source": {
                 "type": "csw-dataset",

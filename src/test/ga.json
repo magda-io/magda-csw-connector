@@ -20,27 +20,6 @@
         },
         "sourceTag": "stag"
     },
-    "dist-connector-2aa9f797-13c6-9423-e053-12a3070ac8df-0": {
-        "aspects": {
-            "csw-distribution": {},
-            "dcat-distribution-strings": {
-                "accessURL": "http://services.ga.gov.au/gis/rest/services/AREMI_Buildings_WM/MapServer/WMTS/1.0.0/WMTSCapabilities.xml",
-                "description": "AREMI Buildings (Web Mercator) WMTS",
-                "format": "OGC:WMTS",
-                "license": "Creative Commons Attribution 4.0 International Licence",
-                "title": "AREMI Buildings (Web Mercator) WMTS"
-            },
-            "source": {
-                "id": "connector",
-                "name": "Connector",
-                "type": "csw-distribution",
-                "url": "SOURCE/?service=CSW&version=2.0.2&request=GetRecordById&elementsetname=full&outputschema=http%3A%2F%2Fwww.isotc211.org%2F2005%2Fgmd&typeNames=gmd%3AMD_Metadata&id=2aa9f797-13c6-9423-e053-12a3070ac8df"
-            }
-        },
-        "id": "dist-connector-2aa9f797-13c6-9423-e053-12a3070ac8df-0",
-        "name": "AREMI Buildings (Web Mercator) WMTS",
-        "sourceTag": "stag"
-    },
     "dist-connector-4fce6238-8d55-499c-bff5-98518552f4b4-1": {
         "id": "dist-connector-4fce6238-8d55-499c-bff5-98518552f4b4-1",
         "name": "Download the Record (pdf)",
@@ -60,51 +39,6 @@
                 "name": "Connector"
             }
         },
-        "sourceTag": "stag"
-    },
-    "ds-connector-2aa9f797-13c6-9423-e053-12a3070ac8df": {
-        "aspects": {
-            "csw-dataset": {},
-            "dataset-distributions": {
-                "distributions": [
-                    "dist-connector-2aa9f797-13c6-9423-e053-12a3070ac8df-0"
-                ]
-            },
-            "dataset-publisher": {
-                "publisher": "org-connector-Geoscience Australia"
-            },
-            "dcat-dataset-strings": {
-                "accrualPeriodicity": "annually",
-                "contactPoint": "Commonwealth of Australia (Geoscience Australia), clientservices@ga.gov.au",
-                "description": "This web service shows areas or locations occupied by an existing high-density urban development or known individual building structures in peri-urban and remote locations. Data used in this service is of varying levels of coverage and quality since it is aggregated from a variety of sources.\n                            The intended purpose of the service is to provide preliminary, first-pass information about urban environment, building structures and their distribution in landscape, as one of constraints on future development. Users should carry out further and more detailed investigations because this information is not meant to be a definitive source or support engineering phase planning.\n                            The service has layer scale dependencies.",
-                "issued": "2016-01-01T00:00:00",
-                "keywords": [
-                    "web service",
-                    "National dataset",
-                    "topography",
-                    "buildings",
-                    "Australia",
-                    "web map service",
-                    "Earth Sciences",
-                    "WMTS",
-                    "Published_External"
-                ],
-                "languages": [],
-                "modified": "2017-12-07T23:52:09",
-                "publisher": "Geoscience Australia",
-                "spatial": "POLYGON((110 -45, 155 -45, 155 -8, 110 -8, 110 -45))",
-                "themes": ["geoscientificInformation"],
-                "title": "AREMI Buildings (Web Mercator) WMTS"
-            },
-            "source": {
-                "id": "connector",
-                "name": "Connector",
-                "type": "csw-dataset",
-                "url": "SOURCE/?service=CSW&version=2.0.2&request=GetRecordById&elementsetname=full&outputschema=http%3A%2F%2Fwww.isotc211.org%2F2005%2Fgmd&typeNames=gmd%3AMD_Metadata&id=2aa9f797-13c6-9423-e053-12a3070ac8df"
-            }
-        },
-        "id": "ds-connector-2aa9f797-13c6-9423-e053-12a3070ac8df",
-        "name": "AREMI Buildings (Web Mercator) WMTS",
         "sourceTag": "stag"
     },
     "dist-connector-4fce6238-8d55-499c-bff5-98518552f4b4-2": {
@@ -149,6 +83,30 @@
         },
         "sourceTag": "stag"
     },
+    "org-connector-Geoscience Australia": {
+        "id": "org-connector-Geoscience Australia",
+        "name": "Geoscience Australia",
+        "aspects": {
+            "source": {
+                "type": "csw-organization",
+                "url": "SOURCE/",
+                "id": "connector",
+                "name": "Connector"
+            },
+            "organization-details": {
+                "name": "Geoscience Australia",
+                "title": "Geoscience Australia",
+                "phone": "+61 2 6249 9966",
+                "email": "clientservices@ga.gov.au",
+                "addrStreet": "GPO Box 378",
+                "addrSuburb": "Canberra",
+                "addrState": "ACT",
+                "addrPostCode": "2601",
+                "addrCountry": "Australia"
+            }
+        },
+        "sourceTag": "stag"
+    },
     "ds-connector-4fce6238-8d55-499c-bff5-98518552f4b4": {
         "id": "ds-connector-4fce6238-8d55-499c-bff5-98518552f4b4",
         "name": "4fce6238-8d55-499c-bff5-98518552f4b4",
@@ -164,7 +122,8 @@
                 "themes": ["geoscientificInformation"],
                 "keywords": ["Data Standard", "Published_External"],
                 "contactPoint": "Digital Science and Information, clientservices@ga.gov.au",
-                "landingPage": "http://pid.geoscience.gov.au/dataset/ga/122551"
+                "landingPage": "http://pid.geoscience.gov.au/dataset/ga/122551",
+                "defaultLicense": "Creative Commons Attribution 4.0 International Licence"
             },
             "source": {
                 "type": "csw-dataset",
@@ -284,10 +243,7 @@
                 "publisher": "Geoscience Australia",
                 "accrualPeriodicity": "asNeeded",
                 "spatial": "POLYGON((21 -78.6, 180 -78.6, 180 43, 21 43, 21 -78.6))",
-                "temporal": {
-                    "start": "1989",
-                    "end": "2019"
-                },
+                "temporal": { "start": "1989", "end": "2019" },
                 "themes": ["geoscientificInformation"],
                 "keywords": [
                     "GIS Dataset",
@@ -301,7 +257,8 @@
                     "Published_External"
                 ],
                 "contactPoint": "EGD, clientservices@ga.gov.au",
-                "landingPage": "http://pid.geoscience.gov.au/dataset/ga/116321"
+                "landingPage": "http://pid.geoscience.gov.au/dataset/ga/116321",
+                "defaultLicense": "Creative Commons Attribution 4.0 International Licence"
             },
             "source": {
                 "type": "csw-dataset",
@@ -310,12 +267,7 @@
                 "name": "Connector"
             },
             "temporal-coverage": {
-                "intervals": [
-                    {
-                        "start": "1989",
-                        "end": "2019"
-                    }
-                ]
+                "intervals": [{ "start": "1989", "end": "2019" }]
             },
             "dataset-distributions": {
                 "distributions": [
@@ -336,7 +288,6 @@
         "name": "Digital Elevation Model (DEM) of Australia derived from SRTM with 1 Second Grid - Smoothed Percentage Slope MapServer",
         "aspects": {
             "csw-distribution": {},
-
             "dcat-distribution-strings": {
                 "title": "Digital Elevation Model (DEM) of Australia derived from SRTM with 1 Second Grid - Smoothed Percentage Slope MapServer",
                 "description": "Digital Elevation Model (DEM) of Australia derived from SRTM with 1 Second Grid - Smoothed Percentage Slope MapServer",
@@ -381,7 +332,8 @@
                     "MapServer",
                     "Published_External"
                 ],
-                "contactPoint": "Commonwealth of Australia (Geoscience Australia), clientservices@ga.gov.au"
+                "contactPoint": "Commonwealth of Australia (Geoscience Australia), clientservices@ga.gov.au",
+                "defaultLicense": "Creative Commons Attribution 4.0 International Licence"
             },
             "source": {
                 "type": "csw-dataset",
@@ -453,10 +405,7 @@
                 "publisher": "Geoscience Australia",
                 "accrualPeriodicity": "notPlanned",
                 "spatial": "POLYGON((146.98 -37.0, 148.72 -37.0, 148.72 -35.98, 146.98 -35.98, 146.98 -37.0))",
-                "temporal": {
-                    "start": "1994-11-01",
-                    "end": "1995-03-01"
-                },
+                "temporal": { "start": "1994-11-01", "end": "1995-03-01" },
                 "themes": ["geoscientificInformation"],
                 "keywords": [
                     "Airborne Digital Data",
@@ -470,7 +419,8 @@
                     "Published_External"
                 ],
                 "contactPoint": "Commonwealth of Australia (Geoscience Australia), sales@ga.gov.au",
-                "landingPage": "http://www.ga.gov.au/metadata-gateway/metadata/record/84119/"
+                "landingPage": "http://www.ga.gov.au/metadata-gateway/metadata/record/84119/",
+                "defaultLicense": "GeoScience Victoria - Digital Data Access Licence Agreement"
             },
             "source": {
                 "type": "csw-dataset",
@@ -479,12 +429,7 @@
                 "name": "Connector"
             },
             "temporal-coverage": {
-                "intervals": [
-                    {
-                        "start": "1994-11-01",
-                        "end": "1995-03-01"
-                    }
-                ]
+                "intervals": [{ "start": "1994-11-01", "end": "1995-03-01" }]
             },
             "dataset-distributions": {
                 "distributions": [
@@ -498,28 +443,71 @@
         },
         "sourceTag": "stag"
     },
-    "org-connector-Geoscience Australia": {
+    "dist-connector-2aa9f797-13c6-9423-e053-12a3070ac8df-0": {
+        "id": "dist-connector-2aa9f797-13c6-9423-e053-12a3070ac8df-0",
+        "name": "AREMI Buildings (Web Mercator) WMTS",
         "aspects": {
-            "organization-details": {
-                "addrCountry": "Australia",
-                "addrPostCode": "2601",
-                "addrState": "ACT",
-                "addrStreet": "GPO Box 378",
-                "addrSuburb": "Canberra",
-                "email": "clientservices@ga.gov.au",
-                "name": "Geoscience Australia",
-                "phone": "+61 2 6249 9966",
-                "title": "Geoscience Australia"
+            "csw-distribution": {},
+            "dcat-distribution-strings": {
+                "title": "AREMI Buildings (Web Mercator) WMTS",
+                "description": "AREMI Buildings (Web Mercator) WMTS",
+                "license": "Creative Commons Attribution 4.0 International Licence",
+                "accessURL": "http://services.ga.gov.au/gis/rest/services/AREMI_Buildings_WM/MapServer/WMTS/1.0.0/WMTSCapabilities.xml",
+                "format": "OGC:WMTS"
             },
             "source": {
+                "type": "csw-distribution",
+                "url": "SOURCE/?service=CSW&version=2.0.2&request=GetRecordById&elementsetname=full&outputschema=http%3A%2F%2Fwww.isotc211.org%2F2005%2Fgmd&typeNames=gmd%3AMD_Metadata&id=2aa9f797-13c6-9423-e053-12a3070ac8df",
                 "id": "connector",
-                "name": "Connector",
-                "type": "csw-organization",
-                "url": "SOURCE/"
+                "name": "Connector"
             }
         },
-        "id": "org-connector-Geoscience Australia",
-        "name": "Geoscience Australia",
+        "sourceTag": "stag"
+    },
+    "ds-connector-2aa9f797-13c6-9423-e053-12a3070ac8df": {
+        "id": "ds-connector-2aa9f797-13c6-9423-e053-12a3070ac8df",
+        "name": "AREMI Buildings (Web Mercator) WMTS",
+        "aspects": {
+            "csw-dataset": {},
+            "dcat-dataset-strings": {
+                "title": "AREMI Buildings (Web Mercator) WMTS",
+                "description": "This web service shows areas or locations occupied by an existing high-density urban development or known individual building structures in peri-urban and remote locations. Data used in this service is of varying levels of coverage and quality since it is aggregated from a variety of sources.\n                            The intended purpose of the service is to provide preliminary, first-pass information about urban environment, building structures and their distribution in landscape, as one of constraints on future development. Users should carry out further and more detailed investigations because this information is not meant to be a definitive source or support engineering phase planning.\n                            The service has layer scale dependencies.",
+                "issued": "2016-01-01T00:00:00",
+                "modified": "2017-12-07T23:52:09",
+                "languages": [],
+                "publisher": "Geoscience Australia",
+                "accrualPeriodicity": "annually",
+                "spatial": "POLYGON((110 -45, 155 -45, 155 -8, 110 -8, 110 -45))",
+                "themes": ["geoscientificInformation"],
+                "keywords": [
+                    "web service",
+                    "National dataset",
+                    "topography",
+                    "buildings",
+                    "Australia",
+                    "web map service",
+                    "Earth Sciences",
+                    "WMTS",
+                    "Published_External"
+                ],
+                "contactPoint": "Commonwealth of Australia (Geoscience Australia), clientservices@ga.gov.au",
+                "defaultLicense": "Creative Commons Attribution 4.0 International Licence"
+            },
+            "source": {
+                "type": "csw-dataset",
+                "url": "SOURCE/?service=CSW&version=2.0.2&request=GetRecordById&elementsetname=full&outputschema=http%3A%2F%2Fwww.isotc211.org%2F2005%2Fgmd&typeNames=gmd%3AMD_Metadata&id=2aa9f797-13c6-9423-e053-12a3070ac8df",
+                "id": "connector",
+                "name": "Connector"
+            },
+            "dataset-distributions": {
+                "distributions": [
+                    "dist-connector-2aa9f797-13c6-9423-e053-12a3070ac8df-0"
+                ]
+            },
+            "dataset-publisher": {
+                "publisher": "org-connector-Geoscience Australia"
+            }
+        },
         "sourceTag": "stag"
     }
 }

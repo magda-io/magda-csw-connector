@@ -7,8 +7,8 @@
             "dcat-distribution-strings": {
                 "title": "An introduction to the Australian and New Zealand flux tower network – OzFlux",
                 "description": "Journal article",
-                "accessURL": "https://doi.org/10.5194/bg-13-5895-2016",
                 "license": "Creative Commons Attribution 4.0 International License",
+                "accessURL": "https://doi.org/10.5194/bg-13-5895-2016",
                 "format": "WWW:LINK-1.0-http--link"
             },
             "source": {
@@ -28,9 +28,9 @@
             "dcat-distribution-strings": {
                 "title": "OzFlux data: network integration from collection to curation",
                 "description": "Journal article...describes the data sets, along with their quality control and post-processing...",
+                "license": "Creative Commons Attribution 4.0 International License",
                 "accessURL": "https://doi.org/10.5194/bg-14-2903-2017",
-                "format": "WWW:LINK-1.0-http--link",
-                "license": "Creative Commons Attribution 4.0 International License"
+                "format": "WWW:LINK-1.0-http--link"
             },
             "source": {
                 "type": "csw-distribution",
@@ -79,10 +79,7 @@
                 "publisher": "Terrestrial Ecosystem Research Network (TERN)",
                 "accrualPeriodicity": "annually",
                 "spatial": "POLYGON((131.1178 -13.0769, 131.1178 -13.0769, 131.1178 -13.0769, 131.1178 -13.0769, 131.1178 -13.0769))",
-                "temporal": {
-                    "start": "2007-10-17",
-                    "end": "2009-05-24"
-                },
+                "temporal": { "start": "2007-10-17", "end": "2009-05-24" },
                 "themes": ["climatologyMeteorologyAtmosphere"],
                 "keywords": [
                     "HEAT FLUX",
@@ -115,7 +112,8 @@
                     "ENVIRONMENTAL SCIENCES",
                     "ECOLOGICAL APPLICATIONS"
                 ],
-                "contactPoint": "Terrestrial Ecosystem Research Network (TERN), esupport@tern.org.au"
+                "contactPoint": "Terrestrial Ecosystem Research Network (TERN), esupport@tern.org.au",
+                "defaultLicense": "Creative Commons Attribution 4.0 International License"
             },
             "source": {
                 "type": "csw-dataset",
@@ -124,12 +122,7 @@
                 "name": "Connector"
             },
             "temporal-coverage": {
-                "intervals": [
-                    {
-                        "start": "2007-10-17",
-                        "end": "2009-05-24"
-                    }
-                ]
+                "intervals": [{ "start": "2007-10-17", "end": "2009-05-24" }]
             },
             "dataset-distributions": {
                 "distributions": [
@@ -151,9 +144,9 @@
             "dcat-distribution-strings": {
                 "title": "Display all levels",
                 "description": "Catalog via OpenDAP URL",
+                "license": "Creative Commons Attribution 4.0 International Licence",
                 "accessURL": "https://dap.tern.org.au/thredds/catalog/ecosystem_process/ozflux/Gingin/catalog.html",
-                "format": "WWW:LINK-1.0-http--opendap",
-                "license": "Creative Commons Attribution 4.0 International Licence"
+                "format": "WWW:LINK-1.0-http--opendap"
             },
             "source": {
                 "type": "csw-distribution",
@@ -177,10 +170,7 @@
                 "languages": ["eng"],
                 "publisher": "Terrestrial Ecosystem Research Network (TERN)",
                 "spatial": "POLYGON((115.65 -31.375, 115.65 -31.375, 115.65 -31.375, 115.65 -31.375, 115.65 -31.375))",
-                "temporal": {
-                    "start": "2011-10-13",
-                    "end": "2017-10-31"
-                },
+                "temporal": { "start": "2011-10-13", "end": "2017-10-31" },
                 "themes": ["climatologyMeteorologyAtmosphere"],
                 "keywords": [
                     "Environmental Monitoring",
@@ -212,7 +202,8 @@
                     "CARBON",
                     "WIND SPEED/WIND DIRECTION"
                 ],
-                "contactPoint": "Terrestrial Ecosystem Research Network (TERN), esupport@tern.org.au"
+                "contactPoint": "Terrestrial Ecosystem Research Network (TERN), esupport@tern.org.au",
+                "defaultLicense": "Creative Commons Attribution 4.0 International Licence"
             },
             "source": {
                 "type": "csw-dataset",
@@ -221,12 +212,7 @@
                 "name": "Connector"
             },
             "temporal-coverage": {
-                "intervals": [
-                    {
-                        "start": "2011-10-13",
-                        "end": "2017-10-31"
-                    }
-                ]
+                "intervals": [{ "start": "2011-10-13", "end": "2017-10-31" }]
             },
             "dataset-distributions": {
                 "distributions": [
@@ -246,8 +232,8 @@
             "csw-distribution": {},
             "dcat-distribution-strings": {
                 "title": "An introduction to the Australian and New Zealand flux tower network – OzFlux",
-                "license": "Creative Commons Attribution 4.0 International License",
                 "description": "Journal article",
+                "license": "Creative Commons Attribution 4.0 International License",
                 "accessURL": "https://doi.org/10.5194/bg-13-5895-2016",
                 "format": "WWW:LINK-1.0-http--link"
             },
@@ -268,9 +254,9 @@
             "dcat-distribution-strings": {
                 "title": "OzFlux data: network integration from collection to curation",
                 "description": "Journal article...describes the data sets, along with their quality control and post-processing...",
+                "license": "Creative Commons Attribution 4.0 International License",
                 "accessURL": "https://doi.org/10.5194/bg-14-2903-2017",
-                "format": "WWW:LINK-1.0-http--link",
-                "license": "Creative Commons Attribution 4.0 International License"
+                "format": "WWW:LINK-1.0-http--link"
             },
             "source": {
                 "type": "csw-distribution",
@@ -295,10 +281,7 @@
                 "publisher": "Terrestrial Ecosystem Research Network (TERN)",
                 "accrualPeriodicity": "annually",
                 "spatial": "POLYGON((120.6542 -30.1914, 120.6542 -30.1914, 120.6542 -30.1914, 120.6542 -30.1914, 120.6542 -30.1914))",
-                "temporal": {
-                    "start": "2013-01-01",
-                    "end": "2017-11-02"
-                },
+                "temporal": { "start": "2013-01-01", "end": "2017-11-02" },
                 "themes": ["climatologyMeteorologyAtmosphere"],
                 "keywords": [
                     "HEAT FLUX",
@@ -331,7 +314,8 @@
                     "ENVIRONMENTAL SCIENCES",
                     "ECOLOGICAL APPLICATIONS"
                 ],
-                "contactPoint": "Terrestrial Ecosystem Research Network (TERN), esupport@tern.org.au"
+                "contactPoint": "Terrestrial Ecosystem Research Network (TERN), esupport@tern.org.au",
+                "defaultLicense": "Creative Commons Attribution 4.0 International License"
             },
             "source": {
                 "type": "csw-dataset",
@@ -340,12 +324,7 @@
                 "name": "Connector"
             },
             "temporal-coverage": {
-                "intervals": [
-                    {
-                        "start": "2013-01-01",
-                        "end": "2017-11-02"
-                    }
-                ]
+                "intervals": [{ "start": "2013-01-01", "end": "2017-11-02" }]
             },
             "dataset-distributions": {
                 "distributions": [
@@ -388,9 +367,9 @@
             "dcat-distribution-strings": {
                 "title": "OzFlux data: network integration from collection to curation",
                 "description": "Journal article...describes the data sets, along with their quality control and post-processing...",
+                "license": "Creative Commons Attribution 4.0 International License",
                 "accessURL": "https://doi.org/10.5194/bg-14-2903-2017",
-                "format": "WWW:LINK-1.0-http--link",
-                "license": "Creative Commons Attribution 4.0 International License"
+                "format": "WWW:LINK-1.0-http--link"
             },
             "source": {
                 "type": "csw-distribution",
@@ -415,10 +394,7 @@
                 "publisher": "Terrestrial Ecosystem Research Network (TERN)",
                 "accrualPeriodicity": "annually",
                 "spatial": "POLYGON((145.576 -36.6499, 145.576 -36.6499, 145.576 -36.6499, 145.576 -36.6499, 145.576 -36.6499))",
-                "temporal": {
-                    "start": "2011-01-01",
-                    "end": "2017-07-12"
-                },
+                "temporal": { "start": "2011-01-01", "end": "2017-07-12" },
                 "themes": ["climatologyMeteorologyAtmosphere"],
                 "keywords": [
                     "HEAT FLUX",
@@ -451,7 +427,8 @@
                     "ENVIRONMENTAL SCIENCES",
                     "ECOLOGICAL APPLICATIONS"
                 ],
-                "contactPoint": "Terrestrial Ecosystem Research Network (TERN), esupport@tern.org.au"
+                "contactPoint": "Terrestrial Ecosystem Research Network (TERN), esupport@tern.org.au",
+                "defaultLicense": "Creative Commons Attribution 4.0 International License"
             },
             "source": {
                 "type": "csw-dataset",
@@ -460,12 +437,7 @@
                 "name": "Connector"
             },
             "temporal-coverage": {
-                "intervals": [
-                    {
-                        "start": "2011-01-01",
-                        "end": "2017-07-12"
-                    }
-                ]
+                "intervals": [{ "start": "2011-01-01", "end": "2017-07-12" }]
             },
             "dataset-distributions": {
                 "distributions": [
@@ -487,9 +459,9 @@
             "dcat-distribution-strings": {
                 "title": "Display all levels",
                 "description": "Catalog via OpenDAP URL",
+                "license": "Creative Commons Attribution 4.0 International Licence",
                 "accessURL": "https://dap.tern.org.au/thredds/catalog/ecosystem_process/ozflux/SturtPlains/catalog.html",
-                "format": "WWW:LINK-1.0-http--opendap",
-                "license": "Creative Commons Attribution 4.0 International Licence"
+                "format": "WWW:LINK-1.0-http--opendap"
             },
             "source": {
                 "type": "csw-distribution",
@@ -513,10 +485,7 @@
                 "languages": ["eng"],
                 "publisher": "Terrestrial Ecosystem Research Network (TERN)",
                 "spatial": "POLYGON((133.3502 -17.1507, 133.3502 -17.1507, 133.3502 -17.1507, 133.3502 -17.1507, 133.3502 -17.1507))",
-                "temporal": {
-                    "start": "2008-08-28",
-                    "end": "2017-09-21"
-                },
+                "temporal": { "start": "2008-08-28", "end": "2017-09-21" },
                 "themes": ["climatologyMeteorologyAtmosphere"],
                 "keywords": [
                     "Environmental Monitoring",
@@ -548,7 +517,8 @@
                     "CARBON",
                     "TERRESTRIAL ECOSYSTEMS"
                 ],
-                "contactPoint": "Terrestrial Ecosystem Research Network (TERN), esupport@tern.org.au"
+                "contactPoint": "Terrestrial Ecosystem Research Network (TERN), esupport@tern.org.au",
+                "defaultLicense": "Creative Commons Attribution 4.0 International Licence"
             },
             "source": {
                 "type": "csw-dataset",
@@ -557,12 +527,7 @@
                 "name": "Connector"
             },
             "temporal-coverage": {
-                "intervals": [
-                    {
-                        "start": "2008-08-28",
-                        "end": "2017-09-21"
-                    }
-                ]
+                "intervals": [{ "start": "2008-08-28", "end": "2017-09-21" }]
             },
             "dataset-distributions": {
                 "distributions": [
@@ -583,10 +548,9 @@
             "dcat-distribution-strings": {
                 "title": "An introduction to the Australian and New Zealand flux tower network – OzFlux",
                 "description": "Journal article",
+                "license": "Creative Commons Attribution 4.0 International License",
                 "accessURL": "https://doi.org/10.5194/bg-13-5895-2016",
-                "format": "WWW:LINK-1.0-http--link",
-
-                "license": "Creative Commons Attribution 4.0 International License"
+                "format": "WWW:LINK-1.0-http--link"
             },
             "source": {
                 "type": "csw-distribution",
@@ -605,9 +569,9 @@
             "dcat-distribution-strings": {
                 "title": "OzFlux data: network integration from collection to curation",
                 "description": "Journal article...describes the data sets, along with their quality control and post-processing...",
+                "license": "Creative Commons Attribution 4.0 International License",
                 "accessURL": "https://doi.org/10.5194/bg-14-2903-2017",
-                "format": "WWW:LINK-1.0-http--link",
-                "license": "Creative Commons Attribution 4.0 International License"
+                "format": "WWW:LINK-1.0-http--link"
             },
             "source": {
                 "type": "csw-distribution",
@@ -632,10 +596,7 @@
                 "publisher": "Terrestrial Ecosystem Research Network (TERN)",
                 "accrualPeriodicity": "annually",
                 "spatial": "POLYGON((131.3072 -12.5452, 131.3072 -12.5452, 131.3072 -12.5452, 131.3072 -12.5452, 131.3072 -12.5452))",
-                "temporal": {
-                    "start": "2006-02-07",
-                    "end": "2008-10-31"
-                },
+                "temporal": { "start": "2006-02-07", "end": "2008-10-31" },
                 "themes": ["climatologyMeteorologyAtmosphere"],
                 "keywords": [
                     "HEAT FLUX",
@@ -668,7 +629,8 @@
                     "ENVIRONMENTAL SCIENCES",
                     "ECOLOGICAL APPLICATIONS"
                 ],
-                "contactPoint": "Terrestrial Ecosystem Research Network (TERN), esupport@tern.org.au"
+                "contactPoint": "Terrestrial Ecosystem Research Network (TERN), esupport@tern.org.au",
+                "defaultLicense": "Creative Commons Attribution 4.0 International License"
             },
             "source": {
                 "type": "csw-dataset",
@@ -677,12 +639,7 @@
                 "name": "Connector"
             },
             "temporal-coverage": {
-                "intervals": [
-                    {
-                        "start": "2006-02-07",
-                        "end": "2008-10-31"
-                    }
-                ]
+                "intervals": [{ "start": "2006-02-07", "end": "2008-10-31" }]
             },
             "dataset-distributions": {
                 "distributions": [
@@ -704,9 +661,9 @@
             "dcat-distribution-strings": {
                 "title": "An introduction to the Australian and New Zealand flux tower network – OzFlux",
                 "description": "Journal article",
+                "license": "Creative Commons Attribution 4.0 International License",
                 "accessURL": "https://doi.org/10.5194/bg-13-5895-2016",
-                "format": "WWW:LINK-1.0-http--link",
-                "license": "Creative Commons Attribution 4.0 International License"
+                "format": "WWW:LINK-1.0-http--link"
             },
             "source": {
                 "type": "csw-distribution",
@@ -725,10 +682,9 @@
             "dcat-distribution-strings": {
                 "title": "OzFlux data: network integration from collection to curation",
                 "description": "Journal article...describes the data sets, along with their quality control and post-processing...",
+                "license": "Creative Commons Attribution 4.0 International License",
                 "accessURL": "https://doi.org/10.5194/bg-14-2903-2017",
-                "format": "WWW:LINK-1.0-http--link",
-
-                "license": "Creative Commons Attribution 4.0 International License"
+                "format": "WWW:LINK-1.0-http--link"
             },
             "source": {
                 "type": "csw-distribution",
@@ -753,10 +709,7 @@
                 "publisher": "Terrestrial Ecosystem Research Network (TERN)",
                 "accrualPeriodicity": "annually",
                 "spatial": "POLYGON((132.3706 -15.2588, 132.3706 -15.2588, 132.3706 -15.2588, 132.3706 -15.2588, 132.3706 -15.2588))",
-                "temporal": {
-                    "start": "2008-08-31",
-                    "end": "2017-06-19"
-                },
+                "temporal": { "start": "2008-08-31", "end": "2017-06-19" },
                 "themes": ["climatologyMeteorologyAtmosphere"],
                 "keywords": [
                     "HEAT FLUX",
@@ -789,7 +742,8 @@
                     "ENVIRONMENTAL SCIENCES",
                     "ECOLOGICAL APPLICATIONS"
                 ],
-                "contactPoint": "Terrestrial Ecosystem Research Network (TERN), esupport@tern.org.au"
+                "contactPoint": "Terrestrial Ecosystem Research Network (TERN), esupport@tern.org.au",
+                "defaultLicense": "Creative Commons Attribution 4.0 International License"
             },
             "source": {
                 "type": "csw-dataset",
@@ -798,12 +752,7 @@
                 "name": "Connector"
             },
             "temporal-coverage": {
-                "intervals": [
-                    {
-                        "start": "2008-08-31",
-                        "end": "2017-06-19"
-                    }
-                ]
+                "intervals": [{ "start": "2008-08-31", "end": "2017-06-19" }]
             },
             "dataset-distributions": {
                 "distributions": [
@@ -825,9 +774,9 @@
             "dcat-distribution-strings": {
                 "title": "An introduction to the Australian and New Zealand flux tower network – OzFlux",
                 "description": "Journal article",
+                "license": "Creative Commons Attribution 4.0 International License",
                 "accessURL": "https://doi.org/10.5194/bg-13-5895-2016",
-                "format": "WWW:LINK-1.0-http--link",
-                "license": "Creative Commons Attribution 4.0 International License"
+                "format": "WWW:LINK-1.0-http--link"
             },
             "source": {
                 "type": "csw-distribution",
@@ -846,9 +795,9 @@
             "dcat-distribution-strings": {
                 "title": "OzFlux data: network integration from collection to curation",
                 "description": "Journal article...describes the data sets, along with their quality control and post-processing...",
+                "license": "Creative Commons Attribution 4.0 International License",
                 "accessURL": "https://doi.org/10.5194/bg-14-2903-2017",
-                "format": "WWW:LINK-1.0-http--link",
-                "license": "Creative Commons Attribution 4.0 International License"
+                "format": "WWW:LINK-1.0-http--link"
             },
             "source": {
                 "type": "csw-distribution",
@@ -873,10 +822,7 @@
                 "publisher": "Terrestrial Ecosystem Research Network (TERN)",
                 "accrualPeriodicity": "annually",
                 "spatial": "POLYGON((133.3502 -17.1507, 133.3502 -17.1507, 133.3502 -17.1507, 133.3502 -17.1507, 133.3502 -17.1507))",
-                "temporal": {
-                    "start": "2008-08-28",
-                    "end": "2017-09-21"
-                },
+                "temporal": { "start": "2008-08-28", "end": "2017-09-21" },
                 "themes": ["climatologyMeteorologyAtmosphere"],
                 "keywords": [
                     "HEAT FLUX",
@@ -909,7 +855,8 @@
                     "ENVIRONMENTAL SCIENCES",
                     "ECOLOGICAL APPLICATIONS"
                 ],
-                "contactPoint": "Terrestrial Ecosystem Research Network (TERN), esupport@tern.org.au"
+                "contactPoint": "Terrestrial Ecosystem Research Network (TERN), esupport@tern.org.au",
+                "defaultLicense": "Creative Commons Attribution 4.0 International License"
             },
             "source": {
                 "type": "csw-dataset",
@@ -918,12 +865,7 @@
                 "name": "Connector"
             },
             "temporal-coverage": {
-                "intervals": [
-                    {
-                        "start": "2008-08-28",
-                        "end": "2017-09-21"
-                    }
-                ]
+                "intervals": [{ "start": "2008-08-28", "end": "2017-09-21" }]
             },
             "dataset-distributions": {
                 "distributions": [
@@ -945,9 +887,9 @@
             "dcat-distribution-strings": {
                 "title": "Display all levels",
                 "description": "Catalog via OpenDAP URL",
+                "license": "Creative Commons Attribution 4.0 International Licence",
                 "accessURL": "https://dap.tern.org.au/thredds/catalog/ecosystem_process/ozflux/GreatWesternWoodlands/catalog.html",
-                "format": "WWW:LINK-1.0-http--opendap",
-                "license": "Creative Commons Attribution 4.0 International Licence"
+                "format": "WWW:LINK-1.0-http--opendap"
             },
             "source": {
                 "type": "csw-distribution",
@@ -971,10 +913,7 @@
                 "languages": ["eng"],
                 "publisher": "Terrestrial Ecosystem Research Network (TERN)",
                 "spatial": "POLYGON((120.6542 -30.1914, 120.6542 -30.1914, 120.6542 -30.1914, 120.6542 -30.1914, 120.6542 -30.1914))",
-                "temporal": {
-                    "start": "2013-01-01",
-                    "end": "2017-11-02"
-                },
+                "temporal": { "start": "2013-01-01", "end": "2017-11-02" },
                 "themes": ["climatologyMeteorologyAtmosphere"],
                 "keywords": [
                     "Environmental Monitoring",
@@ -1006,7 +945,8 @@
                     "CARBON",
                     "TERRESTRIAL ECOSYSTEMS"
                 ],
-                "contactPoint": "Terrestrial Ecosystem Research Network (TERN), esupport@tern.org.au"
+                "contactPoint": "Terrestrial Ecosystem Research Network (TERN), esupport@tern.org.au",
+                "defaultLicense": "Creative Commons Attribution 4.0 International Licence"
             },
             "source": {
                 "type": "csw-dataset",
@@ -1015,12 +955,7 @@
                 "name": "Connector"
             },
             "temporal-coverage": {
-                "intervals": [
-                    {
-                        "start": "2013-01-01",
-                        "end": "2017-11-02"
-                    }
-                ]
+                "intervals": [{ "start": "2013-01-01", "end": "2017-11-02" }]
             },
             "dataset-distributions": {
                 "distributions": [
@@ -1041,9 +976,9 @@
             "dcat-distribution-strings": {
                 "title": "Display all levels",
                 "description": "Catalog via OpenDAP URL",
+                "license": "Creative Commons Attribution 4.0 International Licence",
                 "accessURL": "https://dap.tern.org.au/thredds/catalog/ecosystem_process/ozflux/Whroo/catalog.html",
-                "format": "WWW:LINK-1.0-http--opendap",
-                "license": "Creative Commons Attribution 4.0 International Licence"
+                "format": "WWW:LINK-1.0-http--opendap"
             },
             "source": {
                 "type": "csw-distribution",
@@ -1067,10 +1002,7 @@
                 "languages": ["eng"],
                 "publisher": "Terrestrial Ecosystem Research Network (TERN)",
                 "spatial": "POLYGON((145.0294 -36.6732, 145.0294 -36.6732, 145.0294 -36.6732, 145.0294 -36.6732, 145.0294 -36.6732))",
-                "temporal": {
-                    "start": "2011-12-01",
-                    "end": "2017-10-24"
-                },
+                "temporal": { "start": "2011-12-01", "end": "2017-10-24" },
                 "themes": ["climatologyMeteorologyAtmosphere"],
                 "keywords": [
                     "Environmental Monitoring",
@@ -1102,7 +1034,8 @@
                     "CARBON",
                     "TERRESTRIAL ECOSYSTEMS"
                 ],
-                "contactPoint": "Terrestrial Ecosystem Research Network (TERN), esupport@tern.org.au"
+                "contactPoint": "Terrestrial Ecosystem Research Network (TERN), esupport@tern.org.au",
+                "defaultLicense": "Creative Commons Attribution 4.0 International Licence"
             },
             "source": {
                 "type": "csw-dataset",
@@ -1111,12 +1044,7 @@
                 "name": "Connector"
             },
             "temporal-coverage": {
-                "intervals": [
-                    {
-                        "start": "2011-12-01",
-                        "end": "2017-10-24"
-                    }
-                ]
+                "intervals": [{ "start": "2011-12-01", "end": "2017-10-24" }]
             },
             "dataset-distributions": {
                 "distributions": [

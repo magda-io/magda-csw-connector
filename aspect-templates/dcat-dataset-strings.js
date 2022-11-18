@@ -24,6 +24,8 @@ const citation = jsonpath.query(
     "$[*].citation[*].CI_Citation[*]"
 );
 
+const license = libraries.getLicense(dataset);
+
 const dates = jsonpath.query(citation, "$[*].date[*].CI_Date[*]");
 let issuedDate = jsonpath.value(
     findDatesWithType(dates, "creation").concat(
@@ -65,7 +67,7 @@ const datasetContactPoint = getContactPoint(
                 "$..CI_Responsibility[?(@.role[0].CI_RoleCode)]"
             )
         )
-        .map(x => x.value),
+        .map((x) => x.value),
     true
 );
 const identificationContactPoint = getContactPoint(
@@ -86,7 +88,7 @@ const distNodes = jsonpath.query(
 );
 
 const pointOfTruth = distNodes.filter(
-    distNode =>
+    (distNode) =>
         jsonpath.value(distNode, "$.description[*].CharacterString[*]._") ===
         "Point of truth URL of this metadata record"
 );
@@ -155,7 +157,9 @@ return {
     ),
     contactPoint: contactPoint,
     landingPage:
-        jsonpath.value(pointOfTruth, "$[*].linkage[*].URL[*]._") || gaDataSetURI
+        jsonpath.value(pointOfTruth, "$[*].linkage[*].URL[*]._") ||
+        gaDataSetURI,
+    defaultLicense: license
 };
 
 function findDatesWithType(dates, type) {
@@ -163,7 +167,7 @@ function findDatesWithType(dates, type) {
         return [];
     }
     return dates.filter(
-        date =>
+        (date) =>
             jsonpath.value(
                 date,
                 '$.dateType[*].CI_DateTypeCode[*]["$"].codeListValue.value'
@@ -267,9 +271,10 @@ function getContactPoint(responsibleParties, preferIndividual) {
         responsibleParties,
         "$[*].individualName[*].CharacterString[*]._"
     );
-    const organisation = libraries.cswFuncs.getOrganisationNameFromResponsibleParties(
-        responsibleParties
-    );
+    const organisation =
+        libraries.cswFuncs.getOrganisationNameFromResponsibleParties(
+            responsibleParties
+        );
     const homepage = jsonpath.value(
         contactInfo,
         "$[*].onlineResource[*].CI_OnlineResource[*].linkage[*].URL[*]._"
@@ -283,6 +288,6 @@ function getContactPoint(responsibleParties, preferIndividual) {
         ? individual || organisation
         : organisation || individual;
     return [name, homepage, emailAddress]
-        .filter(element => element !== undefined)
+        .filter((element) => element !== undefined)
         .join(", ");
 }

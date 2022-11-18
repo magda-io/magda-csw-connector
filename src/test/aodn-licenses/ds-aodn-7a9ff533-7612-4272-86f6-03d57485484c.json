@@ -47,7 +47,8 @@
                     "gorgonians",
                     "poriferans"
                 ],
-                "contactPoint": "AODN Data Manager, http://imos.org.au/aodn.html, info@aodn.org.au"
+                "contactPoint": "AODN Data Manager, http://imos.org.au/aodn.html, info@aodn.org.au",
+                "defaultLicense": "Creative Commons Attribution 4.0 International License"
             },
             "source": {
                 "type": "csw-dataset",

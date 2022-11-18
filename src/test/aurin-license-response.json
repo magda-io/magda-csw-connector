@@ -277,7 +277,8 @@
                     "States, Territories (Australia) | New South Wales",
                     "States, Territories (Australia) | Queensland"
                 ],
-                "contactPoint": "Integrated Marine Observing System (IMOS), http://imos.org.au/aodn.html, info@aodn.org.au"
+                "contactPoint": "Integrated Marine Observing System (IMOS), http://imos.org.au/aodn.html, info@aodn.org.au",
+                "defaultLicense": "Creative Commons Attribution 4.0 International License"
             },
             "source": {
                 "type": "csw-dataset",
