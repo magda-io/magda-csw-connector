@@ -12,7 +12,7 @@ const TEST_CASES = [
      * https://catalogue.aodn.org.au/geonetwork/srv/eng/csw?service=CSW&version=2.0.2&request=GetRecordById&elementsetname=full&outputschema=http%3A%2F%2Fwww.isotc211.org%2F2005%2Fgmd&typeNames=gmd%3AMD_Metadata&id=0D709B10-2A07-43D8-86AB-DD4C207CC946
      * https://data.gov.au/dataset/ds-aodn-0D709B10-2A07-43D8-86AB-DD4C207CC946/details
      */
-     {
+    {
         input: fs.readFileSync(
             path.join(__dirname, "aodn-license.response.xml")
         ),
@@ -78,12 +78,35 @@ const TEST_CASES = [
     }
 ];
 
-runConnectorTest(TEST_CASES, MockCSWCatalog, {
-    cleanRegistry: function(registry: any) {
+const licenseTestCaseDirItem = fs.readdirSync(
+    path.resolve(__dirname, "./aodn-licenses")
+);
+console.log(licenseTestCaseDirItem);
+const licenseTestCases: any[] = licenseTestCaseDirItem
+    .filter((item: string) => item.endsWith(".xml"))
+    .map((item: string) => item.replace(/\.xml$/, ""))
+    .map((item: string) => ({
+        input: fs.readFileSync(
+            path.resolve(__dirname, `./aodn-licenses/${item}.xml`),
+            { encoding: "utf8" }
+        ),
+        output: JSON.parse(
+            fs.readFileSync(
+                path.resolve(__dirname, `./aodn-licenses/${item}.json`),
+                { encoding: "utf8" }
+            )
+        )
+    }));
+
+const allTestCases = [...licenseTestCases, ...TEST_CASES];
+
+runConnectorTest(allTestCases, MockCSWCatalog, {
+    cleanRegistry: function (registry: any) {
         Object.values(registry.records).forEach((record: any) => {
             if (record.aspects && record.aspects["csw-dataset"]) {
                 delete record.aspects["csw-dataset"].xml;
             }
         });
+        console.log("registry.records: ", JSON.stringify(registry.records));
     }
 });
