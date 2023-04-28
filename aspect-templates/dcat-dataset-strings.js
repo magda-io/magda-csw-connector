@@ -87,11 +87,20 @@ const distNodes = jsonpath.query(
     "$.distributionInfo[*].MD_Distribution[*].transferOptions[*].MD_DigitalTransferOptions[*].onLine[*].CI_OnlineResource[*]"
 );
 
-const pointOfTruth = distNodes.filter(
-    (distNode) =>
-        jsonpath.value(distNode, "$.description[*].CharacterString[*]._") ===
-        "Point of truth URL of this metadata record"
+const pointOfTruthDataset = jsonpath.query(
+    dataset.json,
+    "$.metadataLinkage[*].CI_OnlineResource[*]"
 );
+
+const pointOfTruth = pointOfTruthDataset
+    .concat(distNodes)
+    .filter(
+        (distNode) =>
+            jsonpath.value(
+                distNode,
+                "$.description[*].CharacterString[*]._"
+            ) === "Point of truth URL of this metadata record"
+    );
 
 const publisher = libraries.cswFuncs.getOrganisationNameFromResponsibleParties(
     libraries.cswFuncs.getPublishersFromResponsibleParties(responsibleParties)
@@ -113,6 +122,7 @@ const fileIdentifier = jsonpath.value(
     dataset.json,
     "$.fileIdentifier[*].CharacterString[*]._"
 );
+
 return {
     title: jsonpath.value(citation, "$[*].title[*].CharacterString[*]._"),
     description: jsonpath.query(
@@ -157,6 +167,7 @@ return {
     ),
     contactPoint: contactPoint,
     landingPage:
+        jsonpath.value(pointOfTruth, "$[*].linkage[*].CharacterString[*]._") ||
         jsonpath.value(pointOfTruth, "$[*].linkage[*].URL[*]._") ||
         gaDataSetURI,
     defaultLicense: license

@@ -51,18 +51,18 @@ config:
   ## Unique id to identify this connector and records that are harvested from it
   id: default-csw-connector
 
-  ## Friendly readable name
-  ## name: Australian Institute of Marine Science
+  # -- (string) Friendly readable name. Compulsory.
+  name:
   
-  ## The base URL of the place to source data from
-  # sourceUrl: https://geo.aims.gov.au/geonetwork/srv/eng/csw
+  # -- (string) The base URL of the place to source data from. Compulsory.
+  sourceUrl: 
   
-  ## When crawling through from beginning to end, how big should the individual requests be in records?
-  # pageSize: 100
+  # -- (int) When crawling through from beginning to end, how big should the individual requests be in records?
+  pageSize: 100
   
-  ## Crontab schedule for how often this should happen.
-  # default = "0 14 * * 6" i.e. 12am Sydney time on Sunday
-  # schedule?: string;
+  # -- Crontab schedule for how often this should happen.
+  # @default -- "0 14 * * 6" i.e. 12am Sydney time on Sunday
+  schedule:
 
   # -- Whether or not use POST request to call getRecords API
   usePostRequest: false
@@ -81,3 +81,11 @@ config:
   # -- You can set this value to supply basic auth username & password.
   # The secret must have two keys: `username` & `password`.
   basicAuthSecretName:
+
+  # -- (string) Desired output schema to be requested from CSW service as URI
+  # @default -- http://www.isotc211.org/2005/gmd
+  outputSchema:
+
+  # -- (string) Record type expected to be returned from CSW service as XML tag name
+  # @default -- gmd:MD_Metadata
+  typeNames: 
