@@ -40,7 +40,13 @@ Kubernetes: `>= 1.21.0`
 | config.basicAuthSecretName | string | `nil` | You can set this value to supply basic auth username & password. The secret must have two keys: `username` & `password`. |
 | config.basicAuthUsername | string | `nil` | basic auth username. You can also passing this value via secret. To do so, set `basicAuthSecretName` to the secret name. |
 | config.id | string | `"default-csw-connector"` |  |
-| config.usePostRequest | bool | `false` |  |
+| config.name | string | `nil` | Friendly readable name. Compulsory. |
+| config.outputSchema | string | http://www.isotc211.org/2005/gmd | Desired output schema to be requested from CSW service as URI |
+| config.pageSize | int | `100` | When crawling through from beginning to end, how big should the individual requests be in records? |
+| config.schedule | string | "0 14 * * 6" i.e. 12am Sydney time on Sunday | Crontab schedule for how often this should happen. |
+| config.sourceUrl | string | `nil` | The base URL of the place to source data from. Compulsory. |
+| config.typeNames | string | gmd:MD_Metadata | Record type expected to be returned from CSW service as XML tag name |
+| config.usePostRequest | bool | `false` | Whether or not use POST request to call getRecords API |
 | defaultImage.imagePullSecret | bool | `false` |  |
 | defaultImage.pullPolicy | string | `"IfNotPresent"` |  |
 | defaultImage.repository | string | `"ghcr.io/magda-io"` |  |
