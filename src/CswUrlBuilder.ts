@@ -52,7 +52,11 @@ export default class CswUrlBuilder {
         this.baseUrl = new URI(options.baseUrl);
         this.GetRecordByIdParameters.outputschema =
             options.outputSchema || "http://www.isotc211.org/2005/gmd";
+        this.GetRecordsParameters.outputschema =
+            options.outputSchema || "http://www.isotc211.org/2005/gmd";
         this.GetRecordByIdParameters.typeNames =
+            options.typeNames || "gmd:MD_Metadata";
+        this.GetRecordsParameters.typeNames =
             options.typeNames || "gmd:MD_Metadata";
 
         if (options.basicAuth) {
@@ -79,11 +83,8 @@ export default class CswUrlBuilder {
         constraint?: string,
         logRequest: boolean = false
     ) {
-        const {
-            basicAuth,
-            usePostRequest,
-            ...otherParameters
-        } = this.GetRecordsParameters;
+        const { basicAuth, usePostRequest, ...otherParameters } =
+            this.GetRecordsParameters;
         const options: CoreOptions = {};
         const url = this.baseUrl.clone();
 
