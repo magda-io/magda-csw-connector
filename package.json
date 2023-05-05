@@ -1,7 +1,7 @@
 {
   "name": "@magda/csw-connector",
   "description": "MAGDA OGC Catalogue Service for the Web (CSW) Connector",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "scripts": {
     "prebuild": "rimraf dist tsconfig.tsbuildinfo",
     "build": "yarn run compile",
