@@ -52,11 +52,7 @@ export default class CswUrlBuilder {
         this.baseUrl = new URI(options.baseUrl);
         this.GetRecordByIdParameters.outputschema =
             options.outputSchema || "http://www.isotc211.org/2005/gmd";
-        this.GetRecordsParameters.outputschema =
-            options.outputSchema || "http://www.isotc211.org/2005/gmd";
         this.GetRecordByIdParameters.typeNames =
-            options.typeNames || "gmd:MD_Metadata";
-        this.GetRecordsParameters.typeNames =
             options.typeNames || "gmd:MD_Metadata";
 
         if (options.basicAuth) {
