@@ -83,11 +83,8 @@ export default class CswUrlBuilder {
         constraint?: string,
         logRequest: boolean = false
     ) {
-        const {
-            basicAuth,
-            usePostRequest,
-            ...otherParameters
-        } = this.GetRecordsParameters;
+        const { basicAuth, usePostRequest, ...otherParameters } =
+            this.GetRecordsParameters;
         const options: CoreOptions = {};
         const url = this.baseUrl.clone();
 

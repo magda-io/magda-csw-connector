@@ -1,3 +1,9 @@
+# 2.0.2
+
+- #26 Support output schema http://standards.iso.org/iso/19115/-3/mdb/2.0
+- Upgrade helm-docs to 1.11
+- Add set-version workflow
+
 # 2.0.1
 
 -  #23 Fixed license capture issue for some Australian Ocean Data Network (AODN) datasets
